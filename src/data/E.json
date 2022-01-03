@@ -1,0 +1,27 @@
+{
+  "efterår, -et": {
+    "dk": "efterår, -et",
+    "se": "höst",
+    "fi": "syksy"
+  },
+  "erhverv, -et": {
+    "dk": "erhverv, -et",
+    "se": "yrke, näring",
+    "fi": "ammatti, elinkeino"
+  },
+  "enlig": {
+    "dk": "enlig",
+    "se": "ensamstående",
+    "fi": "yksinäinen"
+  },
+  "ens": {
+    "dk": "ens",
+    "se": "lik(a)",
+    "fi": "samanlainen"
+  },
+  "evne, -n": {
+    "dk": "evne, -n",
+    "se": "förmåga",
+    "fi": "kyky"
+  }
+}

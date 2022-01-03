@@ -1,0 +1,32 @@
+{
+  "advare": {
+    "dk": "advare",
+    "se": "varna",
+    "fi": "varoittaa"
+  },
+  "alene": {
+    "dk": "alene",
+    "se": "ensam",
+    "fi": "yksin"
+  },
+  "alligevel": {
+    "dk": "alligevel",
+    "se": "ändå",
+    "fi": "kuitenkin"
+  },
+  "almindelig": {
+    "dk": "almindelig",
+    "se": "vanlig",
+    "fi": "tavallinen"
+  },
+  "ansat, den ansatte": {
+    "dk": "ansat, den ansatte",
+    "se": "anställd",
+    "fi": "(palkattu) työntekijä"
+  },
+  "avis, -en": {
+    "dk": "avis, -en",
+    "se": "tidning",
+    "fi": "sanomalehti"
+  }
+}
