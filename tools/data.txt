@@ -1,327 +1,279 @@
-I
+O
 
-I, jer, jeres
+omtrent
 
-ifølge
+opdage
 
-imens, mens
+over for
 
-indrømme
+parat
 
-is, -en
+pige, -n
 
-især
+pleje
 
-K
+plet, -ten
 
-kartoffel, -en
+pæn
 
-kasse, -n
+pølse, -n
 
-ked af
+R
 
-kede sig
+rammes af
 
-kedelig
+rar
 
-kendsgerning, -en
-
-kilde, -n
-
-kjole, -n
-
-knallert, -en
-
-kone, -n
-
-kun
-
-kæreste, -n
-
-køn
-
-L
-
-lade
-
-lade som om
-
-landsby, -en
-
-lav
-
-lave
-
-le
-
-leje
-
-lide (at kunne lide)
-
-lige
-
-- Kan du ikke lige...
-
-lige meget
-
-ligeud
-
-lomme, -n
-
-lov, -en
-
-lukke
-
-lukke op
-
-lytte
-
-M
-
-mangle
-
-more sig
-
-morsom
-
-måde, -n
-
-måske
-
-måtte
-
-N
-
-nabo, -en
-
-nederdel, -en
-
-nem
-
-nemlig
-
-netop
-
-næppe
-
-nødig
-
-nødt til
-
-nøgle, -n
-
-nå
-
-
----
-
-ni, er, er
-
-enligt
-
-medan
-
-medge
-
-glass, is
-
-särskilt
-
-potatis
-
-låda; kassa
-
-ledsen
-
-ha tråkigt
-
-tråkig
-
-faktum
-
-källa
-
-klänning
-
-moped
-
-hustru
-
-bara, endast
-
-flick-/pojkvän
-
-vacker
-
-låta
-
-låtsas
-
-by
-
-låg
-
-göra, laga
-
-skratta
-
-hyra
-
-tycka om
-
-just, precis, rak, jämn
-
-- Kunde du...
-
-likgiltigt
-
-rakt fram
-
-ficka
-
-lag, lov, tillstånd
-
-stänga
-
-öppna
-
-lyssna
-
-fattas, sakna
-
-roa sig
+rask
 
 rolig
 
-sätt
+ryste
 
-kanske
+S
 
-få (lov); måste
+sagtens
 
-granne
+samfund, -et
 
-kjol
+sammenligne
 
-lätt, enkel
+selvfølgelig
 
-just, precis, nämligen
+selvom
 
-just, precis
+semester, -et
 
-knappast
+sgu
 
-ogärna
+sjov
 
-vara tvungen att
+skjule
 
-nyckel
+skridt, -et
 
-hinna
+skuffe
 
+skulder, -en
+
+sky, -en
+
+skæg; skæg, -get
+
+skæbne, -n
+
+slet ikke
+
+slik, -ket
+
+smide
+
+smile
+
+smuk
+
+snavset
+
+snyde
+
+sommetider
+
+spise
+
+springe
+
+spørge
+
+spørgsmål, -et
+
+stadig(væk)
+
+standse
+
+stole på
+
+stue, -n
 
 ---
 
-te, teitä, teidän
+cirka
 
-jonkin mukaan
+upptäcka
 
-sillä välin, sillä aikaa kun
+mittemot
 
-myöntää
+redo, klar
 
-jäätelö, jää
+flicka
 
-erityisesti
+bruka; vårda
 
-peruna
+fläck
 
-laatikko; kassa
+söt, snygg; anständig; hygglig
 
-pahoillaan, surullinen
+korv
 
-pitkästyä
+drabbas av
 
-tylsä, pitkästyttävä
+snäll
 
-tosiasia
+frisk
 
-lähde
+lugn
 
-mekko, leninki
+skaka
 
-mopo
+lätt, enkelt, gärna
 
-vaimo
+samhälle
 
-vain, ainoastaan
+jämföra
 
-tyttö-/poikaystävä
+självklart
+
+även om
+
+termin
+
+banne mig; minsann
+
+skoj, rolig; konstig
+
+dölja
+
+steg
+
+göra besviken
+
+axel
+
+moln
+
+kul, skoj; skägg
+
+öde
+
+inte alls
+
+godis
+
+kasta
+
+le
+
+vacker
+
+smutsig
+
+lura, fuska
+
+ibland
+
+äta
+
+hoppa
+
+fråga
+
+en fråga
+
+fortfarande
+
+stanna upp, stoppa
+
+lita på
+
+vardagsrum; bottenvåning
+
+---
+
+noin
+
+huomata, keksiä
+
+vastapäätä
+
+valmis
+
+tyttö
+
+olla tapana, hoitaa
+
+läikkä
+
+kaunis, sievä; siisti; kunnon
+
+makkara
+
+osua, kohdata
+
+kiltti
+
+terve
+
+rauhallinen
+
+ravistella
+
+kyllä, helposti, varmaan
+
+yhteiskunta
+
+vertailla
+
+tietysti
+
+vaikka
+
+lukukausi
+
+hitto vieköön; -han, -hän
+
+hauska, hassu; kummallinen
+
+kätkeä
+
+askel
+
+tuottaa pettymys
+
+olkapää
+
+pilvi
+
+hauska; parta
+
+kohtalo
+
+ei ollenkaan
+
+makeiset
+
+heittää
+
+hymyillä
 
 kaunis
 
-antaa, sallia
+likainen
 
-olla ikään kuin
+huijata
 
-kylä
+toisinaan
 
-matala
+syödä
 
-tehdä, valmistaa
+hypätä
 
-nauraa
+kysyä
 
-vuokrata
+kysymys
 
-pitää jostakin
+yhä
 
-juuri, suora, tasainen
+pysähtyä, pysäyttää
 
-- Voisitko...
+luottaa
 
-yhdentekevää
-
-suoraan eteenpäin
-
-tasku
-
-laki, lupa
-
-sulkea
-
-avata
-
-kuunnella
-
-puuttua
-
-pitää hauskaa
-
-hauska
-
-tapa
-
-ehkä
-
-saada, olla lupa; täytyä
-
-naapuri
-
-hame
-
-helppo
-
-juuri niin, nimittäin
-
-juuri niin
-
-tuskin
-
-vastahakoisesti
-
-pakko (tehdä jotain)
-
-avain
-
-ehtiä
+olohuone; katutaso
