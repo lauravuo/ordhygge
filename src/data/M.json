@@ -1,0 +1,32 @@
+{
+  "mangle": {
+    "dk": "mangle",
+    "se": "fattas, sakna",
+    "fi": "puuttua"
+  },
+  "more sig": {
+    "dk": "more sig",
+    "se": "roa sig",
+    "fi": "pitää hauskaa"
+  },
+  "morsom": {
+    "dk": "morsom",
+    "se": "rolig",
+    "fi": "hauska"
+  },
+  "måde, -n": {
+    "dk": "måde, -n",
+    "se": "sätt",
+    "fi": "tapa"
+  },
+  "måske": {
+    "dk": "måske",
+    "se": "kanske",
+    "fi": "ehkä"
+  },
+  "måtte": {
+    "dk": "måtte",
+    "se": "få (lov); måste",
+    "fi": "saada, olla lupa; täytyä"
+  }
+}

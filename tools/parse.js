@@ -13,6 +13,10 @@ const data = lines.reduce((result, item) => {
       return { ...result, lang: 'fi', index: 0};
     }
   }
+
+  //console.log(result, item)
+
+
   if (item.length > 0) {
     if (result.lang === 'dk') {
       const current = result.current[result.current.length - 1];
@@ -25,6 +29,7 @@ const data = lines.reduce((result, item) => {
   }
   return result
 }, {current: [], lang: 'dk', items: [], index: 0})
+
 
 Object.keys(data).forEach(key => {
   if (key.toUpperCase() === key) {

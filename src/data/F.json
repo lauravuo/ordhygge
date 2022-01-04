@@ -1,0 +1,132 @@
+{
+  "fag, -et": {
+    "dk": "fag, -et",
+    "se": "yrke, fack, ämne",
+    "fi": "ammatti, ala, oppiaine"
+  },
+  "ferie, -n": {
+    "dk": "ferie, -n",
+    "se": "semester",
+    "fi": "loma"
+  },
+  "fjernsyn, -et": {
+    "dk": "fjernsyn, -et",
+    "se": "tv",
+    "fi": "televisio"
+  },
+  "flot": {
+    "dk": "flot",
+    "se": "flott, stilig",
+    "fi": "hieno, upea"
+  },
+  "fløde, -n": {
+    "dk": "fløde, -n",
+    "se": "grädde",
+    "fi": "kerma"
+  },
+  "foran": {
+    "dk": "foran",
+    "se": "framför",
+    "fi": "edessä"
+  },
+  "forbavse": {
+    "dk": "forbavse",
+    "se": "förvåna",
+    "fi": "hämmästyttää"
+  },
+  "fordi": {
+    "dk": "fordi",
+    "se": "därför att, eftersom",
+    "fi": "siksi että, koska"
+  },
+  "forkert": {
+    "dk": "forkert",
+    "se": "fel",
+    "fi": "väärin"
+  },
+  "forkælet": {
+    "dk": "forkælet",
+    "se": "bortskämd",
+    "fi": "hemmoteltu"
+  },
+  "forlade": {
+    "dk": "forlade",
+    "se": "lämna",
+    "fi": "jättää, lähteä"
+  },
+  "forlange": {
+    "dk": "forlange",
+    "se": "kräva",
+    "fi": "vaatia"
+  },
+  "formand, -en": {
+    "dk": "formand, -en",
+    "se": "ordförande",
+    "fi": "puheenjohtaja"
+  },
+  "formål, -et": {
+    "dk": "formål, -et",
+    "se": "syfte",
+    "fi": "tarkoitus"
+  },
+  "forretning, -en": {
+    "dk": "forretning, -en",
+    "se": "affär, butik",
+    "fi": "yritys, liike, kauppa"
+  },
+  "forskel, -len": {
+    "dk": "forskel, -len",
+    "se": "skillnad",
+    "fi": "ero"
+  },
+  "forskellig": {
+    "dk": "forskellig",
+    "se": "olik",
+    "fi": "erilainen"
+  },
+  "forstyrre": {
+    "dk": "forstyrre",
+    "se": "störa",
+    "fi": "häiritä"
+  },
+  "fortov, -et": {
+    "dk": "fortov, -et",
+    "se": "trottoar",
+    "fi": "jalkakäytävä"
+  },
+  "fortælle": {
+    "dk": "fortælle",
+    "se": "berätta",
+    "fi": "kertoa"
+  },
+  "forår, -et": {
+    "dk": "forår, -et",
+    "se": "vår",
+    "fi": "kevät"
+  },
+  "frakke, -n": {
+    "dk": "frakke, -n",
+    "se": "jacka, kappa",
+    "fi": "takki"
+  },
+  "frokost, -en": {
+    "dk": "frokost, -en",
+    "se": "lunch",
+    "fi": "lounas"
+  },
+  "fyr, -en": {
+    "dk": "fyr, -en",
+    "se": "kille; pojkvän",
+    "fi": "kaveri, heppu; poikaystävä"
+  },
+  "fælles": {
+    "dk": "fælles",
+    "se": "gemensam",
+    "fi": "yhteinen"
+  },
+  "føle": {
+    "dk": "føle",
+    "se": "känna",
+    "fi": "tuntea"
+  }
+}

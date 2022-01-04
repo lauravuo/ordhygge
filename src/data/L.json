@@ -1,0 +1,87 @@
+{
+  "lade": {
+    "dk": "lade",
+    "se": "låta",
+    "fi": "antaa, sallia"
+  },
+  "lade som om": {
+    "dk": "lade som om",
+    "se": "låtsas",
+    "fi": "olla ikään kuin"
+  },
+  "landsby, -en": {
+    "dk": "landsby, -en",
+    "se": "by",
+    "fi": "kylä"
+  },
+  "lav": {
+    "dk": "lav",
+    "se": "låg",
+    "fi": "matala"
+  },
+  "lave": {
+    "dk": "lave",
+    "se": "göra, laga",
+    "fi": "tehdä, valmistaa"
+  },
+  "le": {
+    "dk": "le",
+    "se": "skratta",
+    "fi": "nauraa"
+  },
+  "leje": {
+    "dk": "leje",
+    "se": "hyra",
+    "fi": "vuokrata"
+  },
+  "lide (at kunne lide)": {
+    "dk": "lide (at kunne lide)",
+    "se": "tycka om",
+    "fi": "pitää jostakin"
+  },
+  "lige": {
+    "dk": "lige",
+    "se": "just, precis, rak, jämn",
+    "fi": "juuri, suora, tasainen"
+  },
+  "- Kan du ikke lige...": {
+    "dk": "- Kan du ikke lige...",
+    "se": "- Kunde du...",
+    "fi": "- Voisitko..."
+  },
+  "lige meget": {
+    "dk": "lige meget",
+    "se": "likgiltigt",
+    "fi": "yhdentekevää"
+  },
+  "ligeud": {
+    "dk": "ligeud",
+    "se": "rakt fram",
+    "fi": "suoraan eteenpäin"
+  },
+  "lomme, -n": {
+    "dk": "lomme, -n",
+    "se": "ficka",
+    "fi": "tasku"
+  },
+  "lov, -en": {
+    "dk": "lov, -en",
+    "se": "lag, lov, tillstånd",
+    "fi": "laki, lupa"
+  },
+  "lukke": {
+    "dk": "lukke",
+    "se": "stänga",
+    "fi": "sulkea"
+  },
+  "lukke op": {
+    "dk": "lukke op",
+    "se": "öppna",
+    "fi": "avata"
+  },
+  "lytte": {
+    "dk": "lytte",
+    "se": "lyssna",
+    "fi": "kuunnella"
+  }
+}

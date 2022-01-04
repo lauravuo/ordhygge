@@ -1,0 +1,87 @@
+{
+  "have, -n": {
+    "dk": "have, -n",
+    "se": "trädgård",
+    "fi": "puutarha"
+  },
+  "held, -et": {
+    "dk": "held, -et",
+    "se": "tur",
+    "fi": "onni"
+  },
+  "heldig": {
+    "dk": "heldig",
+    "se": "tursam, lyckosam",
+    "fi": "onnekas"
+  },
+  "hinanden": {
+    "dk": "hinanden",
+    "se": "varandra",
+    "fi": "toisiaan"
+  },
+  "hold, -et": {
+    "dk": "hold, -et",
+    "se": "lag, grupp, team",
+    "fi": "joukkue, ryhmä"
+  },
+  "holde op": {
+    "dk": "holde op",
+    "se": "sluta",
+    "fi": "lopettaa"
+  },
+  "hurtig": {
+    "dk": "hurtig",
+    "se": "snabb",
+    "fi": "nopea"
+  },
+  "huske": {
+    "dk": "huske",
+    "se": "komma ihåg",
+    "fi": "muistaa"
+  },
+  "hukommelse, -n": {
+    "dk": "hukommelse, -n",
+    "se": "minne",
+    "fi": "muisti"
+  },
+  "hvis": {
+    "dk": "hvis",
+    "se": "om; vems",
+    "fi": "jos; kenen"
+  },
+  "hvordan": {
+    "dk": "hvordan",
+    "se": "hur, hurdan",
+    "fi": "miten, millainen"
+  },
+  "hvorhen": {
+    "dk": "hvorhen",
+    "se": "vart",
+    "fi": "mihin"
+  },
+  "hvornår": {
+    "dk": "hvornår",
+    "se": "när",
+    "fi": "milloin"
+  },
+  "hygge, -n": {
+    "dk": "hygge, -n",
+    "se": "trivsel, trevnad, hemtrevlighet",
+    "fi": "viihtyisyys, kodikkuus"
+  },
+  "hygge sig": {
+    "dk": "hygge sig",
+    "se": "ha det trevligt, mysigt",
+    "fi": "viihtyä, olla mukavaa"
+  },
+  "hyggelig": {
+    "dk": "hyggelig",
+    "se": "mysig",
+    "fi": "mukava, kotoisa"
+  },
+  "højskole, -n": {
+    "dk": "højskole, -n",
+    "se": "folkhögskola",
+    "fi": "kansanopisto"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "nabo, -en": {
+    "dk": "nabo, -en",
+    "se": "granne",
+    "fi": "naapuri"
+  },
+  "nederdel, -en": {
+    "dk": "nederdel, -en",
+    "se": "kjol",
+    "fi": "hame"
+  },
+  "nem": {
+    "dk": "nem",
+    "se": "lätt, enkel",
+    "fi": "helppo"
+  },
+  "nemlig": {
+    "dk": "nemlig",
+    "se": "just, precis, nämligen",
+    "fi": "juuri niin, nimittäin"
+  },
+  "netop": {
+    "dk": "netop",
+    "se": "just, precis",
+    "fi": "juuri niin"
+  },
+  "næppe": {
+    "dk": "næppe",
+    "se": "knappast",
+    "fi": "tuskin"
+  }
+}
