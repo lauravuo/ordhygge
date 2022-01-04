@@ -104,6 +104,14 @@ netop
 
 næppe
 
+nødig
+
+nødt til
+
+nøgle, -n
+
+nå
+
 
 ---
 
@@ -203,6 +211,15 @@ just, precis
 
 knappast
 
+ogärna
+
+vara tvungen att
+
+nyckel
+
+hinna
+
+
 ---
 
 te, teitä, teidän
@@ -300,3 +317,11 @@ juuri niin, nimittäin
 juuri niin
 
 tuskin
+
+vastahakoisesti
+
+pakko (tehdä jotain)
+
+avain
+
+ehtiä

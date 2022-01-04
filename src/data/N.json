@@ -28,5 +28,25 @@
     "dk": "næppe",
     "se": "knappast",
     "fi": "tuskin"
+  },
+  "nødig": {
+    "dk": "nødig",
+    "se": "ogärna",
+    "fi": "vastahakoisesti"
+  },
+  "nødt til": {
+    "dk": "nødt til",
+    "se": "vara tvungen att",
+    "fi": "pakko (tehdä jotain)"
+  },
+  "nøgle, -n": {
+    "dk": "nøgle, -n",
+    "se": "nyckel",
+    "fi": "avain"
+  },
+  "nå": {
+    "dk": "nå",
+    "se": "hinna",
+    "fi": "ehtiä"
   }
 }
