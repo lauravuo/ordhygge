@@ -153,5 +153,40 @@
     "dk": "stue, -n",
     "se": "vardagsrum; bottenvåning",
     "fi": "olohuone; katutaso"
+  },
+  "støj, -en": {
+    "dk": "støj, -en",
+    "se": "buller",
+    "fi": "melu"
+  },
+  "størrelse, -n": {
+    "dk": "størrelse, -n",
+    "se": "storlek",
+    "fi": "koko"
+  },
+  "støv, -et": {
+    "dk": "støv, -et",
+    "se": "damm",
+    "fi": "pöly"
+  },
+  "sulten": {
+    "dk": "sulten",
+    "se": "hungrig",
+    "fi": "nälkäinen"
+  },
+  "synes": {
+    "dk": "synes",
+    "se": "tycka, anse",
+    "fi": "olla jotain mieltä"
+  },
+  "synes om": {
+    "dk": "synes om",
+    "se": "tycka om",
+    "fi": "pitää jostakin"
+  },
+  "særlig": {
+    "dk": "særlig",
+    "se": "särskild",
+    "fi": "erityinen"
   }
 }

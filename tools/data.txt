@@ -94,6 +94,20 @@ stole på
 
 stue, -n
 
+støj, -en
+
+størrelse, -n
+
+støv, -et
+
+sulten
+
+synes
+
+synes om
+
+særlig
+
 ---
 
 cirka
@@ -186,6 +200,20 @@ lita på
 
 vardagsrum; bottenvåning
 
+buller
+
+storlek
+
+damm
+
+hungrig
+
+tycka, anse
+
+tycka om
+
+särskild
+
 ---
 
 noin
@@ -277,3 +305,18 @@ pysähtyä, pysäyttää
 luottaa
 
 olohuone; katutaso
+
+melu
+
+koko
+
+pöly
+
+nälkäinen
+
+olla jotain mieltä
+
+pitää jostakin
+
+erityinen
+
