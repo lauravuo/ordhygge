@@ -1,0 +1,37 @@
+{
+  "uddannelse, -n": {
+    "dk": "uddannelse, -n",
+    "se": "utbildning",
+    "fi": "koulutus"
+  },
+  "udsalg, -et": {
+    "dk": "udsalg, -et",
+    "se": "rea",
+    "fi": "alennusmyynti"
+  },
+  "udsætte": {
+    "dk": "udsætte",
+    "se": "uppskjuta",
+    "fi": "siirtää"
+  },
+  "uge, -n": {
+    "dk": "uge, -n",
+    "se": "vecka",
+    "fi": "viikko"
+  },
+  "uheld, -et": {
+    "dk": "uheld, -et",
+    "se": "olycka",
+    "fi": "onnettomuus"
+  },
+  "uheldig": {
+    "dk": "uheldig",
+    "se": "olycklig, otursam",
+    "fi": "epäonninen"
+  },
+  "undskyld": {
+    "dk": "undskyld",
+    "se": "förlåt, ursäkta",
+    "fi": "anteeksi"
+  }
+}

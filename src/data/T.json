@@ -1,0 +1,67 @@
+{
+  "tabe": {
+    "dk": "tabe",
+    "se": "förlora, tappa",
+    "fi": "hävitä, menettää, pudottaa"
+  },
+  "taske, -n": {
+    "dk": "taske, -n",
+    "se": "väska",
+    "fi": "laukku"
+  },
+  "tavs": {
+    "dk": "tavs",
+    "se": "tyst",
+    "fi": "hiljainen"
+  },
+  "tillykke": {
+    "dk": "tillykke",
+    "se": "grattis",
+    "fi": "onneksi olkoon"
+  },
+  "tit": {
+    "dk": "tit",
+    "se": "ofta",
+    "fi": "usein"
+  },
+  "torden, -en": {
+    "dk": "torden, -en",
+    "se": "åska",
+    "fi": "ukkonen"
+  },
+  "travlt (at have travlt)": {
+    "dk": "travlt (at have travlt)",
+    "se": "ha bråttom",
+    "fi": "olla kiire"
+  },
+  "true": {
+    "dk": "true",
+    "se": "hota",
+    "fi": "uhata"
+  },
+  "trussel, -en": {
+    "dk": "trussel, -en",
+    "se": "hot",
+    "fi": "uhka"
+  },
+  "trække": {
+    "dk": "trække",
+    "se": "dra",
+    "fi": "vetää"
+  },
+  "trænge til": {
+    "dk": "trænge til",
+    "se": "behöva",
+    "fi": "tarvita"
+  },
+  "tyk": {
+    "dk": "tyk",
+    "se": "tjock",
+    "fi": "paksu"
+  },
+  "tøj, -et": {
+    "dk": "tøj, -et",
+    "se": "kläder",
+    "fi": "vaatteet"
+  }
+}

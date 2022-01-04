@@ -1,0 +1,52 @@
+{
+  "vanskelig": {
+    "dk": "vanskelig",
+    "se": "svår",
+    "fi": "vaikea"
+  },
+  "vaske": {
+    "dk": "vaske",
+    "se": "tvätta",
+    "fi": "pestä"
+  },
+  "vaske op": {
+    "dk": "vaske op",
+    "se": "diska",
+    "fi": "tiskata"
+  },
+  "vejr, -et": {
+    "dk": "vejr, -et",
+    "se": "väder",
+    "fi": "sää"
+  },
+  "vindue, -t": {
+    "dk": "vindue, -t",
+    "se": "fönster",
+    "fi": "ikkuna"
+  },
+  "virksomhed, -en": {
+    "dk": "virksomhed, -en",
+    "se": "företag",
+    "fi": "yritys"
+  },
+  "vred": {
+    "dk": "vred",
+    "se": "arg",
+    "fi": "vihainen"
+  },
+  "vrøvl, -et": {
+    "dk": "vrøvl, -et",
+    "se": "bråk; struntprat",
+    "fi": "riita, erimielisyys; pöty(puhe)"
+  },
+  "væk": {
+    "dk": "væk",
+    "se": "bort",
+    "fi": "pois"
+  },
+  "værelse, -t": {
+    "dk": "værelse, -t",
+    "se": "rum",
+    "fi": "huone"
+  }
+}

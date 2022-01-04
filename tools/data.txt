@@ -1,322 +1,213 @@
-O
+T
 
-omtrent
+tabe
 
-opdage
+taske, -n
 
-over for
+tavs
 
-parat
+tillykke
 
-pige, -n
+tit
 
-pleje
+torden, -en
 
-plet, -ten
+travlt (at have travlt)
 
-pæn
+true
 
-pølse, -n
+trussel, -en
 
-R
+trække
 
-rammes af
+trænge til
 
-rar
+tyk
 
-rask
+tøj, -et
 
-rolig
+U
 
-ryste
+uddannelse, -n
 
-S
+udsalg, -et
 
-sagtens
+udsætte
 
-samfund, -et
+uge, -n
 
-sammenligne
+uheld, -et
 
-selvfølgelig
+uheldig
 
-selvom
+undskyld
 
-semester, -et
+V
 
-sgu
+vanskelig
 
-sjov
+vaske
 
-skjule
+vaske op
 
-skridt, -et
+vejr, -et
 
-skuffe
+vindue, -t
 
-skulder, -en
+virksomhed, -en
 
-sky, -en
+vred
 
-skæg; skæg, -get
+vrøvl, -et
 
-skæbne, -n
+væk
 
-slet ikke
+værelse, -t
 
-slik, -ket
+Y
 
-smide
+yndlings-
 
-smile
+Ø
 
-smuk
+ødelægge
 
-snavset
+Å
 
-snyde
-
-sommetider
-
-spise
-
-springe
-
-spørge
-
-spørgsmål, -et
-
-stadig(væk)
-
-standse
-
-stole på
-
-stue, -n
-
-støj, -en
-
-størrelse, -n
-
-støv, -et
-
-sulten
-
-synes
-
-synes om
-
-særlig
+åben
 
 ---
 
-cirka
+förlora, tappa
 
-upptäcka
+väska
 
-mittemot
+tyst
 
-redo, klar
+grattis
 
-flicka
+ofta
 
-bruka; vårda
+åska
 
-fläck
+ha bråttom
 
-söt, snygg; anständig; hygglig
+hota
 
-korv
+hot
 
-drabbas av
+dra
 
-snäll
+behöva
 
-frisk
+tjock
 
-lugn
+kläder
 
-skaka
+utbildning
 
-lätt, enkelt, gärna
+rea
 
-samhälle
+uppskjuta
 
-jämföra
+vecka
 
-självklart
+olycka
 
-även om
+olycklig, otursam
 
-termin
+förlåt, ursäkta
 
-banne mig; minsann
+svår
 
-skoj, rolig; konstig
+tvätta
 
-dölja
+diska
 
-steg
+väder
 
-göra besviken
+fönster
 
-axel
+företag
 
-moln
+arg
 
-kul, skoj; skägg
+bråk; struntprat
 
-öde
+bort
 
-inte alls
+rum
 
-godis
+favorit-
 
-kasta
+förstöra
 
-le
-
-vacker
-
-smutsig
-
-lura, fuska
-
-ibland
-
-äta
-
-hoppa
-
-fråga
-
-en fråga
-
-fortfarande
-
-stanna upp, stoppa
-
-lita på
-
-vardagsrum; bottenvåning
-
-buller
-
-storlek
-
-damm
-
-hungrig
-
-tycka, anse
-
-tycka om
-
-särskild
+öppen
 
 ---
 
-noin
+hävitä, menettää, pudottaa
 
-huomata, keksiä
+laukku
 
-vastapäätä
+hiljainen
 
-valmis
+onneksi olkoon
 
-tyttö
+usein
 
-olla tapana, hoitaa
+ukkonen
 
-läikkä
+olla kiire
 
-kaunis, sievä; siisti; kunnon
+uhata
 
-makkara
+uhka
 
-osua, kohdata
+vetää
 
-kiltti
+tarvita
 
-terve
+paksu
 
-rauhallinen
+vaatteet
 
-ravistella
+koulutus
 
-kyllä, helposti, varmaan
+alennusmyynti
 
-yhteiskunta
+siirtää
 
-vertailla
+viikko
 
-tietysti
+onnettomuus
 
-vaikka
+epäonninen
 
-lukukausi
+anteeksi
 
-hitto vieköön; -han, -hän
+vaikea
 
-hauska, hassu; kummallinen
+pestä
 
-kätkeä
+tiskata
 
-askel
+sää
 
-tuottaa pettymys
+ikkuna
 
-olkapää
+yritys
 
-pilvi
+vihainen
 
-hauska; parta
+riita, erimielisyys; pöty(puhe)
 
-kohtalo
+pois
 
-ei ollenkaan
+huone
 
-makeiset
+lempi-
 
-heittää
+hävittää, rikkoa, tuhota
 
-hymyillä
-
-kaunis
-
-likainen
-
-huijata
-
-toisinaan
-
-syödä
-
-hypätä
-
-kysyä
-
-kysymys
-
-yhä
-
-pysähtyä, pysäyttää
-
-luottaa
-
-olohuone; katutaso
-
-melu
-
-koko
-
-pöly
-
-nälkäinen
-
-olla jotain mieltä
-
-pitää jostakin
-
-erityinen
-
+avoin
