@@ -1,0 +1,47 @@
+{
+  "omtrent": {
+    "dk": "omtrent",
+    "se": "cirka",
+    "fi": "noin"
+  },
+  "opdage": {
+    "dk": "opdage",
+    "se": "upptäcka",
+    "fi": "huomata, keksiä"
+  },
+  "over for": {
+    "dk": "over for",
+    "se": "mittemot",
+    "fi": "vastapäätä"
+  },
+  "parat": {
+    "dk": "parat",
+    "se": "redo, klar",
+    "fi": "valmis"
+  },
+  "pige, -n": {
+    "dk": "pige, -n",
+    "se": "flicka",
+    "fi": "tyttö"
+  },
+  "pleje": {
+    "dk": "pleje",
+    "se": "bruka; vårda",
+    "fi": "olla tapana, hoitaa"
+  },
+  "plet, -ten": {
+    "dk": "plet, -ten",
+    "se": "fläck",
+    "fi": "läikkä"
+  },
+  "pæn": {
+    "dk": "pæn",
+    "se": "söt, snygg; anständig; hygglig",
+    "fi": "kaunis, sievä; siisti; kunnon"
+  },
+  "pølse, -n": {
+    "dk": "pølse, -n",
+    "se": "korv",
+    "fi": "makkara"
+  }
+}
