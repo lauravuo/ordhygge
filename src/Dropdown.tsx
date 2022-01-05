@@ -8,7 +8,7 @@ const Dropdown: Component = ({ options, index, setIndex }) => {
       <div>
         <button
           type="button"
-          class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+          class="inline-flex text-xl justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -44,7 +44,7 @@ const Dropdown: Component = ({ options, index, setIndex }) => {
               {(item, index) => (
                 <a
                   href="#"
-                  class="text-gray-700 block px-4 py-2 text-sm"
+                  class="text-gray-700 block px-4 py-2 text-xl"
                   role="menuitem"
                   tabindex="-1"
                   id={`menu-item-${index}`}
