@@ -2,71 +2,85 @@
   "bagefter": {
     "dk": "bagefter",
     "se": "efteråt",
-    "fi": "jälkeenpäin"
+    "fi": "jälkeenpäin",
+    "audio": "https://static.ordnet.dk/mp3/11003/11003097_1.mp3"
   },
   "ballade, -n": {
     "dk": "ballade, -n",
     "se": "bråk, gräl, larm",
-    "fi": "kina, epäsopu, hälinä"
+    "fi": "kina, epäsopu, hälinä",
+    "audio": "https://static.ordnet.dk/mp3/11003/11003298_1.mp3"
   },
   "bange": {
     "dk": "bange",
     "se": "rädd",
-    "fi": "peloissaan"
+    "fi": "peloissaan",
+    "audio": "https://static.ordnet.dk/mp3/11003/11003397_1.mp3"
   },
   "bedsteforældre": {
     "dk": "bedsteforældre",
     "se": "mor-/farföräldrar",
-    "fi": "isovanhemmat"
+    "fi": "isovanhemmat",
+    "audio": "https://static.ordnet.dk/mp3/11003/11003761_1.mp3"
   },
   "begynde": {
     "dk": "begynde",
     "se": "börja",
-    "fi": "alkaa, aloittaa"
+    "fi": "alkaa, aloittaa",
+    "audio": "https://static.ordnet.dk/mp3/11003/11003885_1.mp3"
   },
   "beskæftigelse, -n": {
     "dk": "beskæftigelse, -n",
     "se": "sysselsättning",
-    "fi": "työllisyys"
+    "fi": "työllisyys",
+    "audio": "https://static.ordnet.dk/mp3/11004/11004249_1.mp3"
   },
   "betjent, -en": {
     "dk": "betjent, -en",
     "se": "polis (konstapel)",
-    "fi": "poliisi (konstaapeli)"
+    "fi": "poliisi (konstaapeli)",
+    "audio": "https://static.ordnet.dk/mp3/11004/11004428_1.mp3"
   },
   "bevidst": {
     "dk": "bevidst",
     "se": "medveten",
-    "fi": "tietoinen"
+    "fi": "tietoinen",
+    "audio": "https://static.ordnet.dk/mp3/11004/11004498_1.mp3"
   },
   "bevægelse, -n": {
     "dk": "bevægelse, -n",
     "se": "rörelse",
-    "fi": "liike"
+    "fi": "liike",
+    "audio": "https://static.ordnet.dk/mp3/11004/11004532_1.mp3"
   },
   "blød": {
     "dk": "blød",
     "se": "mjuk",
-    "fi": "pehmeä"
+    "fi": "pehmeä",
+    "audio": "https://static.ordnet.dk/mp3/11005/11005387_1.mp3"
   },
   "brusebad, -et": {
     "dk": "brusebad, -et",
     "se": "dusch",
-    "fi": "suihku"
+    "fi": "suihku",
+    "audio": "https://static.ordnet.dk/mp3/11006/11006376_1.mp3"
   },
   "bolig, -en": {
     "dk": "bolig, -en",
     "se": "bostad",
-    "fi": "asunto"
+    "fi": "asunto",
+    "audio": "https://static.ordnet.dk/mp3/11005/11005603_1.mp3"
   },
   "bund, -en": {
     "dk": "bund, -en",
     "se": "botten",
-    "fi": "pohja"
+    "fi": "pohja",
+    "audio": "https://static.ordnet.dk/mp3/11006/11006703_1.mp3"
   },
   "by, -en": {
     "dk": "by, -en",
     "se": "stad",
-    "fi": "kaupunki"
+    "fi": "kaupunki",
+    "audio": "https://static.ordnet.dk/mp3/11006/11006839_1.mp3"
   }
 }

@@ -37,7 +37,7 @@ const List: Component = () => {
                         </div>
                         <For each={Object.keys(model[item])}>
                           {(word) => (
-                            <div class="flex border-b font-normal p-2 mt-4 space-x-4">
+                            <div class="flex border-b font-normal p-2 pb-6 mt-4 space-x-4">
                               <div class="w-1/2">{word}</div>
                               <div class="w-1/2">
                                 {model[item][word][langs[langIndex()].value]}

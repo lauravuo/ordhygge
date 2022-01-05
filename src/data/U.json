@@ -2,36 +2,43 @@
   "uddannelse, -n": {
     "dk": "uddannelse, -n",
     "se": "utbildning",
-    "fi": "koulutus"
+    "fi": "koulutus",
+    "audio": "https://static.ordnet.dk/mp3/12003/12003687_1.mp3"
   },
   "udsalg, -et": {
     "dk": "udsalg, -et",
     "se": "rea",
-    "fi": "alennusmyynti"
+    "fi": "alennusmyynti",
+    "audio": "https://static.ordnet.dk/mp3/12004/12004075_1.mp3"
   },
   "udsætte": {
     "dk": "udsætte",
     "se": "uppskjuta",
-    "fi": "siirtää"
+    "fi": "siirtää",
+    "audio": "https://static.ordnet.dk/mp3/12004/12004220_1.mp3"
   },
   "uge, -n": {
     "dk": "uge, -n",
     "se": "vecka",
-    "fi": "viikko"
+    "fi": "viikko",
+    "audio": "https://static.ordnet.dk/mp3/12004/12004441_1.mp3"
   },
   "uheld, -et": {
     "dk": "uheld, -et",
     "se": "olycka",
-    "fi": "onnettomuus"
+    "fi": "onnettomuus",
+    "audio": "https://static.ordnet.dk/mp3/12004/12004490_1.mp3"
   },
   "uheldig": {
     "dk": "uheldig",
     "se": "olycklig, otursam",
-    "fi": "epäonninen"
+    "fi": "epäonninen",
+    "audio": "https://static.ordnet.dk/mp3/12004/12004491_1.mp3"
   },
   "undskyld": {
     "dk": "undskyld",
     "se": "förlåt, ursäkta",
-    "fi": "anteeksi"
+    "fi": "anteeksi",
+    "audio": "https://static.ordnet.dk/mp3/12004/12004949_1.mp3"
   }
 }

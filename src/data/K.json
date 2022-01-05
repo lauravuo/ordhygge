@@ -2,66 +2,79 @@
   "kartoffel, -en": {
     "dk": "kartoffel, -en",
     "se": "potatis",
-    "fi": "peruna"
+    "fi": "peruna",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025527_1.mp3"
   },
   "kasse, -n": {
     "dk": "kasse, -n",
     "se": "låda; kassa",
-    "fi": "laatikko; kassa"
+    "fi": "laatikko; kassa",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025566_1.mp3"
   },
   "ked af": {
     "dk": "ked af",
     "se": "ledsen",
-    "fi": "pahoillaan, surullinen"
+    "fi": "pahoillaan, surullinen",
+    "audio": ""
   },
   "kede sig": {
     "dk": "kede sig",
     "se": "ha tråkigt",
-    "fi": "pitkästyä"
+    "fi": "pitkästyä",
+    "audio": ""
   },
   "kedelig": {
     "dk": "kedelig",
     "se": "tråkig",
-    "fi": "tylsä, pitkästyttävä"
+    "fi": "tylsä, pitkästyttävä",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025718_1.mp3"
   },
   "kendsgerning, -en": {
     "dk": "kendsgerning, -en",
     "se": "faktum",
-    "fi": "tosiasia"
+    "fi": "tosiasia",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025787_1.mp3"
   },
   "kilde, -n": {
     "dk": "kilde, -n",
     "se": "källa",
-    "fi": "lähde"
+    "fi": "lähde",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025887_1.mp3"
   },
   "kjole, -n": {
     "dk": "kjole, -n",
     "se": "klänning",
-    "fi": "mekko, leninki"
+    "fi": "mekko, leninki",
+    "audio": "https://static.ordnet.dk/mp3/11026/11026078_1.mp3"
   },
   "knallert, -en": {
     "dk": "knallert, -en",
     "se": "moped",
-    "fi": "mopo"
+    "fi": "mopo",
+    "audio": "https://static.ordnet.dk/mp3/11026/11026576_1.mp3"
   },
   "kone, -n": {
     "dk": "kone, -n",
     "se": "hustru",
-    "fi": "vaimo"
+    "fi": "vaimo",
+    "audio": "https://static.ordnet.dk/mp3/11027/11027246_1.mp3"
   },
   "kun": {
     "dk": "kun",
     "se": "bara, endast",
-    "fi": "vain, ainoastaan"
+    "fi": "vain, ainoastaan",
+    "audio": "https://static.ordnet.dk/mp3/11028/11028602_1.mp3"
   },
   "kæreste, -n": {
     "dk": "kæreste, -n",
     "se": "flick-/pojkvän",
-    "fi": "tyttö-/poikaystävä"
+    "fi": "tyttö-/poikaystävä",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029094_1.mp3"
   },
   "køn": {
     "dk": "køn",
     "se": "vacker",
-    "fi": "kaunis"
+    "fi": "kaunis",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029279_1.mp3"
   }
 }

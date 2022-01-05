@@ -2,191 +2,229 @@
   "sagtens": {
     "dk": "sagtens",
     "se": "lätt, enkelt, gärna",
-    "fi": "kyllä, helposti, varmaan"
+    "fi": "kyllä, helposti, varmaan",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044430_1.mp3"
   },
   "samfund, -et": {
     "dk": "samfund, -et",
     "se": "samhälle",
-    "fi": "yhteiskunta"
+    "fi": "yhteiskunta",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044593_1.mp3"
   },
   "sammenligne": {
     "dk": "sammenligne",
     "se": "jämföra",
-    "fi": "vertailla"
+    "fi": "vertailla",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044720_1.mp3"
   },
   "selvfølgelig": {
     "dk": "selvfølgelig",
     "se": "självklart",
-    "fi": "tietysti"
+    "fi": "tietysti",
+    "audio": "https://static.ordnet.dk/mp3/11045/11045380_1.mp3"
   },
   "selvom": {
     "dk": "selvom",
     "se": "även om",
-    "fi": "vaikka"
+    "fi": "vaikka",
+    "audio": "https://static.ordnet.dk/mp3/11045/11045430_1.mp3"
   },
   "semester, -et": {
     "dk": "semester, -et",
     "se": "termin",
-    "fi": "lukukausi"
+    "fi": "lukukausi",
+    "audio": "https://static.ordnet.dk/mp3/11045/11045507_1.mp3"
   },
   "sgu": {
     "dk": "sgu",
     "se": "banne mig; minsann",
-    "fi": "hitto vieköön; -han, -hän"
+    "fi": "hitto vieköön; -han, -hän",
+    "audio": "https://static.ordnet.dk/mp3/11045/11045744_1.mp3"
   },
   "sjov": {
     "dk": "sjov",
     "se": "skoj, rolig; konstig",
-    "fi": "hauska, hassu; kummallinen"
+    "fi": "hauska, hassu; kummallinen",
+    "audio": "https://static.ordnet.dk/mp3/11046/11046153_1.mp3"
   },
   "skjule": {
     "dk": "skjule",
     "se": "dölja",
-    "fi": "kätkeä"
+    "fi": "kätkeä",
+    "audio": "https://static.ordnet.dk/mp3/11046/11046678_1.mp3"
   },
   "skridt, -et": {
     "dk": "skridt, -et",
     "se": "steg",
-    "fi": "askel"
+    "fi": "askel",
+    "audio": "https://static.ordnet.dk/mp3/11046/11046946_1.mp3"
   },
   "skuffe": {
     "dk": "skuffe",
     "se": "göra besviken",
-    "fi": "tuottaa pettymys"
+    "fi": "tuottaa pettymys",
+    "audio": "https://static.ordnet.dk/mp3/11047/11047167_1.mp3"
   },
   "skulder, -en": {
     "dk": "skulder, -en",
     "se": "axel",
-    "fi": "olkapää"
+    "fi": "olkapää",
+    "audio": "https://static.ordnet.dk/mp3/11047/11047176_1.mp3"
   },
   "sky, -en": {
     "dk": "sky, -en",
     "se": "moln",
-    "fi": "pilvi"
+    "fi": "pilvi",
+    "audio": "https://static.ordnet.dk/mp3/11047/11047245_1.mp3"
   },
   "skæg; skæg, -get": {
     "dk": "skæg; skæg, -get",
     "se": "kul, skoj; skägg",
-    "fi": "hauska; parta"
+    "fi": "hauska; parta",
+    "audio": ""
   },
   "skæbne, -n": {
     "dk": "skæbne, -n",
     "se": "öde",
-    "fi": "kohtalo"
+    "fi": "kohtalo",
+    "audio": "https://static.ordnet.dk/mp3/11047/11047343_1.mp3"
   },
   "slet ikke": {
     "dk": "slet ikke",
     "se": "inte alls",
-    "fi": "ei ollenkaan"
+    "fi": "ei ollenkaan",
+    "audio": ""
   },
   "slik, -ket": {
     "dk": "slik, -ket",
     "se": "godis",
-    "fi": "makeiset"
+    "fi": "makeiset",
+    "audio": "https://static.ordnet.dk/mp3/11047/11047720_1.mp3"
   },
   "smide": {
     "dk": "smide",
     "se": "kasta",
-    "fi": "heittää"
+    "fi": "heittää",
+    "audio": "https://static.ordnet.dk/mp3/11048/11048000_1.mp3"
   },
   "smile": {
     "dk": "smile",
     "se": "le",
-    "fi": "hymyillä"
+    "fi": "hymyillä",
+    "audio": "https://static.ordnet.dk/mp3/11048/11048008_1.mp3"
   },
   "smuk": {
     "dk": "smuk",
     "se": "vacker",
-    "fi": "kaunis"
+    "fi": "kaunis",
+    "audio": "https://static.ordnet.dk/mp3/11048/11048056_1.mp3"
   },
   "snavset": {
     "dk": "snavset",
     "se": "smutsig",
-    "fi": "likainen"
+    "fi": "likainen",
+    "audio": "https://static.ordnet.dk/mp3/11048/11048236_1.mp3"
   },
   "snyde": {
     "dk": "snyde",
     "se": "lura, fuska",
-    "fi": "huijata"
+    "fi": "huijata",
+    "audio": "https://static.ordnet.dk/mp3/11048/11048413_1.mp3"
   },
   "sommetider": {
     "dk": "sommetider",
     "se": "ibland",
-    "fi": "toisinaan"
+    "fi": "toisinaan",
+    "audio": "https://static.ordnet.dk/mp3/11048/11048756_1.mp3"
   },
   "spise": {
     "dk": "spise",
     "se": "äta",
-    "fi": "syödä"
+    "fi": "syödä",
+    "audio": "https://static.ordnet.dk/mp3/11049/11049249_1.mp3"
   },
   "springe": {
     "dk": "springe",
     "se": "hoppa",
-    "fi": "hypätä"
+    "fi": "hypätä",
+    "audio": "https://static.ordnet.dk/mp3/11049/11049427_1.mp3"
   },
   "spørge": {
     "dk": "spørge",
     "se": "fråga",
-    "fi": "kysyä"
+    "fi": "kysyä",
+    "audio": "https://static.ordnet.dk/mp3/11049/11049635_2.mp3"
   },
   "spørgsmål, -et": {
     "dk": "spørgsmål, -et",
     "se": "en fråga",
-    "fi": "kysymys"
+    "fi": "kysymys",
+    "audio": "https://static.ordnet.dk/mp3/11049/11049647_1.mp3"
   },
   "stadig(væk)": {
     "dk": "stadig(væk)",
     "se": "fortfarande",
-    "fi": "yhä"
+    "fi": "yhä",
+    "audio": ""
   },
   "standse": {
     "dk": "standse",
     "se": "stanna upp, stoppa",
-    "fi": "pysähtyä, pysäyttää"
+    "fi": "pysähtyä, pysäyttää",
+    "audio": "https://static.ordnet.dk/mp3/11049/11049818_1.mp3"
   },
   "stole på": {
     "dk": "stole på",
     "se": "lita på",
-    "fi": "luottaa"
+    "fi": "luottaa",
+    "audio": ""
   },
   "stue, -n": {
     "dk": "stue, -n",
     "se": "vardagsrum; bottenvåning",
-    "fi": "olohuone; katutaso"
+    "fi": "olohuone; katutaso",
+    "audio": "https://static.ordnet.dk/mp3/11050/11050987_1.mp3"
   },
   "støj, -en": {
     "dk": "støj, -en",
     "se": "buller",
-    "fi": "melu"
+    "fi": "melu",
+    "audio": "https://static.ordnet.dk/mp3/11051/11051152_1.mp3"
   },
   "størrelse, -n": {
     "dk": "størrelse, -n",
     "se": "storlek",
-    "fi": "koko"
+    "fi": "koko",
+    "audio": "https://static.ordnet.dk/mp3/11051/11051167_1.mp3"
   },
   "støv, -et": {
     "dk": "støv, -et",
     "se": "damm",
-    "fi": "pöly"
+    "fi": "pöly",
+    "audio": "https://static.ordnet.dk/mp3/11051/11051194_1.mp3"
   },
   "sulten": {
     "dk": "sulten",
     "se": "hungrig",
-    "fi": "nälkäinen"
+    "fi": "nälkäinen",
+    "audio": "https://static.ordnet.dk/mp3/11051/11051388_1.mp3"
   },
   "synes": {
     "dk": "synes",
     "se": "tycka, anse",
-    "fi": "olla jotain mieltä"
+    "fi": "olla jotain mieltä",
+    "audio": "https://static.ordnet.dk/mp3/11052/11052025_1.mp3"
   },
   "synes om": {
     "dk": "synes om",
     "se": "tycka om",
-    "fi": "pitää jostakin"
+    "fi": "pitää jostakin",
+    "audio": ""
   },
   "særlig": {
     "dk": "særlig",
     "se": "särskild",
-    "fi": "erityinen"
+    "fi": "erityinen",
+    "audio": "https://static.ordnet.dk/mp3/11052/11052245_1.mp3"
   }
 }

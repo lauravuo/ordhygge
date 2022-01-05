@@ -2,86 +2,103 @@
   "lade": {
     "dk": "lade",
     "se": "låta",
-    "fi": "antaa, sallia"
+    "fi": "antaa, sallia",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029410_1.mp3"
   },
   "lade som om": {
     "dk": "lade som om",
     "se": "låtsas",
-    "fi": "olla ikään kuin"
+    "fi": "olla ikään kuin",
+    "audio": ""
   },
   "landsby, -en": {
     "dk": "landsby, -en",
     "se": "by",
-    "fi": "kylä"
+    "fi": "kylä",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029646_1.mp3"
   },
   "lav": {
     "dk": "lav",
     "se": "låg",
-    "fi": "matala"
+    "fi": "matala",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029904_1.mp3"
   },
   "lave": {
     "dk": "lave",
     "se": "göra, laga",
-    "fi": "tehdä, valmistaa"
+    "fi": "tehdä, valmistaa",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029912_1.mp3"
   },
   "le": {
     "dk": "le",
     "se": "skratta",
-    "fi": "nauraa"
+    "fi": "nauraa",
+    "audio": "https://static.ordnet.dk/mp3/11029/11029971_1.mp3"
   },
   "leje": {
     "dk": "leje",
     "se": "hyra",
-    "fi": "vuokrata"
+    "fi": "vuokrata",
+    "audio": "https://static.ordnet.dk/mp3/11030/11030113_1.mp3"
   },
   "lide (at kunne lide)": {
     "dk": "lide (at kunne lide)",
     "se": "tycka om",
-    "fi": "pitää jostakin"
+    "fi": "pitää jostakin",
+    "audio": ""
   },
   "lige": {
     "dk": "lige",
     "se": "just, precis, rak, jämn",
-    "fi": "juuri, suora, tasainen"
+    "fi": "juuri, suora, tasainen",
+    "audio": "https://static.ordnet.dk/mp3/11030/11030377_1.mp3"
   },
   "- Kan du ikke lige...": {
     "dk": "- Kan du ikke lige...",
     "se": "- Kunde du...",
-    "fi": "- Voisitko..."
+    "fi": "- Voisitko...",
+    "audio": ""
   },
   "lige meget": {
     "dk": "lige meget",
     "se": "likgiltigt",
-    "fi": "yhdentekevää"
+    "fi": "yhdentekevää",
+    "audio": ""
   },
   "ligeud": {
     "dk": "ligeud",
     "se": "rakt fram",
-    "fi": "suoraan eteenpäin"
+    "fi": "suoraan eteenpäin",
+    "audio": "https://static.ordnet.dk/mp3/11030/11030422_1.mp3"
   },
   "lomme, -n": {
     "dk": "lomme, -n",
     "se": "ficka",
-    "fi": "tasku"
+    "fi": "tasku",
+    "audio": "https://static.ordnet.dk/mp3/11030/11030918_1.mp3"
   },
   "lov, -en": {
     "dk": "lov, -en",
     "se": "lag, lov, tillstånd",
-    "fi": "laki, lupa"
+    "fi": "laki, lupa",
+    "audio": "https://static.ordnet.dk/mp3/11030/11030985_1.mp3"
   },
   "lukke": {
     "dk": "lukke",
     "se": "stänga",
-    "fi": "sulkea"
+    "fi": "sulkea",
+    "audio": "https://static.ordnet.dk/mp3/11031/11031160_1.mp3"
   },
   "lukke op": {
     "dk": "lukke op",
     "se": "öppna",
-    "fi": "avata"
+    "fi": "avata",
+    "audio": ""
   },
   "lytte": {
     "dk": "lytte",
     "se": "lyssna",
-    "fi": "kuunnella"
+    "fi": "kuunnella",
+    "audio": "https://static.ordnet.dk/mp3/11031/11031515_1.mp3"
   }
 }

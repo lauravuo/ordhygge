@@ -2,86 +2,103 @@
   "have, -n": {
     "dk": "have, -n",
     "se": "trädgård",
-    "fi": "puutarha"
+    "fi": "puutarha",
+    "audio": "https://static.ordnet.dk/mp3/11020/11020036_1.mp3"
   },
   "held, -et": {
     "dk": "held, -et",
     "se": "tur",
-    "fi": "onni"
+    "fi": "onni",
+    "audio": "https://static.ordnet.dk/mp3/11020/11020259_1.mp3"
   },
   "heldig": {
     "dk": "heldig",
     "se": "tursam, lyckosam",
-    "fi": "onnekas"
+    "fi": "onnekas",
+    "audio": "https://static.ordnet.dk/mp3/11020/11020263_1.mp3"
   },
   "hinanden": {
     "dk": "hinanden",
     "se": "varandra",
-    "fi": "toisiaan"
+    "fi": "toisiaan",
+    "audio": "https://static.ordnet.dk/mp3/11020/11020756_1.mp3"
   },
   "hold, -et": {
     "dk": "hold, -et",
     "se": "lag, grupp, team",
-    "fi": "joukkue, ryhmä"
+    "fi": "joukkue, ryhmä",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021162_1.mp3"
   },
   "holde op": {
     "dk": "holde op",
     "se": "sluta",
-    "fi": "lopettaa"
+    "fi": "lopettaa",
+    "audio": ""
   },
   "hurtig": {
     "dk": "hurtig",
     "se": "snabb",
-    "fi": "nopea"
+    "fi": "nopea",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021705_1.mp3"
   },
   "huske": {
     "dk": "huske",
     "se": "komma ihåg",
-    "fi": "muistaa"
+    "fi": "muistaa",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021779_1.mp3"
   },
   "hukommelse, -n": {
     "dk": "hukommelse, -n",
     "se": "minne",
-    "fi": "muisti"
+    "fi": "muisti",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021539_1.mp3"
   },
   "hvis": {
     "dk": "hvis",
     "se": "om; vems",
-    "fi": "jos; kenen"
+    "fi": "jos; kenen",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021968_1.mp3"
   },
   "hvordan": {
     "dk": "hvordan",
     "se": "hur, hurdan",
-    "fi": "miten, millainen"
+    "fi": "miten, millainen",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021976_1.mp3"
   },
   "hvorhen": {
     "dk": "hvorhen",
     "se": "vart",
-    "fi": "mihin"
+    "fi": "mihin",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021980_1.mp3"
   },
   "hvornår": {
     "dk": "hvornår",
     "se": "när",
-    "fi": "milloin"
+    "fi": "milloin",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021989_1.mp3"
   },
   "hygge, -n": {
     "dk": "hygge, -n",
     "se": "trivsel, trevnad, hemtrevlighet",
-    "fi": "viihtyisyys, kodikkuus"
+    "fi": "viihtyisyys, kodikkuus",
+    "audio": "https://static.ordnet.dk/mp3/11022/11022047_1.mp3"
   },
   "hygge sig": {
     "dk": "hygge sig",
     "se": "ha det trevligt, mysigt",
-    "fi": "viihtyä, olla mukavaa"
+    "fi": "viihtyä, olla mukavaa",
+    "audio": ""
   },
   "hyggelig": {
     "dk": "hyggelig",
     "se": "mysig",
-    "fi": "mukava, kotoisa"
+    "fi": "mukava, kotoisa",
+    "audio": "https://static.ordnet.dk/mp3/11022/11022052_1.mp3"
   },
   "højskole, -n": {
     "dk": "højskole, -n",
     "se": "folkhögskola",
-    "fi": "kansanopisto"
+    "fi": "kansanopisto",
+    "audio": "https://static.ordnet.dk/mp3/11022/11022409_1.mp3"
   }
 }

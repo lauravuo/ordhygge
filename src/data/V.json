@@ -2,51 +2,61 @@
   "vanskelig": {
     "dk": "vanskelig",
     "se": "svår",
-    "fi": "vaikea"
+    "fi": "vaikea",
+    "audio": "https://static.ordnet.dk/mp3/12005/12005806_1.mp3"
   },
   "vaske": {
     "dk": "vaske",
     "se": "tvätta",
-    "fi": "pestä"
+    "fi": "pestä",
+    "audio": "https://static.ordnet.dk/mp3/12005/12005940_1.mp3"
   },
   "vaske op": {
     "dk": "vaske op",
     "se": "diska",
-    "fi": "tiskata"
+    "fi": "tiskata",
+    "audio": ""
   },
   "vejr, -et": {
     "dk": "vejr, -et",
     "se": "väder",
-    "fi": "sää"
+    "fi": "sää",
+    "audio": "https://static.ordnet.dk/mp3/12006/12006075_1.mp3"
   },
   "vindue, -t": {
     "dk": "vindue, -t",
     "se": "fönster",
-    "fi": "ikkuna"
+    "fi": "ikkuna",
+    "audio": "https://static.ordnet.dk/mp3/12006/12006849_1.mp3"
   },
   "virksomhed, -en": {
     "dk": "virksomhed, -en",
     "se": "företag",
-    "fi": "yritys"
+    "fi": "yritys",
+    "audio": "https://static.ordnet.dk/mp3/12007/12007031_1.mp3"
   },
   "vred": {
     "dk": "vred",
     "se": "arg",
-    "fi": "vihainen"
+    "fi": "vihainen",
+    "audio": "https://static.ordnet.dk/mp3/12007/12007318_1.mp3"
   },
   "vrøvl, -et": {
     "dk": "vrøvl, -et",
     "se": "bråk; struntprat",
-    "fi": "riita, erimielisyys; pöty(puhe)"
+    "fi": "riita, erimielisyys; pöty(puhe)",
+    "audio": "https://static.ordnet.dk/mp3/12007/12007349_1.mp3"
   },
   "væk": {
     "dk": "væk",
     "se": "bort",
-    "fi": "pois"
+    "fi": "pois",
+    "audio": "https://static.ordnet.dk/mp3/12007/12007450_1.mp3"
   },
   "værelse, -t": {
     "dk": "værelse, -t",
     "se": "rum",
-    "fi": "huone"
+    "fi": "huone",
+    "audio": "https://static.ordnet.dk/mp3/12007/12007520_1.mp3"
   }
 }

@@ -2,51 +2,61 @@
   "nabo, -en": {
     "dk": "nabo, -en",
     "se": "granne",
-    "fi": "naapuri"
+    "fi": "naapuri",
+    "audio": "https://static.ordnet.dk/mp3/11035/11035211_1.mp3"
   },
   "nederdel, -en": {
     "dk": "nederdel, -en",
     "se": "kjol",
-    "fi": "hame"
+    "fi": "hame",
+    "audio": "https://static.ordnet.dk/mp3/11035/11035652_1.mp3"
   },
   "nem": {
     "dk": "nem",
     "se": "lätt, enkel",
-    "fi": "helppo"
+    "fi": "helppo",
+    "audio": "https://static.ordnet.dk/mp3/11035/11035829_1.mp3"
   },
   "nemlig": {
     "dk": "nemlig",
     "se": "just, precis, nämligen",
-    "fi": "juuri niin, nimittäin"
+    "fi": "juuri niin, nimittäin",
+    "audio": "https://static.ordnet.dk/mp3/11035/11035832_1.mp3"
   },
   "netop": {
     "dk": "netop",
     "se": "just, precis",
-    "fi": "juuri niin"
+    "fi": "juuri niin",
+    "audio": "https://static.ordnet.dk/mp3/11035/11035892_1.mp3"
   },
   "næppe": {
     "dk": "næppe",
     "se": "knappast",
-    "fi": "tuskin"
+    "fi": "tuskin",
+    "audio": "https://static.ordnet.dk/mp3/11036/11036498_1.mp3"
   },
   "nødig": {
     "dk": "nødig",
     "se": "ogärna",
-    "fi": "vastahakoisesti"
+    "fi": "vastahakoisesti",
+    "audio": ""
   },
   "nødt til": {
     "dk": "nødt til",
     "se": "vara tvungen att",
-    "fi": "pakko (tehdä jotain)"
+    "fi": "pakko (tehdä jotain)",
+    "audio": ""
   },
   "nøgle, -n": {
     "dk": "nøgle, -n",
     "se": "nyckel",
-    "fi": "avain"
+    "fi": "avain",
+    "audio": "https://static.ordnet.dk/mp3/11036/11036680_1.mp3"
   },
   "nå": {
     "dk": "nå",
     "se": "hinna",
-    "fi": "ehtiä"
+    "fi": "ehtiä",
+    "audio": "https://static.ordnet.dk/mp3/11036/11036716_1.mp3"
   }
 }
