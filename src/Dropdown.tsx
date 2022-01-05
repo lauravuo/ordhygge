@@ -1,6 +1,8 @@
-import type { Component } from "solid-js";
+import type { Component, For, Show } from "solid-js";
+import { createSignal } from "solid-js";
 
-const Dropdown: Component = ({ options, index }) => {
+const Dropdown: Component = ({ options, index, setIndex }) => {
+  const [show, setShow] = createSignal(false);
   return (
     <div class="relative inline-block text-left">
       <div>
@@ -10,8 +12,9 @@ const Dropdown: Component = ({ options, index }) => {
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
+          onClick={() => setShow(!show())}
         >
-          {options[index].name}
+          {options[index()].name}
           <svg
             class="-mr-1 ml-2 h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
@@ -28,27 +31,35 @@ const Dropdown: Component = ({ options, index }) => {
         </button>
       </div>
 
-      <div
-        class="origin-top-right absolute right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
-        role="menu"
-        aria-orientation="vertical"
-        aria-labelledby="menu-button"
-        tabindex="-1"
-      >
-        <div class="py-1" role="none">
-          {options.map((item, index) => (
-            <a
-              href="#"
-              class="text-gray-700 block px-4 py-2 text-sm"
-              role="menuitem"
-              tabindex="-1"
-              id={`menu-item-${index}`}
-            >
-              {item.name}
-            </a>
-          ))}
+      <Show when={show()}>
+        <div
+          class="origin-top-right absolute right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu"
+          aria-orientation="vertical"
+          aria-labelledby="menu-button"
+          tabindex="-1"
+        >
+          <div class="py-1" role="none">
+            <For each={options}>
+              {(item, index) => (
+                <a
+                  href="#"
+                  class="text-gray-700 block px-4 py-2 text-sm"
+                  role="menuitem"
+                  tabindex="-1"
+                  id={`menu-item-${index}`}
+                  onClick={() => {
+                    setIndex(index);
+                    setShow(false);
+                  }}
+                >
+                  {item.name}
+                </a>
+              )}
+            </For>
+          </div>
         </div>
-      </div>
+      </Show>
     </div>
   );
 };
