@@ -1,0 +1,44 @@
+{
+  "gentage": {
+    "dk": "gentage",
+    "se": "upprepa",
+    "fi": "toistaa",
+    "audio": "https://static.ordnet.dk/mp3/11017/11017801_1.mp3"
+  },
+  "gide": {
+    "dk": "gide",
+    "se": "idas, orka",
+    "fi": "viitsiä, jaksaa",
+    "audio": "https://static.ordnet.dk/mp3/11017/11017953_1.mp3"
+  },
+  "glad (at være glad for)": {
+    "dk": "glad (at være glad for)",
+    "se": "tycka om",
+    "fi": "pitää jostakin",
+    "audio": ""
+  },
+  "glat": {
+    "dk": "glat",
+    "se": "hal",
+    "fi": "liukas",
+    "audio": "https://static.ordnet.dk/mp3/11018/11018140_1.mp3"
+  },
+  "grim": {
+    "dk": "grim",
+    "se": "ful",
+    "fi": "ruma",
+    "audio": "https://static.ordnet.dk/mp3/11018/11018642_1.mp3"
+  },
+  "grine": {
+    "dk": "grine",
+    "se": "(gap)skratta",
+    "fi": "nauraa",
+    "audio": "https://static.ordnet.dk/mp3/11018/11018652_1.mp3"
+  },
+  "gætte": {
+    "dk": "gætte",
+    "se": "gissa",
+    "fi": "arvata",
+    "audio": "https://static.ordnet.dk/mp3/11019/11019408_1.mp3"
+  }
+}

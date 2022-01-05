@@ -1,0 +1,158 @@
+{
+  "fag, -et": {
+    "dk": "fag, -et",
+    "se": "yrke, fack, ämne",
+    "fi": "ammatti, ala, oppiaine",
+    "audio": "https://static.ordnet.dk/mp3/11012/11012093_1.mp3"
+  },
+  "ferie, -n": {
+    "dk": "ferie, -n",
+    "se": "semester",
+    "fi": "loma",
+    "audio": "https://static.ordnet.dk/mp3/11012/11012740_1.mp3"
+  },
+  "fjernsyn, -et": {
+    "dk": "fjernsyn, -et",
+    "se": "tv",
+    "fi": "televisio",
+    "audio": "https://static.ordnet.dk/mp3/11013/11013367_1.mp3"
+  },
+  "flot": {
+    "dk": "flot",
+    "se": "flott, stilig",
+    "fi": "hieno, upea",
+    "audio": "https://static.ordnet.dk/mp3/11013/11013681_1.mp3"
+  },
+  "fløde, -n": {
+    "dk": "fløde, -n",
+    "se": "grädde",
+    "fi": "kerma",
+    "audio": "https://static.ordnet.dk/mp3/11013/11013842_1.mp3"
+  },
+  "foran": {
+    "dk": "foran",
+    "se": "framför",
+    "fi": "edessä",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014183_1.mp3"
+  },
+  "forbavse": {
+    "dk": "forbavse",
+    "se": "förvåna",
+    "fi": "hämmästyttää",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014213_1.mp3"
+  },
+  "fordi": {
+    "dk": "fordi",
+    "se": "därför att, eftersom",
+    "fi": "siksi että, koska",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014339_1.mp3"
+  },
+  "forkert": {
+    "dk": "forkert",
+    "se": "fel",
+    "fi": "väärin",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014659_1.mp3"
+  },
+  "forkælet": {
+    "dk": "forkælet",
+    "se": "bortskämd",
+    "fi": "hemmoteltu",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014698_1.mp3"
+  },
+  "forlade": {
+    "dk": "forlade",
+    "se": "lämna",
+    "fi": "jättää, lähteä",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014710_1.mp3"
+  },
+  "forlange": {
+    "dk": "forlange",
+    "se": "kräva",
+    "fi": "vaatia",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014723_1.mp3"
+  },
+  "formand, -en": {
+    "dk": "formand, -en",
+    "se": "ordförande",
+    "fi": "puheenjohtaja",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014793_1.mp3"
+  },
+  "formål, -et": {
+    "dk": "formål, -et",
+    "se": "syfte",
+    "fi": "tarkoitus",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014885_1.mp3"
+  },
+  "forretning, -en": {
+    "dk": "forretning, -en",
+    "se": "affär, butik",
+    "fi": "yritys, liike, kauppa",
+    "audio": "https://static.ordnet.dk/mp3/11014/11014983_1.mp3"
+  },
+  "forskel, -len": {
+    "dk": "forskel, -len",
+    "se": "skillnad",
+    "fi": "ero",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015073_1.mp3"
+  },
+  "forskellig": {
+    "dk": "forskellig",
+    "se": "olik",
+    "fi": "erilainen",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015074_1.mp3"
+  },
+  "forstyrre": {
+    "dk": "forstyrre",
+    "se": "störa",
+    "fi": "häiritä",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015209_1.mp3"
+  },
+  "fortov, -et": {
+    "dk": "fortov, -et",
+    "se": "trottoar",
+    "fi": "jalkakäytävä",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015356_1.mp3"
+  },
+  "fortælle": {
+    "dk": "fortælle",
+    "se": "berätta",
+    "fi": "kertoa",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015421_1.mp3"
+  },
+  "forår, -et": {
+    "dk": "forår, -et",
+    "se": "vår",
+    "fi": "kevät",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015579_1.mp3"
+  },
+  "frakke, -n": {
+    "dk": "frakke, -n",
+    "se": "jacka, kappa",
+    "fi": "takki",
+    "audio": "https://static.ordnet.dk/mp3/11015/11015695_1.mp3"
+  },
+  "frokost, -en": {
+    "dk": "frokost, -en",
+    "se": "lunch",
+    "fi": "lounas",
+    "audio": "https://static.ordnet.dk/mp3/11016/11016190_1.mp3"
+  },
+  "fyr, -en": {
+    "dk": "fyr, -en",
+    "se": "kille; pojkvän",
+    "fi": "kaveri, heppu; poikaystävä",
+    "audio": "https://static.ordnet.dk/mp3/11016/11016564_1.mp3"
+  },
+  "fælles": {
+    "dk": "fælles",
+    "se": "gemensam",
+    "fi": "yhteinen",
+    "audio": "https://static.ordnet.dk/mp3/11016/11016641_1.mp3"
+  },
+  "føle": {
+    "dk": "føle",
+    "se": "känna",
+    "fi": "tuntea",
+    "audio": "https://static.ordnet.dk/mp3/11016/11016822_1.mp3"
+  }
+}

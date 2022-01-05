@@ -1,0 +1,56 @@
+{
+  "omtrent": {
+    "dk": "omtrent",
+    "se": "cirka",
+    "fi": "noin",
+    "audio": "https://static.ordnet.dk/mp3/11037/11037260_1.mp3"
+  },
+  "opdage": {
+    "dk": "opdage",
+    "se": "upptäcka",
+    "fi": "huomata, keksiä",
+    "audio": ""
+  },
+  "over for": {
+    "dk": "over for",
+    "se": "mittemot",
+    "fi": "vastapäätä",
+    "audio": ""
+  },
+  "parat": {
+    "dk": "parat",
+    "se": "redo, klar",
+    "fi": "valmis",
+    "audio": "https://static.ordnet.dk/mp3/11038/11038895_1.mp3"
+  },
+  "pige, -n": {
+    "dk": "pige, -n",
+    "se": "flicka",
+    "fi": "tyttö",
+    "audio": "https://static.ordnet.dk/mp3/11039/11039666_1.mp3"
+  },
+  "pleje": {
+    "dk": "pleje",
+    "se": "bruka; vårda",
+    "fi": "olla tapana, hoitaa",
+    "audio": "https://static.ordnet.dk/mp3/11040/11040107_1.mp3"
+  },
+  "plet, -ten": {
+    "dk": "plet, -ten",
+    "se": "fläck",
+    "fi": "läikkä",
+    "audio": "https://static.ordnet.dk/mp3/11040/11040135_1.mp3"
+  },
+  "pæn": {
+    "dk": "pæn",
+    "se": "söt, snygg; anständig; hygglig",
+    "fi": "kaunis, sievä; siisti; kunnon",
+    "audio": "https://static.ordnet.dk/mp3/11041/11041710_1.mp3"
+  },
+  "pølse, -n": {
+    "dk": "pølse, -n",
+    "se": "korv",
+    "fi": "makkara",
+    "audio": "https://static.ordnet.dk/mp3/11041/11041731_1.mp3"
+  }
+}

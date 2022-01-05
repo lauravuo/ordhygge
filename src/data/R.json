@@ -1,0 +1,32 @@
+{
+  "rammes af": {
+    "dk": "rammes af",
+    "se": "drabbas av",
+    "fi": "osua, kohdata",
+    "audio": ""
+  },
+  "rar": {
+    "dk": "rar",
+    "se": "snäll",
+    "fi": "kiltti",
+    "audio": "https://static.ordnet.dk/mp3/11042/11042179_1.mp3"
+  },
+  "rask": {
+    "dk": "rask",
+    "se": "frisk",
+    "fi": "terve",
+    "audio": "https://static.ordnet.dk/mp3/11042/11042187_1.mp3"
+  },
+  "rolig": {
+    "dk": "rolig",
+    "se": "lugn",
+    "fi": "rauhallinen",
+    "audio": "https://static.ordnet.dk/mp3/11043/11043576_1.mp3"
+  },
+  "ryste": {
+    "dk": "ryste",
+    "se": "skaka",
+    "fi": "ravistella",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044031_1.mp3"
+  }
+}
