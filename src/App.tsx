@@ -9,7 +9,7 @@ const App: Component = () => {
 
   return (
     <Show when={mode() === "quiz"} fallback={<List setMode={setMode} />}>
-      <Quiz />
+      <Quiz setMode={setMode} />
     </Show>
   );
 };
