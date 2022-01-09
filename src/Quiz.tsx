@@ -116,7 +116,7 @@ const Quiz: Component = ({ setMode }) => {
           >
             <Show
               when={step() <= questions().length}
-              fallback={<QuizEnd result={result} />}
+              fallback={<QuizEnd result={result} setMode={setMode} />}
             >
               <QuizStep
                 questions={questions}

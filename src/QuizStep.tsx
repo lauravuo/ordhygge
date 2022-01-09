@@ -21,6 +21,7 @@ const QuizStep: Component = ({
       { question: questions()[step() - 1], answer, correct }
     ]);
     setAnswered(true);
+    setTimeout(next, 1000);
   };
   const next = () => {
     setBgColor(questions()[step() - 1].answers.map(() => "bg-transparent"));
@@ -28,7 +29,7 @@ const QuizStep: Component = ({
     setStep(step() + 1);
   };
   return (
-    <div class="text-center h-[42rem] relative">
+    <div class="text-center h-full relative">
       <h3 class="m-4 text-2xl">{questions()[step() - 1].question.dk}</h3>
       <div>
         <For each={questions()[step() - 1].answers}>
