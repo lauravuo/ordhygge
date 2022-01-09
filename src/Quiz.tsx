@@ -4,6 +4,8 @@ import { createSignal } from "solid-js";
 
 import model from "./Words";
 import QuizStart from "./QuizStart";
+import QuizStep from "./QuizStep";
+import QuizEnd from "./QuizEnd";
 
 const Quiz: Component = ({ setMode }) => {
   const [selected, setSelected] = createSignal(
@@ -21,6 +23,7 @@ const Quiz: Component = ({ setMode }) => {
   );
   const [step, setStep] = createSignal(0);
   const [questions, setQuestions] = createSignal([]);
+  const [result, setResult] = createSignal([]);
 
   const selectedCount = () =>
     Object.keys(model)
@@ -71,13 +74,17 @@ const Quiz: Component = ({ setMode }) => {
     setStep(1);
   };
 
+  // TODO: update view based on step, record answer on click, result view
+
   return (
     <div class="max-w-screen-lg m-auto bg-gray-50 min-h-screen">
       <div class="p-4">
         <div class="bg-white p-4 rounded-md">
           <div class="flex items-center justify-between mb-8">
             <h2 class="text-xl font-bold text-gray-700">
-              Ordhygge: QUIZ 0/{selectedCount()}
+              {step() <= questions().length
+                ? `Ordhygge: QUIZ ${step()}/${selectedCount()}`
+                : "Ordhygge: QUIZ resultat"}
             </h2>
             <button class="text-indigo-600" onClick={() => setMode("list")}>
               <svg
@@ -97,11 +104,29 @@ const Quiz: Component = ({ setMode }) => {
             </button>
           </div>
 
-          <QuizStart
-            selected={selected}
-            setSelected={setSelected}
-            start={createQuiz}
-          />
+          <Show
+            when={step() > 0}
+            fallback={
+              <QuizStart
+                selected={selected}
+                setSelected={setSelected}
+                start={createQuiz}
+              />
+            }
+          >
+            <Show
+              when={step() <= questions().length}
+              fallback={<QuizEnd result={result} />}
+            >
+              <QuizStep
+                questions={questions}
+                step={step}
+                setStep={setStep}
+                result={result}
+                setResult={setResult}
+              />
+            </Show>
+          </Show>
         </div>
       </div>
     </div>
