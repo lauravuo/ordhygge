@@ -5,7 +5,9 @@ const QuizStep: Component = ({
   step,
   setStep,
   result,
-  setResult
+  setResult,
+  langIndex,
+  langs
 }) => {
   const [bgColor, setBgColor] = createSignal(
     questions()[step() - 1].answers.map(() => "bg-transparent")
@@ -43,7 +45,7 @@ const QuizStep: Component = ({
                 } text-indigo-600 py-2 px-2 border border-indigo-600 rounded disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none"`}
                 onClick={() => check({ answer, index: index() })}
               >
-                {answer.fi}
+                {answer[langs[langIndex()].value]}
               </button>
             </div>
           )}

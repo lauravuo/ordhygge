@@ -5,12 +5,7 @@ import { createSignal } from "solid-js";
 import model from "./Words";
 import Dropdown from "./Dropdown";
 
-const List: Component = ({ setMode }) => {
-  const [langIndex, setLangIndex] = createSignal(0);
-  const langs = [
-    { name: "🇫🇮", value: "fi" },
-    { name: "🇸🇪", value: "se" }
-  ];
+const List: Component = ({ setMode, langIndex, setLangIndex, langs }) => {
   return (
     <div class="max-w-screen-lg m-auto bg-gray-50 min-h-screen">
       <div>

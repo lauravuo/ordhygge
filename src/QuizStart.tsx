@@ -2,7 +2,13 @@ import type { Component } from "solid-js";
 
 import model from "./Words";
 
-const QuizStart: Component = ({ selected, setSelected, start }) => {
+const QuizStart: Component = ({
+  selected,
+  setSelected,
+  start,
+  langIndex,
+  langs
+}) => {
   return (
     <div>
       <div class="bg-gray-50">

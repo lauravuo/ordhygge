@@ -7,7 +7,7 @@ import QuizStart from "./QuizStart";
 import QuizStep from "./QuizStep";
 import QuizEnd from "./QuizEnd";
 
-const Quiz: Component = ({ setMode }) => {
+const Quiz: Component = ({ setMode, langIndex, langs }) => {
   const [selected, setSelected] = createSignal(
     Object.keys(model).reduce(
       (result, item) => ({
@@ -111,14 +111,25 @@ const Quiz: Component = ({ setMode }) => {
                 selected={selected}
                 setSelected={setSelected}
                 start={createQuiz}
+                langIndex={langIndex}
+                langs={langs}
               />
             }
           >
             <Show
               when={step() <= questions().length}
-              fallback={<QuizEnd result={result} setMode={setMode} />}
+              fallback={
+                <QuizEnd
+                  result={result}
+                  setMode={setMode}
+                  langIndex={langIndex}
+                  langs={langs}
+                />
+              }
             >
               <QuizStep
+                langIndex={langIndex}
+                langs={langs}
                 questions={questions}
                 step={step}
                 setStep={setStep}

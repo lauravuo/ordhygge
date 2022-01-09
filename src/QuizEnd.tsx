@@ -1,12 +1,11 @@
 import type { Component } from "solid-js";
 
-import model from "./Words";
-
-const QuizEnd: Component = ({ result, setMode }) => {
+const QuizEnd: Component = ({ result, setMode, langIndex, langs }) => {
   const resText = `${result().reduce(
     (res, item) => (item.correct ? res + 1 : res),
     0
   )}/${result().length}`;
+  console.log(langs[langIndex()]);
   return (
     <div>
       <For each={result()}>
@@ -46,11 +45,15 @@ const QuizEnd: Component = ({ result, setMode }) => {
             )}
             <div class="px-6 w-5/12">{item.question.question.dk}</div>
             <div class="w-5/12">
-              {item.question.question.fi}
+              {item.question.question[langs[langIndex()].value]}
               {!item.correct && (
-                <span class="px-2 text-gray-600">
-                  (<span class="line-through">{item.answer.fi}</span>)
-                </span>
+                <div class="text-gray-600">
+                  (
+                  <span class="line-through">
+                    {item.answer[langs[langIndex()].value]}
+                  </span>
+                  )
+                </div>
               )}
             </div>
           </div>
