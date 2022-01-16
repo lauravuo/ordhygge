@@ -89,6 +89,31 @@ const List: Component = ({ setMode, langIndex, setLangIndex, langs }) => {
                 </For>
               </div>
             </div>
+            <div class="text-sm italic text-center">
+              <div>
+                {" "}
+                Ordliste fra{" "}
+                <a
+                  class="text-indigo-600"
+                  href="https://finnlectura.fi/oppimateriaalit/dansk-ja-tak"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Dansk? – Ja, tak!
+                </a>
+              </div>
+              <div>
+                Udtale fra{" "}
+                <a
+                  class="text-indigo-600"
+                  href="https://ordnet.dk/ddo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Den Danske Ordbog
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
