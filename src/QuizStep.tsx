@@ -39,9 +39,8 @@ const QuizStep: Component = ({
             <div>
               <button
                 disabled={answered()}
-                class={`text-xl m-4 h-24 w-1/2 ${bgColor()[index()]} ${
-                  !answered() &&
-                  "hover:bg-indigo-600 hover:text-white hover:border-transparent "
+                class={`text-xl m-4 h-24 w-1/2 ${
+                  bgColor()[index()]
                 } text-indigo-600 py-2 px-2 border border-indigo-600 rounded disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none"`}
                 onClick={() => check({ answer, index: index() })}
               >
