@@ -3,36 +3,42 @@
     "dk": "advare",
     "se": "varna",
     "fi": "varoittaa",
-    "audio": "https://static.ordnet.dk/mp3/11000/11000241_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11000/11000241_1.mp3",
+    "wordType": "verbum"
   },
   "alene": {
     "dk": "alene",
     "se": "ensam",
     "fi": "yksin",
-    "audio": "https://static.ordnet.dk/mp3/11001/11001224_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11001/11001224_1.mp3",
+    "wordType": "adjektiv"
   },
   "alligevel": {
     "dk": "alligevel",
     "se": "ändå",
     "fi": "kuitenkin",
-    "audio": "https://static.ordnet.dk/mp3/11001/11001353_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11001/11001353_1.mp3",
+    "wordType": "adverbium"
   },
   "almindelig": {
     "dk": "almindelig",
     "se": "vanlig",
     "fi": "tavallinen",
-    "audio": "https://static.ordnet.dk/mp3/11001/11001384_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11001/11001384_1.mp3",
+    "wordType": "adjektiv"
   },
   "ansat, den ansatte": {
     "dk": "ansat, den ansatte",
     "se": "anställd",
     "fi": "(palkattu) työntekijä",
-    "audio": ""
+    "audio": "",
+    "wordType": "substantiv"
   },
   "avis, -en": {
     "dk": "avis, -en",
     "se": "tidning",
     "fi": "sanomalehti",
-    "audio": "https://static.ordnet.dk/mp3/11002/11002960_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11002/11002960_1.mp3",
+    "wordType": "substantiv"
   }
 }

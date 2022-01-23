@@ -3,30 +3,35 @@
     "dk": "efterår, -et",
     "se": "höst",
     "fi": "syksy",
-    "audio": "https://static.ordnet.dk/mp3/11010/11010655_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11010/11010655_1.mp3",
+    "wordType": "substantiv"
   },
   "erhverv, -et": {
     "dk": "erhverv, -et",
     "se": "yrke, näring",
     "fi": "ammatti, elinkeino",
-    "audio": "https://static.ordnet.dk/mp3/11011/11011633_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11011/11011633_1.mp3",
+    "wordType": "substantiv"
   },
   "enlig": {
     "dk": "enlig",
     "se": "ensamstående",
     "fi": "yksinäinen",
-    "audio": "https://static.ordnet.dk/mp3/11011/11011479_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11011/11011479_1.mp3",
+    "wordType": "adjektiv"
   },
   "ens": {
     "dk": "ens",
     "se": "lik(a)",
     "fi": "samanlainen",
-    "audio": "https://static.ordnet.dk/mp3/11011/11011493_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11011/11011493_1.mp3",
+    "wordType": "adjektiv"
   },
   "evne, -n": {
     "dk": "evne, -n",
     "se": "förmåga",
     "fi": "kyky",
-    "audio": "https://static.ordnet.dk/mp3/11011/11011983_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11011/11011983_1.mp3",
+    "wordType": "substantiv"
   }
 }

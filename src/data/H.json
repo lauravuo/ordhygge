@@ -3,102 +3,119 @@
     "dk": "have, -n",
     "se": "trädgård",
     "fi": "puutarha",
-    "audio": "https://static.ordnet.dk/mp3/11020/11020036_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11020/11020036_1.mp3",
+    "wordType": "substantiv"
   },
   "held, -et": {
     "dk": "held, -et",
     "se": "tur",
     "fi": "onni",
-    "audio": "https://static.ordnet.dk/mp3/11020/11020259_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11020/11020259_1.mp3",
+    "wordType": "substantiv"
   },
   "heldig": {
     "dk": "heldig",
     "se": "tursam, lyckosam",
     "fi": "onnekas",
-    "audio": "https://static.ordnet.dk/mp3/11020/11020263_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11020/11020263_1.mp3",
+    "wordType": "adjektiv"
   },
   "hinanden": {
     "dk": "hinanden",
     "se": "varandra",
     "fi": "toisiaan",
-    "audio": "https://static.ordnet.dk/mp3/11020/11020756_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11020/11020756_1.mp3",
+    "wordType": "andet"
   },
   "hold, -et": {
     "dk": "hold, -et",
     "se": "lag, grupp, team",
     "fi": "joukkue, ryhmä",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021162_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021162_1.mp3",
+    "wordType": "substantiv"
   },
   "holde op": {
     "dk": "holde op",
     "se": "sluta",
     "fi": "lopettaa",
-    "audio": ""
+    "audio": "",
+    "wordType": "verbum"
   },
   "hurtig": {
     "dk": "hurtig",
     "se": "snabb",
     "fi": "nopea",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021705_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021705_1.mp3",
+    "wordType": "adjektiv"
   },
   "huske": {
     "dk": "huske",
     "se": "komma ihåg",
     "fi": "muistaa",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021779_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021779_1.mp3",
+    "wordType": "verbum"
   },
   "hukommelse, -n": {
     "dk": "hukommelse, -n",
     "se": "minne",
     "fi": "muisti",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021539_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021539_1.mp3",
+    "wordType": "substantiv"
   },
   "hvis": {
     "dk": "hvis",
     "se": "om; vems",
     "fi": "jos; kenen",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021968_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021968_1.mp3",
+    "wordType": "andet"
   },
   "hvordan": {
     "dk": "hvordan",
     "se": "hur, hurdan",
     "fi": "miten, millainen",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021976_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021976_1.mp3",
+    "wordType": "adverbium"
   },
   "hvorhen": {
     "dk": "hvorhen",
     "se": "vart",
     "fi": "mihin",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021980_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021980_1.mp3",
+    "wordType": "adverbium"
   },
   "hvornår": {
     "dk": "hvornår",
     "se": "när",
     "fi": "milloin",
-    "audio": "https://static.ordnet.dk/mp3/11021/11021989_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11021/11021989_1.mp3",
+    "wordType": "adverbium"
   },
   "hygge, -n": {
     "dk": "hygge, -n",
     "se": "trivsel, trevnad, hemtrevlighet",
     "fi": "viihtyisyys, kodikkuus",
-    "audio": "https://static.ordnet.dk/mp3/11022/11022047_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11022/11022047_1.mp3",
+    "wordType": "substantiv"
   },
   "hygge sig": {
     "dk": "hygge sig",
     "se": "ha det trevligt, mysigt",
     "fi": "viihtyä, olla mukavaa",
-    "audio": ""
+    "audio": "",
+    "wordType": "verbum"
   },
   "hyggelig": {
     "dk": "hyggelig",
     "se": "mysig",
     "fi": "mukava, kotoisa",
-    "audio": "https://static.ordnet.dk/mp3/11022/11022052_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11022/11022052_1.mp3",
+    "wordType": "adjektiv"
   },
   "højskole, -n": {
     "dk": "højskole, -n",
     "se": "folkhögskola",
     "fi": "kansanopisto",
-    "audio": "https://static.ordnet.dk/mp3/11022/11022409_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11022/11022409_1.mp3",
+    "wordType": "substantiv"
   }
 }

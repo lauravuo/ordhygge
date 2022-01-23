@@ -3,228 +3,266 @@
     "dk": "sagtens",
     "se": "lätt, enkelt, gärna",
     "fi": "kyllä, helposti, varmaan",
-    "audio": "https://static.ordnet.dk/mp3/11044/11044430_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11044/11044430_1.mp3",
+    "wordType": "adverbium"
   },
   "samfund, -et": {
     "dk": "samfund, -et",
     "se": "samhälle",
     "fi": "yhteiskunta",
-    "audio": "https://static.ordnet.dk/mp3/11044/11044593_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11044/11044593_1.mp3",
+    "wordType": "substantiv"
   },
   "sammenligne": {
     "dk": "sammenligne",
     "se": "jämföra",
     "fi": "vertailla",
-    "audio": "https://static.ordnet.dk/mp3/11044/11044720_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11044/11044720_1.mp3",
+    "wordType": "verbum"
   },
   "selvfølgelig": {
     "dk": "selvfølgelig",
     "se": "självklart",
     "fi": "tietysti",
-    "audio": "https://static.ordnet.dk/mp3/11045/11045380_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11045/11045380_1.mp3",
+    "wordType": "adjektiv"
   },
   "selvom": {
     "dk": "selvom",
     "se": "även om",
     "fi": "vaikka",
-    "audio": "https://static.ordnet.dk/mp3/11045/11045430_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11045/11045430_1.mp3",
+    "wordType": "andet"
   },
   "semester, -et": {
     "dk": "semester, -et",
     "se": "termin",
     "fi": "lukukausi",
-    "audio": "https://static.ordnet.dk/mp3/11045/11045507_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11045/11045507_1.mp3",
+    "wordType": "substantiv"
   },
   "sgu": {
     "dk": "sgu",
     "se": "banne mig; minsann",
     "fi": "hitto vieköön; -han, -hän",
-    "audio": "https://static.ordnet.dk/mp3/11045/11045744_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11045/11045744_1.mp3",
+    "wordType": "adverbium"
   },
   "sjov": {
     "dk": "sjov",
     "se": "skoj, rolig; konstig",
     "fi": "hauska, hassu; kummallinen",
-    "audio": "https://static.ordnet.dk/mp3/11046/11046153_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11046/11046154_1.mp3",
+    "wordType": "adjektiv"
   },
   "skjule": {
     "dk": "skjule",
     "se": "dölja",
     "fi": "kätkeä",
-    "audio": "https://static.ordnet.dk/mp3/11046/11046678_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11046/11046678_1.mp3",
+    "wordType": "verbum"
   },
   "skridt, -et": {
     "dk": "skridt, -et",
     "se": "steg",
     "fi": "askel",
-    "audio": "https://static.ordnet.dk/mp3/11046/11046946_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11046/11046946_1.mp3",
+    "wordType": "substantiv"
   },
   "skuffe": {
     "dk": "skuffe",
     "se": "göra besviken",
     "fi": "tuottaa pettymys",
-    "audio": "https://static.ordnet.dk/mp3/11047/11047167_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11047/11047169_1.mp3",
+    "wordType": "verbum"
   },
   "skulder, -en": {
     "dk": "skulder, -en",
     "se": "axel",
     "fi": "olkapää",
-    "audio": "https://static.ordnet.dk/mp3/11047/11047176_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11047/11047176_1.mp3",
+    "wordType": "substantiv"
   },
   "sky, -en": {
     "dk": "sky, -en",
     "se": "moln",
     "fi": "pilvi",
-    "audio": "https://static.ordnet.dk/mp3/11047/11047245_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11047/11047245_1.mp3",
+    "wordType": "substantiv"
   },
   "skæg; skæg, -get": {
     "dk": "skæg; skæg, -get",
     "se": "kul, skoj; skägg",
     "fi": "hauska; parta",
-    "audio": ""
+    "audio": "",
+    "wordType": "substantiv"
   },
   "skæbne, -n": {
     "dk": "skæbne, -n",
     "se": "öde",
     "fi": "kohtalo",
-    "audio": "https://static.ordnet.dk/mp3/11047/11047343_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11047/11047343_1.mp3",
+    "wordType": "substantiv"
   },
   "slet ikke": {
     "dk": "slet ikke",
     "se": "inte alls",
     "fi": "ei ollenkaan",
-    "audio": ""
+    "audio": "",
+    "wordType": "andet"
   },
   "slik, -ket": {
     "dk": "slik, -ket",
     "se": "godis",
     "fi": "makeiset",
-    "audio": "https://static.ordnet.dk/mp3/11047/11047720_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11047/11047720_1.mp3",
+    "wordType": "substantiv"
   },
   "smide": {
     "dk": "smide",
     "se": "kasta",
     "fi": "heittää",
-    "audio": "https://static.ordnet.dk/mp3/11048/11048000_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11048/11048000_1.mp3",
+    "wordType": "verbum"
   },
   "smile": {
     "dk": "smile",
     "se": "le",
     "fi": "hymyillä",
-    "audio": "https://static.ordnet.dk/mp3/11048/11048008_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11048/11048008_1.mp3",
+    "wordType": "verbum"
   },
   "smuk": {
     "dk": "smuk",
     "se": "vacker",
     "fi": "kaunis",
-    "audio": "https://static.ordnet.dk/mp3/11048/11048056_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11048/11048056_1.mp3",
+    "wordType": "adjektiv"
   },
   "snavset": {
     "dk": "snavset",
     "se": "smutsig",
     "fi": "likainen",
-    "audio": "https://static.ordnet.dk/mp3/11048/11048236_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11048/11048236_1.mp3",
+    "wordType": "adjektiv"
   },
   "snyde": {
     "dk": "snyde",
     "se": "lura, fuska",
     "fi": "huijata",
-    "audio": "https://static.ordnet.dk/mp3/11048/11048413_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11048/11048413_1.mp3",
+    "wordType": "verbum"
   },
   "sommetider": {
     "dk": "sommetider",
     "se": "ibland",
     "fi": "toisinaan",
-    "audio": "https://static.ordnet.dk/mp3/11048/11048756_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11048/11048756_1.mp3",
+    "wordType": "adverbium"
   },
   "spise": {
     "dk": "spise",
     "se": "äta",
     "fi": "syödä",
-    "audio": "https://static.ordnet.dk/mp3/11049/11049249_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11049/11049250_1.mp3",
+    "wordType": "verbum"
   },
   "springe": {
     "dk": "springe",
     "se": "hoppa",
     "fi": "hypätä",
-    "audio": "https://static.ordnet.dk/mp3/11049/11049427_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11049/11049427_1.mp3",
+    "wordType": "verbum"
   },
   "spørge": {
     "dk": "spørge",
     "se": "fråga",
     "fi": "kysyä",
-    "audio": "https://static.ordnet.dk/mp3/11049/11049635_2.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11049/11049635_2.mp3",
+    "wordType": "verbum"
   },
   "spørgsmål, -et": {
     "dk": "spørgsmål, -et",
     "se": "en fråga",
     "fi": "kysymys",
-    "audio": "https://static.ordnet.dk/mp3/11049/11049647_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11049/11049647_1.mp3",
+    "wordType": "substantiv"
   },
   "stadig(væk)": {
     "dk": "stadig(væk)",
     "se": "fortfarande",
     "fi": "yhä",
-    "audio": ""
+    "audio": "",
+    "wordType": "adverbium"
   },
   "standse": {
     "dk": "standse",
     "se": "stanna upp, stoppa",
     "fi": "pysähtyä, pysäyttää",
-    "audio": "https://static.ordnet.dk/mp3/11049/11049818_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11049/11049818_1.mp3",
+    "wordType": "verbum"
   },
   "stole på": {
     "dk": "stole på",
     "se": "lita på",
     "fi": "luottaa",
-    "audio": ""
+    "audio": "",
+    "wordType": "verbum"
   },
   "stue, -n": {
     "dk": "stue, -n",
     "se": "vardagsrum; bottenvåning",
     "fi": "olohuone; katutaso",
-    "audio": "https://static.ordnet.dk/mp3/11050/11050987_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11050/11050987_1.mp3",
+    "wordType": "substantiv"
   },
   "støj, -en": {
     "dk": "støj, -en",
     "se": "buller",
     "fi": "melu",
-    "audio": "https://static.ordnet.dk/mp3/11051/11051152_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11051/11051152_1.mp3",
+    "wordType": "substantiv"
   },
   "størrelse, -n": {
     "dk": "størrelse, -n",
     "se": "storlek",
     "fi": "koko",
-    "audio": "https://static.ordnet.dk/mp3/11051/11051167_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11051/11051167_1.mp3",
+    "wordType": "substantiv"
   },
   "støv, -et": {
     "dk": "støv, -et",
     "se": "damm",
     "fi": "pöly",
-    "audio": "https://static.ordnet.dk/mp3/11051/11051194_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11051/11051194_1.mp3",
+    "wordType": "substantiv"
   },
   "sulten": {
     "dk": "sulten",
     "se": "hungrig",
     "fi": "nälkäinen",
-    "audio": "https://static.ordnet.dk/mp3/11051/11051388_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11051/11051388_1.mp3",
+    "wordType": "adjektiv"
   },
   "synes": {
     "dk": "synes",
     "se": "tycka, anse",
     "fi": "olla jotain mieltä",
-    "audio": "https://static.ordnet.dk/mp3/11052/11052025_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11052/11052025_1.mp3",
+    "wordType": "verbum"
   },
   "synes om": {
     "dk": "synes om",
     "se": "tycka om",
     "fi": "pitää jostakin",
-    "audio": ""
+    "audio": "",
+    "wordType": "verbum"
   },
   "særlig": {
     "dk": "særlig",
     "se": "särskild",
     "fi": "erityinen",
-    "audio": "https://static.ordnet.dk/mp3/11052/11052245_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11052/11052245_1.mp3",
+    "wordType": "adjektiv"
   }
 }

@@ -3,36 +3,42 @@
     "dk": "I, jer, jeres",
     "se": "ni, er, er",
     "fi": "te, teitä, teidän",
-    "audio": ""
+    "audio": "",
+    "wordType": "andet"
   },
   "ifølge": {
     "dk": "ifølge",
     "se": "enligt",
     "fi": "jonkin mukaan",
-    "audio": "https://static.ordnet.dk/mp3/11022/11022851_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11022/11022851_1.mp3",
+    "wordType": "andet"
   },
   "imens, mens": {
     "dk": "imens, mens",
     "se": "medan",
     "fi": "sillä välin, sillä aikaa kun",
-    "audio": "https://static.ordnet.dk/mp3/11023/11023005_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11023/11023005_1.mp3",
+    "wordType": "adverbium"
   },
   "indrømme": {
     "dk": "indrømme",
     "se": "medge",
     "fi": "myöntää",
-    "audio": "https://static.ordnet.dk/mp3/11023/11023500_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11023/11023500_1.mp3",
+    "wordType": "verbum"
   },
   "is, -en": {
     "dk": "is, -en",
     "se": "glass, is",
     "fi": "jäätelö, jää",
-    "audio": "https://static.ordnet.dk/mp3/11024/11024174_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11024/11024174_1.mp3",
+    "wordType": "substantiv"
   },
   "især": {
     "dk": "især",
     "se": "särskilt",
     "fi": "erityisesti",
-    "audio": "https://static.ordnet.dk/mp3/11024/11024297_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11024/11024297_1.mp3",
+    "wordType": "adverbium"
   }
 }

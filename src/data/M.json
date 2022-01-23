@@ -3,36 +3,42 @@
     "dk": "mangle",
     "se": "fattas, sakna",
     "fi": "puuttua",
-    "audio": "https://static.ordnet.dk/mp3/11032/11032360_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11032/11032360_1.mp3",
+    "wordType": "verbum"
   },
   "more sig": {
     "dk": "more sig",
     "se": "roa sig",
     "fi": "pitää hauskaa",
-    "audio": ""
+    "audio": "",
+    "wordType": "verbum"
   },
   "morsom": {
     "dk": "morsom",
     "se": "rolig",
     "fi": "hauska",
-    "audio": "https://static.ordnet.dk/mp3/11034/11034404_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11034/11034404_1.mp3",
+    "wordType": "adjektiv"
   },
   "måde, -n": {
     "dk": "måde, -n",
     "se": "sätt",
     "fi": "tapa",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035105_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035105_1.mp3",
+    "wordType": "substantiv"
   },
   "måske": {
     "dk": "måske",
     "se": "kanske",
     "fi": "ehkä",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035201_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035201_1.mp3",
+    "wordType": "adverbium"
   },
   "måtte": {
     "dk": "måtte",
     "se": "få (lov); måste",
     "fi": "saada, olla lupa; täytyä",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035202_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035203_1.mp3",
+    "wordType": "verbum"
   }
 }
