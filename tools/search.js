@@ -14,8 +14,7 @@ const fetch = (url) =>
     });
   });
 
-const findAudioURL = async (word) => {
-  const html = await fetch(`https://ordnet.dk/ddo/ordbog?query=${word}`);
+const findAudioURL = (html) => {
   const index = html.indexOf("playSound(");
   if (index < 0) {
     return "";
@@ -31,15 +30,32 @@ const findAudioURL = async (word) => {
   return url;
 };
 
+const findWordType = (html) => {
+  const index = html.indexOf("tekstmedium allow-glossing");
+  if (index < 0) {
+    return "UNKNOWN";
+  }
+  const startIndex = html.indexOf(">", index);
+  const endIndex = html.indexOf("<", index);
+  if (startIndex < 0 || endIndex < 0) {
+    return "UNKNOWN";
+  }
+  return html.substring(startIndex + 1, endIndex).split(",")[0];
+};
+
 const sleep = (ms) => {
   return new Promise((resolve) => {
     setTimeout(resolve, ms);
   });
 };
 
-fs.readdirSync(path)
-  .filter((item) => !item.includes("index.js"))
-  .forEach(async (item) => {
+(async () => {
+  const files = fs
+    .readdirSync(path)
+    .filter((item) => !item.includes("index.js"));
+
+  for (let fileIndex = 0; fileIndex < files.length; fileIndex++) {
+    const item = files[fileIndex];
     const content = fs.readFileSync(`${path}/${item}`, "utf8");
     const data = JSON.parse(content);
     const newObject = {};
@@ -51,10 +67,15 @@ fs.readdirSync(path)
         0,
         splitIndex > 0 ? splitIndex : word.length
       );
-      const audioUrl = await findAudioURL(trimmedWord);
-      newObject[word] = { ...data[word], audio: audioUrl };
+      const html = await fetch(
+        `https://ordnet.dk/ddo/ordbog?query=${trimmedWord}`
+      );
+      const audioUrl = findAudioURL(html);
+      const wordType = findWordType(html);
+      newObject[word] = { ...data[word], audio: audioUrl, wordType };
       await sleep(500);
     }
 
     fs.writeFileSync(`${path}/${item}`, JSON.stringify(newObject, null, 2));
-  });
+  }
+})();

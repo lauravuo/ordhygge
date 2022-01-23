@@ -3,60 +3,70 @@
     "dk": "nabo, -en",
     "se": "granne",
     "fi": "naapuri",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035211_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035211_1.mp3",
+    "wordType": "substantiv"
   },
   "nederdel, -en": {
     "dk": "nederdel, -en",
     "se": "kjol",
     "fi": "hame",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035652_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035652_1.mp3",
+    "wordType": "substantiv"
   },
   "nem": {
     "dk": "nem",
     "se": "lätt, enkel",
     "fi": "helppo",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035829_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035829_1.mp3",
+    "wordType": "adjektiv"
   },
   "nemlig": {
     "dk": "nemlig",
     "se": "just, precis, nämligen",
     "fi": "juuri niin, nimittäin",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035832_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035832_1.mp3",
+    "wordType": "adverbium"
   },
   "netop": {
     "dk": "netop",
     "se": "just, precis",
     "fi": "juuri niin",
-    "audio": "https://static.ordnet.dk/mp3/11035/11035892_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11035/11035892_1.mp3",
+    "wordType": "adverbium"
   },
   "næppe": {
     "dk": "næppe",
     "se": "knappast",
     "fi": "tuskin",
-    "audio": "https://static.ordnet.dk/mp3/11036/11036498_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11036/11036498_1.mp3",
+    "wordType": "adverbium"
   },
   "nødig": {
     "dk": "nødig",
     "se": "ogärna",
     "fi": "vastahakoisesti",
-    "audio": ""
+    "audio": "",
+    "wordType": "adjektiv"
   },
   "nødt til": {
     "dk": "nødt til",
     "se": "vara tvungen att",
     "fi": "pakko (tehdä jotain)",
-    "audio": ""
+    "audio": "",
+    "wordType": "andet"
   },
   "nøgle, -n": {
     "dk": "nøgle, -n",
     "se": "nyckel",
     "fi": "avain",
-    "audio": "https://static.ordnet.dk/mp3/11036/11036680_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11036/11036680_1.mp3",
+    "wordType": "substantiv"
   },
   "nå": {
     "dk": "nå",
     "se": "hinna",
     "fi": "ehtiä",
-    "audio": "https://static.ordnet.dk/mp3/11036/11036716_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11036/11036717_1.mp3",
+    "wordType": "verbum"
   }
 }

@@ -3,156 +3,182 @@
     "dk": "fag, -et",
     "se": "yrke, fack, ämne",
     "fi": "ammatti, ala, oppiaine",
-    "audio": "https://static.ordnet.dk/mp3/11012/11012093_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11012/11012093_1.mp3",
+    "wordType": "substantiv"
   },
   "ferie, -n": {
     "dk": "ferie, -n",
     "se": "semester",
     "fi": "loma",
-    "audio": "https://static.ordnet.dk/mp3/11012/11012740_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11012/11012740_1.mp3",
+    "wordType": "substantiv"
   },
   "fjernsyn, -et": {
     "dk": "fjernsyn, -et",
     "se": "tv",
     "fi": "televisio",
-    "audio": "https://static.ordnet.dk/mp3/11013/11013367_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11013/11013367_1.mp3",
+    "wordType": "substantiv"
   },
   "flot": {
     "dk": "flot",
     "se": "flott, stilig",
     "fi": "hieno, upea",
-    "audio": "https://static.ordnet.dk/mp3/11013/11013681_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11013/11013681_1.mp3",
+    "wordType": "adjektiv"
   },
   "fløde, -n": {
     "dk": "fløde, -n",
     "se": "grädde",
     "fi": "kerma",
-    "audio": "https://static.ordnet.dk/mp3/11013/11013842_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11013/11013842_1.mp3",
+    "wordType": "substantiv"
   },
   "foran": {
     "dk": "foran",
     "se": "framför",
     "fi": "edessä",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014183_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014183_1.mp3",
+    "wordType": "adverbium"
   },
   "forbavse": {
     "dk": "forbavse",
     "se": "förvåna",
     "fi": "hämmästyttää",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014213_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014213_1.mp3",
+    "wordType": "verbum"
   },
   "fordi": {
     "dk": "fordi",
     "se": "därför att, eftersom",
     "fi": "siksi että, koska",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014339_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014339_1.mp3",
+    "wordType": "andet"
   },
   "forkert": {
     "dk": "forkert",
     "se": "fel",
     "fi": "väärin",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014659_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014659_1.mp3",
+    "wordType": "adjektiv"
   },
   "forkælet": {
     "dk": "forkælet",
     "se": "bortskämd",
     "fi": "hemmoteltu",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014698_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014698_1.mp3",
+    "wordType": "substantiv"
   },
   "forlade": {
     "dk": "forlade",
     "se": "lämna",
     "fi": "jättää, lähteä",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014710_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014710_1.mp3",
+    "wordType": "verbum"
   },
   "forlange": {
     "dk": "forlange",
     "se": "kräva",
     "fi": "vaatia",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014723_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014723_1.mp3",
+    "wordType": "verbum"
   },
   "formand, -en": {
     "dk": "formand, -en",
     "se": "ordförande",
     "fi": "puheenjohtaja",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014793_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014793_1.mp3",
+    "wordType": "substantiv"
   },
   "formål, -et": {
     "dk": "formål, -et",
     "se": "syfte",
     "fi": "tarkoitus",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014885_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014885_1.mp3",
+    "wordType": "substantiv"
   },
   "forretning, -en": {
     "dk": "forretning, -en",
     "se": "affär, butik",
     "fi": "yritys, liike, kauppa",
-    "audio": "https://static.ordnet.dk/mp3/11014/11014983_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11014/11014983_1.mp3",
+    "wordType": "substantiv"
   },
   "forskel, -len": {
     "dk": "forskel, -len",
     "se": "skillnad",
     "fi": "ero",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015073_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015073_1.mp3",
+    "wordType": "substantiv"
   },
   "forskellig": {
     "dk": "forskellig",
     "se": "olik",
     "fi": "erilainen",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015074_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015074_1.mp3",
+    "wordType": "adjektiv"
   },
   "forstyrre": {
     "dk": "forstyrre",
     "se": "störa",
     "fi": "häiritä",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015209_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015209_1.mp3",
+    "wordType": "verbum"
   },
   "fortov, -et": {
     "dk": "fortov, -et",
     "se": "trottoar",
     "fi": "jalkakäytävä",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015356_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015356_1.mp3",
+    "wordType": "substantiv"
   },
   "fortælle": {
     "dk": "fortælle",
     "se": "berätta",
     "fi": "kertoa",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015421_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015421_1.mp3",
+    "wordType": "verbum"
   },
   "forår, -et": {
     "dk": "forår, -et",
     "se": "vår",
     "fi": "kevät",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015579_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015579_1.mp3",
+    "wordType": "substantiv"
   },
   "frakke, -n": {
     "dk": "frakke, -n",
     "se": "jacka, kappa",
     "fi": "takki",
-    "audio": "https://static.ordnet.dk/mp3/11015/11015695_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11015/11015695_1.mp3",
+    "wordType": "substantiv"
   },
   "frokost, -en": {
     "dk": "frokost, -en",
     "se": "lunch",
     "fi": "lounas",
-    "audio": "https://static.ordnet.dk/mp3/11016/11016190_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11016/11016190_1.mp3",
+    "wordType": "substantiv"
   },
   "fyr, -en": {
     "dk": "fyr, -en",
     "se": "kille; pojkvän",
     "fi": "kaveri, heppu; poikaystävä",
-    "audio": "https://static.ordnet.dk/mp3/11016/11016564_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11016/11016564_1.mp3",
+    "wordType": "substantiv"
   },
   "fælles": {
     "dk": "fælles",
     "se": "gemensam",
     "fi": "yhteinen",
-    "audio": "https://static.ordnet.dk/mp3/11016/11016641_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11016/11016641_1.mp3",
+    "wordType": "adjektiv"
   },
   "føle": {
     "dk": "føle",
     "se": "känna",
     "fi": "tuntea",
-    "audio": "https://static.ordnet.dk/mp3/11016/11016822_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11016/11016822_1.mp3",
+    "wordType": "verbum"
   }
 }

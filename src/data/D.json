@@ -3,48 +3,56 @@
     "dk": "da",
     "se": "då, när; därför att, eftersom",
     "fi": "silloin, kun; koska",
-    "audio": ""
+    "audio": "",
+    "wordType": "adverbium"
   },
   "danne": {
     "dk": "danne",
     "se": "bilda",
     "fi": "muodostaa",
-    "audio": "https://static.ordnet.dk/mp3/11008/11008356_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11008/11008356_1.mp3",
+    "wordType": "verbum"
   },
   "De, Dem, Deres": {
     "dk": "De, Dem, Deres",
     "se": "Ni, Er, Er",
     "fi": "Te, Teitä, Teidän",
-    "audio": "https://static.ordnet.dk/mp3/11008/11008485_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11008/11008485_1.mp3",
+    "wordType": "andet"
   },
   "dejlig": {
     "dk": "dejlig",
     "se": "härlig, skön, underbar m.m.",
     "fi": "ihana, kiva, mukava yms.",
-    "audio": "https://static.ordnet.dk/mp3/11008/11008594_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11008/11008594_1.mp3",
+    "wordType": "adjektiv"
   },
   "desværre": {
     "dk": "desværre",
     "se": "tyvärr",
     "fi": "valitettavasti",
-    "audio": "https://static.ordnet.dk/mp3/11008/11008909_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11008/11008909_1.mp3",
+    "wordType": "adverbium"
   },
   "dreje sig om": {
     "dk": "dreje sig om",
     "se": "röra sig om, gälla",
     "fi": "olla kyse jostakin",
-    "audio": ""
+    "audio": "",
+    "wordType": "verbum"
   },
   "dreng, -en": {
     "dk": "dreng, -en",
     "se": "pojke",
     "fi": "poika",
-    "audio": "https://static.ordnet.dk/mp3/11009/11009630_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11009/11009630_1.mp3",
+    "wordType": "substantiv"
   },
   "dyrke": {
     "dk": "dyrke",
     "se": "odla; idka; dyrka",
     "fi": "viljellä; harrastaa; palvoa",
-    "audio": "https://static.ordnet.dk/mp3/11010/11010148_1.mp3"
+    "audio": "https://static.ordnet.dk/mp3/11010/11010148_1.mp3",
+    "wordType": "verbum"
   }
 }

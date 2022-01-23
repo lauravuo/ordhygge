@@ -11,6 +11,7 @@ import L from "./L.json";
 import M from "./M.json";
 import N from "./N.json";
 import O from "./O.json";
+import P from "./P.json";
 import R from "./R.json";
 import S from "./S.json";
 import T from "./T.json";
@@ -34,6 +35,7 @@ export default {
   M,
   N,
   O,
+  P,
   R,
   S,
   T,

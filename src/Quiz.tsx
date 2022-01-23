@@ -40,13 +40,26 @@ const Quiz: Component = ({ setMode, langIndex, langs }) => {
         ],
         []
       );
-    const allWords = Object.keys(model).reduce(
-      (result, letter) => [
-        ...result,
-        ...Object.keys(model[letter]).map((w) => model[letter][w])
-      ],
-      []
-    );
+    const wordsByTypes = Object.keys(model).reduce((result, letter) => {
+      const letterTypes = Object.keys(model[letter]).reduce(
+        (letterResult, w) => {
+          const prevItems = letterResult[model[letter][w].wordType] || [];
+          return {
+            ...letterResult,
+            [model[letter][w].wordType]: [...prevItems, model[letter][w]]
+          };
+        },
+        {}
+      );
+      return Object.keys(letterTypes).reduce((categoryResult, category) => {
+        const prevItems = categoryResult[category] || [];
+        return {
+          ...categoryResult,
+          [category]: [...prevItems, ...letterTypes[category]]
+        };
+      }, result);
+    }, {});
+    console.log(wordsByTypes);
     let questions = [];
     while (testWords.length > 0) {
       const testIndex = Math.floor(Math.random() * testWords.length);
@@ -57,8 +70,13 @@ const Quiz: Component = ({ setMode, langIndex, langs }) => {
       testWords = testWords.filter((w) => w.dk !== question.question.dk);
       let answers = [question.question];
       while (answers.length < 4) {
-        const availableWords = allWords.filter(
-          (word) => !answers.find((answer) => word.dk === answer.dk)
+        // TODO: if answer candidate includes words from the question answer, skip it
+        const availableWords = wordsByTypes[question.question.wordType].filter(
+          (word) =>
+            !answers.find((answer) => word.dk === answer.dk) &&
+            !answers.find(
+              (answer) => answer.fi === word.fi || answer.se === word.se
+            )
         );
         const allIndex = Math.floor(Math.random() * availableWords.length);
         if (Math.floor(Math.random() * 2) === 0) {

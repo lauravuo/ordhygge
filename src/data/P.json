@@ -1,0 +1,44 @@
+{
+  "parat": {
+    "dk": "parat",
+    "se": "redo, klar",
+    "fi": "valmis",
+    "audio": "https://static.ordnet.dk/mp3/11038/11038895_1.mp3",
+    "wordType": "adjektiv"
+  },
+  "pige, -n": {
+    "dk": "pige, -n",
+    "se": "flicka",
+    "fi": "tyttö",
+    "audio": "https://static.ordnet.dk/mp3/11039/11039666_1.mp3",
+    "wordType": "substantiv"
+  },
+  "pleje": {
+    "dk": "pleje",
+    "se": "bruka; vårda",
+    "fi": "olla tapana, hoitaa",
+    "audio": "https://static.ordnet.dk/mp3/11040/11040108_1.mp3",
+    "wordType": "verbum"
+  },
+  "plet, -ten": {
+    "dk": "plet, -ten",
+    "se": "fläck",
+    "fi": "läikkä",
+    "audio": "https://static.ordnet.dk/mp3/11040/11040135_1.mp3",
+    "wordType": "substantiv"
+  },
+  "pæn": {
+    "dk": "pæn",
+    "se": "söt, snygg; anständig; hygglig",
+    "fi": "kaunis, sievä; siisti; kunnon",
+    "audio": "https://static.ordnet.dk/mp3/11041/11041710_1.mp3",
+    "wordType": "adjektiv"
+  },
+  "pølse, -n": {
+    "dk": "pølse, -n",
+    "se": "korv",
+    "fi": "makkara",
+    "audio": "https://static.ordnet.dk/mp3/11041/11041731_1.mp3",
+    "wordType": "substantiv"
+  }
+}
