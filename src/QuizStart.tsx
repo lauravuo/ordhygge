@@ -1,13 +1,22 @@
 import type { Component } from "solid-js";
+import { For } from "solid-js";
 
 import model from "./Words";
 
-const QuizStart: Component = ({
+export interface SelectionData {
+  [key: string]: { selected: boolean; bgColor: string; textColor: string };
+}
+
+interface QuizStartProps {
+  selected: () => SelectionData;
+  setSelected: (selected: SelectionData) => void;
+  start: () => void;
+}
+
+const QuizStart: Component<QuizStartProps> = ({
   selected,
   setSelected,
-  start,
-  langIndex,
-  langs
+  start
 }) => {
   return (
     <div>

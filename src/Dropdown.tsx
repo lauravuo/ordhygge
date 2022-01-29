@@ -1,7 +1,13 @@
 import type { Component } from "solid-js";
-import { createSignal } from "solid-js";
+import { createSignal, For, Show } from "solid-js";
 
-const Dropdown: Component = ({ options, index, setIndex }) => {
+interface DropdownProps {
+  options: { name: string; value: string }[];
+  index: () => number;
+  setIndex: (index: number) => void;
+}
+
+const Dropdown: Component<DropdownProps> = ({ options, index, setIndex }) => {
   const [show, setShow] = createSignal(false);
   return (
     <div class="relative inline-block text-left">
@@ -41,15 +47,15 @@ const Dropdown: Component = ({ options, index, setIndex }) => {
         >
           <div class="py-1" role="none">
             <For each={options}>
-              {(item, index) => (
+              {(item, itemIndex) => (
                 <a
                   href="#"
                   class="text-gray-700 block px-4 py-2 text-xl"
                   role="menuitem"
                   tabindex="-1"
-                  id={`menu-item-${index}`}
+                  id={`menu-item-${itemIndex()}`}
                   onClick={() => {
-                    setIndex(index);
+                    setIndex(itemIndex());
                     setShow(false);
                   }}
                 >

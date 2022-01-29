@@ -1,13 +1,23 @@
 import type { Component } from "solid-js";
 
-import { createSignal } from "solid-js";
+import { createSignal, Show } from "solid-js";
 
 import model from "./Words";
-import QuizStart from "./QuizStart";
-import QuizStep from "./QuizStep";
+import QuizStart, { SelectionData } from "./QuizStart";
+import QuizStep, { Question, ResultRow, Word } from "./QuizStep";
 import QuizEnd from "./QuizEnd";
 
-const Quiz: Component = ({ setMode, langIndex, langs }) => {
+interface QuizProps {
+  setMode: (mode: string) => void;
+  langIndex: () => number;
+  langs: { name: string; value: string }[];
+}
+
+interface WordsByCategory {
+  [key: string]: Word[];
+}
+
+const Quiz: Component<QuizProps> = ({ setMode, langIndex, langs }) => {
   const [selected, setSelected] = createSignal(
     Object.keys(model).reduce(
       (result, item) => ({
@@ -22,53 +32,59 @@ const Quiz: Component = ({ setMode, langIndex, langs }) => {
     )
   );
   const [step, setStep] = createSignal(0);
-  const [questions, setQuestions] = createSignal([]);
-  const [result, setResult] = createSignal([]);
+  const [questions, setQuestions] = createSignal<Question[]>([]);
+  const [result, setResult] = createSignal<ResultRow[]>([]);
 
   const selectedCount = () =>
     Object.keys(model)
-      .filter((item) => selected()[item].selected)
+      .filter((item) => (selected() as SelectionData)[item].selected)
       .reduce((result, item) => result + Object.keys(model[item]).length, 0);
 
   const createQuiz = () => {
-    let testWords = Object.keys(model)
-      .filter((item) => selected()[item].selected)
+    let testWords: Word[] = Object.keys(model)
+      .filter((item) => (selected() as SelectionData)[item].selected)
       .reduce(
-        (result, letter) => [
+        (result: Word[], letter) => [
           ...result,
           ...Object.keys(model[letter]).map((w) => model[letter][w])
         ],
         []
       );
-    const wordsByTypes = Object.keys(model).reduce((result, letter) => {
-      const letterTypes = Object.keys(model[letter]).reduce(
-        (letterResult, w) => {
-          const prevItems = letterResult[model[letter][w].wordType] || [];
-          return {
-            ...letterResult,
-            [model[letter][w].wordType]: [...prevItems, model[letter][w]]
-          };
-        },
-        {}
-      );
-      return Object.keys(letterTypes).reduce((categoryResult, category) => {
-        const prevItems = categoryResult[category] || [];
-        return {
-          ...categoryResult,
-          [category]: [...prevItems, ...letterTypes[category]]
-        };
-      }, result);
-    }, {});
-    console.log(wordsByTypes);
-    let questions = [];
+    const wordsByTypes: WordsByCategory = Object.keys(model).reduce(
+      (result, letter) => {
+        const letterTypes = Object.keys(model[letter]).reduce(
+          (letterResult: WordsByCategory, w) => {
+            const prevItems = letterResult[model[letter][w].wordType] || [];
+            return {
+              ...letterResult,
+              [model[letter][w].wordType]: [...prevItems, model[letter][w]]
+            };
+          },
+          {}
+        );
+        return Object.keys(letterTypes).reduce(
+          (categoryResult: WordsByCategory, category) => {
+            const prevItems = categoryResult[category] || [];
+            return {
+              ...categoryResult,
+              [category]: [...prevItems, ...letterTypes[category]]
+            };
+          },
+          result
+        );
+      },
+      {}
+    );
+
+    const questions: Question[] = [];
     while (testWords.length > 0) {
       const testIndex = Math.floor(Math.random() * testWords.length);
-      let question = {
+      const question: Question = {
         question: testWords[testIndex],
         answers: []
       };
       testWords = testWords.filter((w) => w.dk !== question.question.dk);
-      let answers = [question.question];
+      const answers = [question.question];
       while (answers.length < 4) {
         // TODO: if answer candidate includes words from the question answer, skip it
         const availableWords = wordsByTypes[question.question.wordType].filter(
@@ -129,8 +145,6 @@ const Quiz: Component = ({ setMode, langIndex, langs }) => {
                 selected={selected}
                 setSelected={setSelected}
                 start={createQuiz}
-                langIndex={langIndex}
-                langs={langs}
               />
             }
           >
