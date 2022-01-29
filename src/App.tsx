@@ -1,5 +1,5 @@
 import type { Component } from "solid-js";
-import { createSignal } from "solid-js";
+import { createSignal, Show } from "solid-js";
 
 import List from "./List";
 import Quiz from "./Quiz";

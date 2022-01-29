@@ -15,3 +15,9 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Lint
+        run: npm run test:lint
+
+      - name: Compile
+        run: npm run compile

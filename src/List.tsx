@@ -1,11 +1,22 @@
 import type { Component } from "solid-js";
-
-import { createSignal } from "solid-js";
+import { For } from "solid-js";
 
 import model from "./Words";
 import Dropdown from "./Dropdown";
 
-const List: Component = ({ setMode, langIndex, setLangIndex, langs }) => {
+interface ListProps {
+  setMode: (mode: string) => void;
+  langIndex: () => number;
+  setLangIndex: (index: number) => void;
+  langs: { name: string; value: string }[];
+}
+
+const List: Component<ListProps> = ({
+  setMode,
+  langIndex,
+  setLangIndex,
+  langs
+}) => {
   return (
     <div class="max-w-screen-lg m-auto bg-gray-50 min-h-screen">
       <div>
@@ -56,7 +67,12 @@ const List: Component = ({ setMode, langIndex, setLangIndex, langs }) => {
                                   fill="currentColor"
                                   onClick={() => {
                                     if (model[item][word].audio) {
-                                      document.getElementById(word).play();
+                                      const audioElem = document.getElementById(
+                                        word
+                                      ) as HTMLVideoElement;
+                                      if (audioElem) {
+                                        audioElem.play();
+                                      }
                                     }
                                   }}
                                 >
@@ -79,7 +95,11 @@ const List: Component = ({ setMode, langIndex, setLangIndex, langs }) => {
                             </div>
                             <div class="w-5/12">{word}</div>
                             <div class="w-5/12">
-                              {model[item][word][langs[langIndex()].value]}
+                              {
+                                model[item][word][
+                                  langs[langIndex()].value as "dk" | "fi" | "se"
+                                ]
+                              }
                             </div>
                           </div>
                         )}

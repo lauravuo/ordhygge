@@ -1,6 +1,35 @@
-import { Component, createSignal } from "solid-js";
+import { Component, createSignal, For } from "solid-js";
 
-const QuizStep: Component = ({
+export interface Word {
+  dk: string;
+  fi: string;
+  se: string;
+  wordType: string;
+  audio: string;
+}
+
+export interface Question {
+  question: Word;
+  answers: Word[];
+}
+
+export interface ResultRow {
+  question: Question;
+  answer: Word;
+  correct: boolean;
+}
+
+interface QuizStepProps {
+  questions: () => Question[];
+  step: () => number;
+  setStep: (step: number) => void;
+  result: () => ResultRow[];
+  setResult: (result: ResultRow[]) => void;
+  langIndex: () => number;
+  langs: { name: string; value: string }[];
+}
+
+const QuizStep: Component<QuizStepProps> = ({
   questions,
   step,
   setStep,
@@ -13,7 +42,7 @@ const QuizStep: Component = ({
     questions()[step() - 1].answers.map(() => "bg-transparent")
   );
   const [answered, setAnswered] = createSignal(false);
-  const check = ({ answer, index }) => {
+  const check = ({ answer, index }: { answer: Word; index: number }) => {
     const bgColors = bgColor();
     const correct = answer.dk === questions()[step() - 1].question.dk;
     bgColors[index] = correct ? "bg-green-100" : "bg-red-100";
@@ -44,7 +73,7 @@ const QuizStep: Component = ({
                 } text-indigo-600 py-2 px-2 border border-indigo-600 rounded disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none"`}
                 onClick={() => check({ answer, index: index() })}
               >
-                {answer[langs[langIndex()].value]}
+                {answer[langs[langIndex()].value as "dk" | "fi" | "se"]}
               </button>
             </div>
           )}

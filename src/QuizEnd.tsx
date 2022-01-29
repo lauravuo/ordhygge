@@ -1,6 +1,21 @@
 import type { Component } from "solid-js";
+import { For } from "solid-js";
 
-const QuizEnd: Component = ({ result, setMode, langIndex, langs }) => {
+import { ResultRow } from "./QuizStep";
+
+interface QuizEndProps {
+  result: () => ResultRow[];
+  setMode: (mode: string) => void;
+  langIndex: () => number;
+  langs: { name: string; value: string }[];
+}
+
+const QuizEnd: Component<QuizEndProps> = ({
+  result,
+  setMode,
+  langIndex,
+  langs
+}) => {
   const resText = `${result().reduce(
     (res, item) => (item.correct ? res + 1 : res),
     0
@@ -45,12 +60,20 @@ const QuizEnd: Component = ({ result, setMode, langIndex, langs }) => {
             )}
             <div class="px-6 w-5/12">{item.question.question.dk}</div>
             <div class="w-5/12">
-              {item.question.question[langs[langIndex()].value]}
+              {
+                item.question.question[
+                  langs[langIndex()].value as "dk" | "fi" | "se"
+                ]
+              }
               {!item.correct && (
                 <div class="text-gray-600">
                   (
                   <span class="line-through">
-                    {item.answer[langs[langIndex()].value]}
+                    {
+                      item.answer[
+                        langs[langIndex()].value as "dk" | "fi" | "se"
+                      ]
+                    }
                   </span>
                   )
                 </div>
