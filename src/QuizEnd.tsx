@@ -87,6 +87,7 @@ const QuizEnd: Component<QuizEndProps> = ({
         <button
           class="mt-4 bg-transparent mx-4 hover:bg-indigo-600 text-indigo-600 font-semibold hover:text-white py-2 px-2 border border-indigo-600 hover:border-transparent rounded"
           onClick={() => setMode("list")}
+          id="continue-button"
         >
           Læs mere
         </button>

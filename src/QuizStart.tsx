@@ -29,6 +29,7 @@ const QuizStart: Component<QuizStartProps> = ({
             {(item) => {
               return (
                 <button
+                  id={`${item}-button`}
                   class={`w-12 text-lg ${selected()[item].bgColor} mx-2 my-2  ${
                     selected()[item].textColor
                   } font-semibold py-2 px-2 border border-indigo-600 rounded`}
@@ -66,6 +67,7 @@ const QuizStart: Component<QuizStartProps> = ({
               disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none
               "
           onClick={start}
+          id="start-button"
         >
           Start!
         </button>
