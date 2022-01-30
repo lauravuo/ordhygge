@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "ordhygge",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -11,7 +11,7 @@
     "compile": "tsc",
     "test:e2e": "nightwatch ./e2e"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
