@@ -28,6 +28,7 @@ const List: Component<ListProps> = ({
                 <div>
                   <button
                     class="bg-transparent mx-4 hover:bg-indigo-600 text-indigo-600 font-semibold hover:text-white py-2 px-2 border border-indigo-600 hover:border-transparent rounded"
+                    id="quiz-button"
                     onClick={() => setMode("quiz")}
                   >
                     QUIZ

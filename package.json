@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "ordhygge",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -8,14 +8,17 @@
     "build": "vite build",
     "serve": "vite preview",
     "test:lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
-    "compile": "tsc"
+    "compile": "tsc",
+    "test:e2e": "nightwatch ./e2e"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "autoprefixer": "^10.4.1",
+    "chromedriver": "^97.0.2",
     "eslint": "^8.8.0",
+    "nightwatch": "^2.0.2",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.9",
     "typescript": "^4.5.5",
