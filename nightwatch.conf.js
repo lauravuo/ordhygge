@@ -43,7 +43,16 @@ module.exports = {
       },
 
       desiredCapabilities: {
-        browserName: "chrome"
+        browserName: "chrome",
+        "goog:chromeOptions": {
+          // More info on Chromedriver: https://sites.google.com/a/chromium.org/chromedriver/
+          args: [
+            "--no-sandbox",
+            "--ignore-certificate-errors",
+            "--allow-insecure-localhost",
+            "--headless"
+          ]
+        }
       },
 
       webdriver: {
