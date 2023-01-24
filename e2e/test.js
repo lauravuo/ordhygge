@@ -1,5 +1,5 @@
 describe("Ordhygge", function () {
-  const home = "http://localhost:3000/";
+  const home = "http://localhost:3000/ordhygge/";
 
   it("app loads", function (browser) {
     browser.url(home).assert.textContains("h2", "Ordhygge").end();

@@ -7,5 +7,8 @@ export default defineConfig({
     target: "esnext",
     polyfillDynamicImport: false
   },
-  base: "/ordhygge/"
+  base: "/ordhygge/",
+  server: {
+    port: 3000
+  }
 });
