@@ -1,1 +1,178 @@
-{"Ravn":{"word":"Ravn","audio":"https://static.ordnet.dk/mp3/11042/11042251_1.mp3","wordType":"substantiv","dk":"Ravn","se":"Korp","fi":"Korppi"},"Ride (fugl)":{"word":"Ride (fugl)","audio":"","wordType":"substantiv","dk":"Ride (fugl)","se":"Tretåig mås","fi":"Pikkukajava"},"Ringdrossel":{"word":"Ringdrossel","audio":"","wordType":"substantiv","dk":"Ringdrossel","se":"Ringtrast","fi":"Sepelrastas"},"Ringdue":{"word":"Ringdue","audio":"https://static.ordnet.dk/mp3/11043/11043396_1.mp3","wordType":"substantiv","dk":"Ringdue","se":"Ringduva","fi":"Sepelkyyhky"},"Rosenbrystet tornskade":{"word":"Rosenbrystet tornskade","audio":"","wordType":"substantiv","dk":"Rosenbrystet tornskade","se":"Svartpannad törnskata","fi":"Mustaotsalepinkäinen"},"Rosenstær":{"word":"Rosenstær","audio":"","wordType":"substantiv","dk":"Rosenstær","se":"Rosenstare","fi":"Punakottarainen"},"Rovterne":{"word":"Rovterne","audio":"","wordType":"substantiv","dk":"Rovterne","se":"Skräntärna","fi":"Räyskä"},"Råge":{"word":"Råge","audio":"https://static.ordnet.dk/mp3/11044/11044312_1.mp3","wordType":"substantiv","dk":"Råge","se":"Råka","fi":"Mustavaris"},"Rød glente":{"word":"Rød glente","audio":"","wordType":"substantiv","dk":"Rød glente","se":"Röd glada","fi":"Isohaarahaukka"},"Rødben":{"word":"Rødben","audio":"https://static.ordnet.dk/mp3/11044/11044105_1.mp3","wordType":"substantiv","dk":"Rødben","se":"Rödbena","fi":"Punajalkaviklo"},"Rødhals":{"word":"Rødhals","audio":"https://static.ordnet.dk/mp3/11044/11044123_1.mp3","wordType":"substantiv","dk":"Rødhals","se":"Rödhake","fi":"Punarinta"},"Rødhalset gås":{"word":"Rødhalset gås","audio":"","wordType":"substantiv","dk":"Rødhalset gås","se":"Rödhalsad gås","fi":"Punakaulahanhi"},"Rødhovedet and":{"word":"Rødhovedet and","audio":"","wordType":"substantiv","dk":"Rødhovedet and","se":"Rödhuvad dykand","fi":"Punapäänarsku"},"Rødrygget tornskade":{"word":"Rødrygget tornskade","audio":"","wordType":"substantiv","dk":"Rødrygget tornskade","se":"Törnskata","fi":"Pikkulepinkäinen"},"Rødstjert":{"word":"Rødstjert","audio":"https://static.ordnet.dk/mp3/11044/11044152_1.mp3","wordType":"substantiv","dk":"Rødstjert","se":"Rödstjärt","fi":"Leppälintu"},"Rødstrubet lom":{"word":"Rødstrubet lom","audio":"","wordType":"substantiv","dk":"Rødstrubet lom","se":"Smålom","fi":"Kaakkuri"},"Rødstrubet piber":{"word":"Rødstrubet piber","audio":"","wordType":"substantiv","dk":"Rødstrubet piber","se":"Rödstrupig piplärka","fi":"Lapinkirvinen"},"Rødtoppet fuglekonge":{"word":"Rødtoppet fuglekonge","audio":"","wordType":"substantiv","dk":"Rødtoppet fuglekonge","se":"Brandkronad kungsfågel","fi":"Tulipäähippiäinen"},"Rørdrum":{"word":"Rørdrum","audio":"https://static.ordnet.dk/mp3/11044/11044212_1.mp3","wordType":"substantiv","dk":"Rørdrum","se":"Rördrom","fi":"Kaulushaikara"},"Rørhøg":{"word":"Rørhøg","audio":"https://static.ordnet.dk/mp3/11044/11044222_1.mp3","wordType":"substantiv","dk":"Rørhøg","se":"Brun kärrhök","fi":"Ruskosuohaukka"},"Rørsanger":{"word":"Rørsanger","audio":"https://static.ordnet.dk/mp3/11044/11044229_1.mp3","wordType":"substantiv","dk":"Rørsanger","se":"Rörsångare","fi":"Rytikerttunen"},"Rørspurv":{"word":"Rørspurv","audio":"","wordType":"substantiv","dk":"Rørspurv","se":"Sävsparv","fi":"Pajusirkku"}}
+{
+  "Ravn": {
+    "word": "Ravn",
+    "audio": "https://static.ordnet.dk/mp3/11042/11042251_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Ravn",
+    "se": "Korp",
+    "fi": "Korppi"
+  },
+  "Ride": {
+    "word": "Ride",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Ride",
+    "se": "Tretåig mås",
+    "fi": "Pikkukajava"
+  },
+  "Ringdrossel": {
+    "word": "Ringdrossel",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Ringdrossel",
+    "se": "Ringtrast",
+    "fi": "Sepelrastas"
+  },
+  "Ringdue": {
+    "word": "Ringdue",
+    "audio": "https://static.ordnet.dk/mp3/11043/11043396_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Ringdue",
+    "se": "Ringduva",
+    "fi": "Sepelkyyhky"
+  },
+  "Rosenbrystet tornskade": {
+    "word": "Rosenbrystet tornskade",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rosenbrystet tornskade",
+    "se": "Svartpannad törnskata",
+    "fi": "Mustaotsalepinkäinen"
+  },
+  "Rosenstær": {
+    "word": "Rosenstær",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rosenstær",
+    "se": "Rosenstare",
+    "fi": "Punakottarainen"
+  },
+  "Rovterne": {
+    "word": "Rovterne",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rovterne",
+    "se": "Skräntärna",
+    "fi": "Räyskä"
+  },
+  "Råge": {
+    "word": "Råge",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044312_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Råge",
+    "se": "Råka",
+    "fi": "Mustavaris"
+  },
+  "Rød glente": {
+    "word": "Rød glente",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rød glente",
+    "se": "Röd glada",
+    "fi": "Isohaarahaukka"
+  },
+  "Rødben": {
+    "word": "Rødben",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044105_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rødben",
+    "se": "Rödbena",
+    "fi": "Punajalkaviklo"
+  },
+  "Rødhals": {
+    "word": "Rødhals",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044123_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rødhals",
+    "se": "Rödhake",
+    "fi": "Punarinta"
+  },
+  "Rødhalset gås": {
+    "word": "Rødhalset gås",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rødhalset gås",
+    "se": "Rödhalsad gås",
+    "fi": "Punakaulahanhi"
+  },
+  "Rødhovedet and": {
+    "word": "Rødhovedet and",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rødhovedet and",
+    "se": "Rödhuvad dykand",
+    "fi": "Punapäänarsku"
+  },
+  "Rødrygget tornskade": {
+    "word": "Rødrygget tornskade",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rødrygget tornskade",
+    "se": "Törnskata",
+    "fi": "Pikkulepinkäinen"
+  },
+  "Rødstjert": {
+    "word": "Rødstjert",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044152_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rødstjert",
+    "se": "Rödstjärt",
+    "fi": "Leppälintu"
+  },
+  "Rødstrubet lom": {
+    "word": "Rødstrubet lom",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rødstrubet lom",
+    "se": "Smålom",
+    "fi": "Kaakkuri"
+  },
+  "Rødstrubet piber": {
+    "word": "Rødstrubet piber",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rødstrubet piber",
+    "se": "Rödstrupig piplärka",
+    "fi": "Lapinkirvinen"
+  },
+  "Rødtoppet fuglekonge": {
+    "word": "Rødtoppet fuglekonge",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rødtoppet fuglekonge",
+    "se": "Brandkronad kungsfågel",
+    "fi": "Tulipäähippiäinen"
+  },
+  "Rørdrum": {
+    "word": "Rørdrum",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044212_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rørdrum",
+    "se": "Rördrom",
+    "fi": "Kaulushaikara"
+  },
+  "Rørhøg": {
+    "word": "Rørhøg",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044222_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rørhøg",
+    "se": "Brun kärrhök",
+    "fi": "Ruskosuohaukka"
+  },
+  "Rørsanger": {
+    "word": "Rørsanger",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044229_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rørsanger",
+    "se": "Rörsångare",
+    "fi": "Rytikerttunen"
+  },
+  "Rørspurv": {
+    "word": "Rørspurv",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Rørspurv",
+    "se": "Sävsparv",
+    "fi": "Pajusirkku"
+  }
+}

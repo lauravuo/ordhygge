@@ -1,0 +1,34 @@
+{
+  "Elritse": {
+    "word": "Elritse",
+    "audio": "https://static.ordnet.dk/mp3/11011/11011153_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Elritse",
+    "se": "Elritsa",
+    "fi": "Mutu"
+  },
+  "Europæisk malle": {
+    "word": "Europæisk malle",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Europæisk malle",
+    "se": "Mal",
+    "fi": "Monni"
+  },
+  "Europæisk stør": {
+    "word": "Europæisk stør",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Europæisk stør",
+    "se": "Europeisk stör",
+    "fi": "Sampi"
+  },
+  "Europæisk ål": {
+    "word": "Europæisk ål",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Europæisk ål",
+    "se": "Europeisk ål",
+    "fi": "Ankerias"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Regnbueørred": {
+    "word": "Regnbueørred",
+    "audio": "https://static.ordnet.dk/mp3/11042/11042548_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Regnbueørred",
+    "se": "Regnbåge",
+    "fi": "Kirjolohi"
+  },
+  "Regnløje": {
+    "word": "Regnløje",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Regnløje",
+    "se": "Groplöja",
+    "fi": "Allikkosalakka"
+  },
+  "Rimte": {
+    "word": "Rimte",
+    "audio": "https://static.ordnet.dk/mp3/11043/11043386_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rimte",
+    "se": "Id",
+    "fi": "Säyne"
+  },
+  "Rudskalle": {
+    "word": "Rudskalle",
+    "audio": "https://static.ordnet.dk/mp3/11043/11043731_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rudskalle",
+    "se": "Sarv",
+    "fi": "Sorva"
+  },
+  "Rødspætte": {
+    "word": "Rødspætte",
+    "audio": "https://static.ordnet.dk/mp3/11044/11044149_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Rødspætte",
+    "se": "Rödspätta",
+    "fi": "Punakampela"
+  }
+}

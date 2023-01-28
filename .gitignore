@@ -5,3 +5,4 @@ dist
 src/*.js
 logs/
 tests_output/
+tools/**/*.json

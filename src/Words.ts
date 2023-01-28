@@ -1,7 +1,9 @@
 // @ts-expect-error: no types
-import birdsData from "./data-birds";
+import birds from "./data-birds";
 // @ts-expect-error: no types
-import bookData from "./data-book";
+import book from "./data-book";
+// @ts-expect-error: no types
+import fish from "./data-fish";
 import { Word } from "./QuizStep";
 
 export interface Words {
@@ -13,8 +15,9 @@ interface WordsCollection {
 }
 
 const words: WordsCollection = (() => ({
-  birdsData: birdsData as Words,
-  bookData: bookData as Words
+  birds: birds as Words,
+  book: book as Words,
+  fish: fish as Words
 }))();
 
 export default words;

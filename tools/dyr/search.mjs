@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs'
 
 import { fetch, sleep, findOrdBog } from '../utils.mjs'
 
-const fiBirds = readFileSync('./tools/dyr/data.txt').toString().split('\n')
+const fiBirds = readFileSync('./tools/dyr/data-fish.txt').toString().split('\n')
 
 const fetchData = async (word) => {
   const html = await fetch(`https://fi.wikipedia.org/wiki/${word}`)
@@ -51,5 +51,5 @@ for (let i = 0; i < fiBirds.length; i++) {
   await sleep(500)
 }
 
-writeFileSync('./src/data-animals/birds.json', JSON.stringify(items))
+writeFileSync('./tools/dyr/fish.json', JSON.stringify(items))
 

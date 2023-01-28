@@ -1,4 +1,4 @@
-import words from '../../src/data-animals/birds.json' assert { type: "json" }
+import words from './fish.json' assert { type: "json" }
 import { writeFileSync } from 'fs'
 
 const sortedWords = words.sort((a, b) => a.dk > b.dk ? 1 : -1)
@@ -15,5 +15,5 @@ for (let i = 0; i < sortedWords.length; i++) {
 
 for (let i = 0; i < Object.keys(res).length; i++) {
   const item = Object.keys(res)[i]
-  writeFileSync(`./src/data-birds/${item}.json`, JSON.stringify(res[item]))
+  writeFileSync(`./src/data-fish/${item}.json`, JSON.stringify(res[item]))
 }

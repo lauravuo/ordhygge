@@ -8,7 +8,7 @@ import words from "./Words";
 const App: Component = () => {
   const searchParams = new URLSearchParams(window.location.search);
   // TODO: use router for proper routing
-  const initialPage = searchParams.get("page")?.toString() || "bookData";
+  const initialPage = searchParams.get("page")?.toString() || "book";
 
   const [mode, setMode] = createSignal("list");
   const [wordsType, setWordsType] = createSignal(initialPage);
