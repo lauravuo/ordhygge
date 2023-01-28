@@ -64,12 +64,12 @@ const List: Component<ListProps> = (props) => {
                       </audio>
                     </button>
                   </div>
-                  <div class="w-5/12">{word}</div>
+                  <div class="w-5/12">{word.toLowerCase()}</div>
                   <div class="w-5/12">
                     {
-                      props.model[item][word][
+                      (props.model[item][word][
                         props.langs[props.langIndex()].value as "dk" | "fi" | "se"
-                      ]
+                      ]).toLowerCase()
                     }
                   </div>
                 </div>

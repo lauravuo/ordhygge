@@ -1,0 +1,34 @@
+{
+  "Havbars": {
+    "word": "Havbars",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Havbars",
+    "se": "Havsabborre",
+    "fi": "Meribassi"
+  },
+  "Helt": {
+    "word": "Helt",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Helt",
+    "se": "Sik",
+    "fi": "Siika"
+  },
+  "Hornfisk": {
+    "word": "Hornfisk",
+    "audio": "https://static.ordnet.dk/mp3/11021/11021290_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Hornfisk",
+    "se": "Näbbgädda",
+    "fi": "Nokkakala"
+  },
+  "Hornulk": {
+    "word": "Hornulk",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Hornulk",
+    "se": "Hornsimpa",
+    "fi": "Härkäsimppu"
+  }
+}

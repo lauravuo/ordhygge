@@ -52,20 +52,25 @@ const AppContainer: Component<AppContainerProps> = ({
                 <ul class="flex flex-wrap -mb-px">
                   <li class="mr-2">
                     <button
-                      onClick={() => setWordsType("bookData")}
-                      class={wordsType() === "bookData" ? activePageClass : inactivePageClass}>Bogens ord</button>
+                      onClick={() => setWordsType("book")}
+                      class={wordsType() === "book" ? activePageClass : inactivePageClass}>Bogens ord</button>
                   </li>
                   <li class="mr-2">
                     <button
-                      onClick={() => setWordsType("birdsData")}
-                      class={wordsType() === "birdsData" ? activePageClass : inactivePageClass}>Fugle</button>
+                      onClick={() => setWordsType("fish")}
+                      class={wordsType() === "fish" ? activePageClass : inactivePageClass}>Fisk</button>
+                  </li>
+                  <li class="mr-2">
+                    <button
+                      onClick={() => setWordsType("birds")}
+                      class={wordsType() === "birds" ? activePageClass : inactivePageClass}>Fugle</button>
                   </li>
                 </ul>
               </div>
               <List model={model()} setMode={setMode} setLangIndex={setLangIndex} langIndex={langIndex} langs={langs} />
             </div>
             <div class="text-sm italic text-center">
-            {wordsType() === "bookData" && <div>
+            {wordsType() === "book" && <div>
                 {" "}
                 Ordliste fra{" "}
                 <a

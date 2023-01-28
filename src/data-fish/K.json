@@ -1,0 +1,26 @@
+{
+  "Karpe": {
+    "word": "Karpe",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025487_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Karpe",
+    "se": "Karp",
+    "fi": "Karppi"
+  },
+  "Karusse": {
+    "word": "Karusse",
+    "audio": "https://static.ordnet.dk/mp3/11025/11025546_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Karusse",
+    "se": "Ruda",
+    "fi": "Ruutana"
+  },
+  "Knude": {
+    "word": "Knude",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Knude",
+    "se": "Lake",
+    "fi": "Made"
+  }
+}
