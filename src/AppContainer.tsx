@@ -51,26 +51,26 @@ const AppContainer: Component<AppContainerProps> = ({
               <div class="text-sm font-medium text-gray-500 dark:text-gray-400">
                 <ul class="flex flex-wrap -mb-px">
                   <li class="mr-2">
-                    <button
-                      onClick={() => setWordsType("book")}
-                      class={wordsType() === "book" ? activePageClass : inactivePageClass}>Bogens ord</button>
+                    <a
+                      href="/ordhygge/?page=book"
+                      class={wordsType() === "book" ? activePageClass : inactivePageClass}>Bogens ord</a>
                   </li>
                   <li class="mr-2">
-                    <button
-                      onClick={() => setWordsType("fish")}
-                      class={wordsType() === "fish" ? activePageClass : inactivePageClass}>Fisk</button>
+                    <a
+                      href="/ordhygge/?page=fish"
+                      class={wordsType() === "fish" ? activePageClass : inactivePageClass}>Fisk</a>
                   </li>
                   <li class="mr-2">
-                    <button
-                      onClick={() => setWordsType("birds")}
-                      class={wordsType() === "birds" ? activePageClass : inactivePageClass}>Fugle</button>
+                    <a
+                      href="/ordhygge/?page=birds"
+                      class={wordsType() === "birds" ? activePageClass : inactivePageClass}>Fugle</a>
                   </li>
                 </ul>
               </div>
               <List model={model()} setMode={setMode} setLangIndex={setLangIndex} langIndex={langIndex} langs={langs} />
             </div>
             <div class="text-sm italic text-center">
-            {wordsType() === "book" && <div>
+              {wordsType() === "book" && <div>
                 {" "}
                 Ordliste fra{" "}
                 <a
@@ -82,7 +82,7 @@ const AppContainer: Component<AppContainerProps> = ({
                   Dansk? – Ja, tak!
                 </a>
               </div>}
-              
+
               <div>
                 Udtale fra{" "}
                 <a
