@@ -1,4 +1,4 @@
-import type { Component, children } from "solid-js";
+import type { Component } from "solid-js";
 
 import Dropdown from "./Dropdown";
 import List from "./List"
@@ -53,19 +53,19 @@ const AppContainer: Component<AppContainerProps> = ({
                   <li class="mr-2">
                     <button
                       onClick={() => setWordsType("bookData")}
-                      class={wordsType() === "bookData" ? activePageClass : inactivePageClass}>Ord fra bogen</button>
+                      class={wordsType() === "bookData" ? activePageClass : inactivePageClass}>Bogens ord</button>
                   </li>
                   <li class="mr-2">
                     <button
-                      onClick={() => setWordsType("animalData")}
-                      class={wordsType() === "animalData" ? activePageClass : inactivePageClass}>Dyr</button>
+                      onClick={() => setWordsType("birdsData")}
+                      class={wordsType() === "birdsData" ? activePageClass : inactivePageClass}>Fugle</button>
                   </li>
                 </ul>
               </div>
               <List model={model()} setMode={setMode} setLangIndex={setLangIndex} langIndex={langIndex} langs={langs} />
             </div>
             <div class="text-sm italic text-center">
-              <div>
+            {wordsType() === "bookData" && <div>
                 {" "}
                 Ordliste fra{" "}
                 <a
@@ -76,7 +76,8 @@ const AppContainer: Component<AppContainerProps> = ({
                 >
                   Dansk? – Ja, tak!
                 </a>
-              </div>
+              </div>}
+              
               <div>
                 Udtale fra{" "}
                 <a

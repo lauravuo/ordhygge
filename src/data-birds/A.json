@@ -1,0 +1,82 @@
+{
+  "Aftenfalk": {
+    "word": "Aftenfalk",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Aftenfalk",
+    "se": "Aftonfalk",
+    "fi": "Punajalkahaukka"
+  },
+  "Agerhøne": {
+    "word": "Agerhøne",
+    "audio": "https://static.ordnet.dk/mp3/11000/11000919_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Agerhøne",
+    "se": "Rapphöna",
+    "fi": "Peltopyy"
+  },
+  "Alk": {
+    "word": "Alk",
+    "audio": "https://static.ordnet.dk/mp3/11001/11001267_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Alk",
+    "se": "Tordmule",
+    "fi": "Ruokki"
+  },
+  "Allike": {
+    "word": "Allike",
+    "audio": "https://static.ordnet.dk/mp3/11001/11001354_1.mp3",
+    "wordType": "substantiv",
+    "dk": "Allike",
+    "se": "Kaja",
+    "fi": "Naakka"
+  },
+  "Almindelig kjove": {
+    "word": "Almindelig kjove",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Almindelig kjove",
+    "se": "Kustlabb",
+    "fi": "Merikihu"
+  },
+  "Almindelig ryle": {
+    "word": "Almindelig ryle",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Almindelig ryle",
+    "se": "Kärrsnäppa",
+    "fi": "Suosirri"
+  },
+  "Amerikansk hjejle": {
+    "word": "Amerikansk hjejle",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Amerikansk hjejle",
+    "se": "Amerikansk tundrapipare",
+    "fi": "Amerikankurmitsa"
+  },
+  "Amerikansk krikand": {
+    "word": "Amerikansk krikand",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Amerikansk krikand",
+    "se": "Amerikansk kricka",
+    "fi": "Amerikantavi"
+  },
+  "Atlingand": {
+    "word": "Atlingand",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Atlingand",
+    "se": "Årta",
+    "fi": "Heinätavi"
+  },
+  "Azurmejse": {
+    "word": "Azurmejse",
+    "audio": "",
+    "wordType": "substantiv",
+    "dk": "Azurmejse",
+    "se": "Azurmes",
+    "fi": "Valkopäätiainen"
+  }
+}

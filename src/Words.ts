@@ -1,5 +1,5 @@
 // @ts-expect-error: no types
-import animalData from "./data-animals";
+import birdsData from "./data-birds";
 // @ts-expect-error: no types
 import bookData from "./data-book";
 import { Word } from "./QuizStep";
@@ -13,7 +13,7 @@ interface WordsCollection {
 }
 
 const words: WordsCollection = (() => ({
-  animalData: animalData as Words,
+  birdsData: birdsData as Words,
   bookData: bookData as Words
 }))();
 
