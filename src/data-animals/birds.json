@@ -1,0 +1,30 @@
+{
+  "bird1": {
+    "dk": "åben",
+    "se": "öppen",
+    "fi": "avoin",
+    "audio": "https://static.ordnet.dk/mp3/12008/12008446_1.mp3",
+    "wordType": "adjektiv"
+  },
+  "bird2": {
+    "dk": "alene",
+    "se": "ensam",
+    "fi": "yksin",
+    "audio": "https://static.ordnet.dk/mp3/11001/11001224_1.mp3",
+    "wordType": "adjektiv"
+  },
+  "bird3": {
+    "dk": "alligevel",
+    "se": "ändå",
+    "fi": "kuitenkin",
+    "audio": "https://static.ordnet.dk/mp3/11001/11001353_1.mp3",
+    "wordType": "adjektiv"
+  },
+  "bird4": {
+    "dk": "almindelig",
+    "se": "vanlig",
+    "fi": "tavallinen",
+    "audio": "https://static.ordnet.dk/mp3/11001/11001384_1.mp3",
+    "wordType": "adjektiv"
+  }
+}

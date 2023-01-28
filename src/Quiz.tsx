@@ -2,7 +2,7 @@ import type { Component } from "solid-js";
 
 import { createSignal, Show } from "solid-js";
 
-import model from "./Words";
+import { Words } from "./Words";
 import QuizStart, { SelectionData } from "./QuizStart";
 import QuizStep, { Question, ResultRow, Word } from "./QuizStep";
 import QuizEnd from "./QuizEnd";
@@ -11,15 +11,16 @@ interface QuizProps {
   setMode: (mode: string) => void;
   langIndex: () => number;
   langs: { name: string; value: string }[];
+  model: Words
 }
 
 interface WordsByCategory {
   [key: string]: Word[];
 }
 
-const Quiz: Component<QuizProps> = ({ setMode, langIndex, langs }) => {
+const Quiz: Component<QuizProps> = (props) => {
   const [selected, setSelected] = createSignal(
-    Object.keys(model).reduce(
+    Object.keys(props.model).reduce(
       (result, item) => ({
         ...result,
         [item]: {
@@ -36,28 +37,28 @@ const Quiz: Component<QuizProps> = ({ setMode, langIndex, langs }) => {
   const [result, setResult] = createSignal<ResultRow[]>([]);
 
   const selectedCount = () =>
-    Object.keys(model)
+    Object.keys(props.model)
       .filter((item) => (selected() as SelectionData)[item].selected)
-      .reduce((result, item) => result + Object.keys(model[item]).length, 0);
+      .reduce((result, item) => result + Object.keys(props.model[item]).length, 0);
 
   const createQuiz = () => {
-    let testWords: Word[] = Object.keys(model)
+    let testWords: Word[] = Object.keys(props.model)
       .filter((item) => (selected() as SelectionData)[item].selected)
       .reduce(
         (result: Word[], letter) => [
           ...result,
-          ...Object.keys(model[letter]).map((w) => model[letter][w])
+          ...Object.keys(props.model[letter]).map((w) => props.model[letter][w])
         ],
         []
       );
-    const wordsByTypes: WordsByCategory = Object.keys(model).reduce(
+    const wordsByTypes: WordsByCategory = Object.keys(props.model).reduce(
       (result, letter) => {
-        const letterTypes = Object.keys(model[letter]).reduce(
+        const letterTypes = Object.keys(props.model[letter]).reduce(
           (letterResult: WordsByCategory, w) => {
-            const prevItems = letterResult[model[letter][w].wordType] || [];
+            const prevItems = letterResult[props.model[letter][w].wordType] || [];
             return {
               ...letterResult,
-              [model[letter][w].wordType]: [...prevItems, model[letter][w]]
+              [props.model[letter][w].wordType]: [...prevItems, props.model[letter][w]]
             };
           },
           {}
@@ -120,7 +121,7 @@ const Quiz: Component<QuizProps> = ({ setMode, langIndex, langs }) => {
                 ? `Ordhygge: QUIZ ${step()}/${selectedCount()}`
                 : "Ordhygge: QUIZ resultat"}
             </h2>
-            <button class="text-indigo-600" onClick={() => setMode("list")}>
+            <button class="text-indigo-600" onClick={() => props.setMode("list")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
@@ -145,6 +146,7 @@ const Quiz: Component<QuizProps> = ({ setMode, langIndex, langs }) => {
                 selected={selected}
                 setSelected={setSelected}
                 start={createQuiz}
+                model={props.model}
               />
             }
           >
@@ -153,15 +155,15 @@ const Quiz: Component<QuizProps> = ({ setMode, langIndex, langs }) => {
               fallback={
                 <QuizEnd
                   result={result}
-                  setMode={setMode}
-                  langIndex={langIndex}
-                  langs={langs}
+                  setMode={props.setMode}
+                  langIndex={props.langIndex}
+                  langs={props.langs}
                 />
               }
             >
               <QuizStep
-                langIndex={langIndex}
-                langs={langs}
+                langIndex={props.langIndex}
+                langs={props.langs}
                 questions={questions}
                 step={step}
                 setStep={setStep}
