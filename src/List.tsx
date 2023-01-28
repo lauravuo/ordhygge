@@ -1,6 +1,6 @@
-import type { Accessor, Component } from "solid-js";
+import type { Component } from "solid-js";
 import { For } from "solid-js";
-import words, { Words } from "./Words";
+import { Words } from "./Words";
 
 interface ListProps {
   setMode: (mode: string) => void;
