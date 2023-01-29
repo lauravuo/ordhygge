@@ -20,7 +20,7 @@ const QuizEnd: Component<QuizEndProps> = ({
     (res, item) => (item.correct ? res + 1 : res),
     0
   )}/${result().length}`;
-  console.log(langs[langIndex()]);
+  //console.log(langs[langIndex()]);
   return (
     <div>
       <For each={result()}>
@@ -58,21 +58,21 @@ const QuizEnd: Component<QuizEndProps> = ({
                 />
               </svg>
             )}
-            <div class="px-6 w-5/12">{item.question.question.dk}</div>
+            <div class="px-6 w-5/12">{item.question.question.dk.toLowerCase()}</div>
             <div class="w-5/12">
               {
-                item.question.question[
+                (item.question.question[
                   langs[langIndex()].value as "dk" | "fi" | "se"
-                ]
+                ]).toLowerCase()
               }
               {!item.correct && (
                 <div class="text-gray-600">
                   (
                   <span class="line-through">
                     {
-                      item.answer[
+                      (item.answer[
                         langs[langIndex()].value as "dk" | "fi" | "se"
-                      ]
+                      ]).toLowerCase()
                     }
                   </span>
                   )

@@ -61,7 +61,7 @@ const QuizStep: Component<QuizStepProps> = ({
   };
   return (
     <div class="text-center h-full relative">
-      <h3 class="m-4 text-2xl">{questions()[step() - 1].question.dk}</h3>
+      <h3 class="m-4 text-2xl">{(questions()[step() - 1].question.dk).toLowerCase()}</h3>
       <div>
         <For each={questions()[step() - 1].answers}>
           {(answer, index) => (
@@ -73,7 +73,7 @@ const QuizStep: Component<QuizStepProps> = ({
                 } text-indigo-600 py-2 px-2 border border-indigo-600 rounded disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none"`}
                 onClick={() => check({ answer, index: index() })}
               >
-                {answer[langs[langIndex()].value as "dk" | "fi" | "se"]}
+                {(answer[langs[langIndex()].value as "dk" | "fi" | "se"]).toLowerCase()}
               </button>
             </div>
           )}
