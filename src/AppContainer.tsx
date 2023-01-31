@@ -2,7 +2,7 @@ import type { Component } from "solid-js";
 
 import Dropdown from "./Dropdown";
 import List from "./List"
-import words from "./Words";
+import {Words} from "./Words";
 
 
 interface AppContainerProps {
@@ -11,20 +11,12 @@ interface AppContainerProps {
   setLangIndex: (index: number) => void;
   langs: { name: string; value: string }[];
   wordsType: () => string,
-  setWordsType: (wordsType: string) => void;
+  model: Words;
 }
 
-const AppContainer: Component<AppContainerProps> = ({
-  setMode,
-  langIndex,
-  setLangIndex,
-  wordsType,
-  setWordsType,
-  langs
-}) => {
+const AppContainer: Component<AppContainerProps> = (props) => {
   const inactivePageClass = "inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
   const activePageClass = "inline-block p-4 text-indigo-600 border-b-2 border-indigo-600 rounded-t-lg active dark:text-indigo-500 dark:border-indigo-500"
-  const model = () => words[wordsType()]
   return (
     <div class="max-w-screen-lg m-auto bg-gray-50 min-h-screen">
       <div>
@@ -37,14 +29,14 @@ const AppContainer: Component<AppContainerProps> = ({
                   <button
                     class="bg-transparent mx-4 hover:bg-indigo-600 text-indigo-600 font-semibold hover:text-white py-2 px-2 border border-indigo-600 hover:border-transparent rounded"
                     id="quiz-button"
-                    onClick={() => setMode("quiz")}
+                    onClick={() => props.setMode("quiz")}
                   >
                     QUIZ
                   </button>
                   <Dropdown
-                    index={langIndex}
-                    setIndex={setLangIndex}
-                    options={langs}
+                    index={props.langIndex}
+                    setIndex={props.setLangIndex}
+                    options={props.langs}
                   />
                 </div>
               </div>
@@ -53,24 +45,24 @@ const AppContainer: Component<AppContainerProps> = ({
                   <li class="mr-2">
                     <a
                       href="/ordhygge/?page=book"
-                      class={wordsType() === "book" ? activePageClass : inactivePageClass}>Bogens ord</a>
+                      class={props.wordsType() === "book" ? activePageClass : inactivePageClass}>Bogens ord</a>
                   </li>
                   <li class="mr-2">
                     <a
                       href="/ordhygge/?page=fish"
-                      class={wordsType() === "fish" ? activePageClass : inactivePageClass}>Fisk</a>
+                      class={props.wordsType() === "fish" ? activePageClass : inactivePageClass}>Fisk</a>
                   </li>
                   <li class="mr-2">
                     <a
                       href="/ordhygge/?page=birds"
-                      class={wordsType() === "birds" ? activePageClass : inactivePageClass}>Fugle</a>
+                      class={props.wordsType() === "birds" ? activePageClass : inactivePageClass}>Fugle</a>
                   </li>
                 </ul>
               </div>
-              <List model={model()} setMode={setMode} setLangIndex={setLangIndex} langIndex={langIndex} langs={langs} />
+              <List model={props.model} setMode={props.setMode} setLangIndex={props.setLangIndex} langIndex={props.langIndex} langs={props.langs} />
             </div>
             <div class="text-sm italic text-center">
-              {wordsType() === "book" && <div>
+              {props.wordsType() === "book" && <div>
                 {" "}
                 Ordliste fra{" "}
                 <a
