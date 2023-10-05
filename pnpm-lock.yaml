@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.50.0
     version: 8.50.0
   nightwatch:
-    specifier: ^3.2.0
-    version: 3.2.0(chromedriver@117.0.3)
+    specifier: ^3.2.1
+    version: 3.2.1(chromedriver@117.0.3)
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
@@ -2700,8 +2700,8 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.2.0(chromedriver@117.0.3):
-    resolution: {integrity: sha512-2j7ZWMgvbfFVuCiF8gt5yd+spQaVquxH6mBFHvUol23ytQ5SwuvHU2TWneHn7o5gBTmt0rFdENqs+hIMmURJbg==}
+  /nightwatch@3.2.1(chromedriver@117.0.3):
+    resolution: {integrity: sha512-94IdpTPxuKK8HIT5M3fNClC7MgsAzsFQEOAGzXFQNTRpBSCBGBDvowNCv/ItZscMi4byV8Mj25wPz7m/d17e+g==}
     engines: {node: '>= 16'}
     hasBin: true
     requiresBuild: true
