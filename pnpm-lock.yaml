@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.53.0
     version: 8.53.0
   nightwatch:
-    specifier: ^3.2.1
-    version: 3.2.1(chromedriver@118.0.1)
+    specifier: ^3.3.0
+    version: 3.3.0(chromedriver@118.0.1)
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
@@ -2700,11 +2700,10 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.2.1(chromedriver@118.0.1):
-    resolution: {integrity: sha512-94IdpTPxuKK8HIT5M3fNClC7MgsAzsFQEOAGzXFQNTRpBSCBGBDvowNCv/ItZscMi4byV8Mj25wPz7m/d17e+g==}
+  /nightwatch@3.3.0(chromedriver@118.0.1):
+    resolution: {integrity: sha512-9RzpEe6Y12tm26hzzbimU9WtoHmRjitWH23BdIb5rstuhyJe5d61vO74g/yhaNGdbgFYZla2Hy7YRJjGCeGeyg==}
     engines: {node: '>= 16'}
     hasBin: true
-    requiresBuild: true
     peerDependencies:
       '@cucumber/cucumber': '*'
       chromedriver: '*'
@@ -2752,7 +2751,7 @@ packages:
       open: 8.4.0
       ora: 5.4.1
       piscina: 3.2.0
-      selenium-webdriver: 4.13.0
+      selenium-webdriver: 4.14.0
       semver: 7.5.2
       stacktrace-parser: 0.1.10
       strip-ansi: 6.0.1
@@ -3214,13 +3213,13 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
-  /selenium-webdriver@4.13.0:
-    resolution: {integrity: sha512-8JS0h5E0Sq7gNfbGg8LVaQ+Eqek97tvOONn3Jmy+NiWfb12WYpftz4VTC4D2JT4wakdG6VUzGKpA8cFGg0IjkA==}
+  /selenium-webdriver@4.14.0:
+    resolution: {integrity: sha512-637rs8anqMKHbWxcBZpyG3Gcs+rBUtAUiqk0O/knUqH4Paj3MFUZrz88/pVGOLNryEVy2z92fZomT8p1ENl1gA==}
     engines: {node: '>= 14.20.0'}
     dependencies:
       jszip: 3.10.1
       tmp: 0.2.1
-      ws: 8.13.0
+      ws: 8.14.2
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -3763,6 +3762,19 @@ packages:
 
   /ws@8.13.0:
     resolution: {integrity: sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: true
+
+  /ws@8.14.2:
+    resolution: {integrity: sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
