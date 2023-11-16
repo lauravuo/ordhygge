@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.53.0
     version: 8.53.0
   nightwatch:
-    specifier: ^3.3.1
-    version: 3.3.1(chromedriver@118.0.1)
+    specifier: ^3.3.2
+    version: 3.3.2(chromedriver@118.0.1)
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
@@ -2004,10 +2004,6 @@ packages:
     dev: true
     optional: true
 
-  /function-bind@1.1.1:
-    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
-    dev: true
-
   /function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
     dev: true
@@ -2172,7 +2168,7 @@ packages:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
     engines: {node: '>= 0.4.0'}
     dependencies:
-      function-bind: 1.1.1
+      function-bind: 1.1.2
     dev: true
 
   /hasown@2.0.0:
@@ -2910,8 +2906,8 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.3.1(chromedriver@118.0.1):
-    resolution: {integrity: sha512-d8heDKa2Rdr8VUYB2g46aoIuC8TFeLtkaMQE+volHCBXLANBN8Ben0FwXzKjOU2bsYrvQpMZcH9ekOxr7Shfag==}
+  /nightwatch@3.3.2(chromedriver@118.0.1):
+    resolution: {integrity: sha512-qi/1glgvJjWrtHBm1vQJfLc4XocqfSqJ3E27Rlg8ofeYC5mLBnKqmJg4u268voIUg+4fQkMm0UYKDtF/0Es4Ag==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
