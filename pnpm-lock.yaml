@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.55.0
     version: 8.55.0
   nightwatch:
-    specifier: ^3.3.2
-    version: 3.3.2(chromedriver@119.0.1)
+    specifier: ^3.3.3
+    version: 3.3.3(chromedriver@119.0.1)
   postcss:
     specifier: ^8.4.32
     version: 8.4.32
@@ -943,6 +943,7 @@ packages:
 
   /abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
+    deprecated: Use your platform's native atob() and btoa() methods instead
     dev: true
 
   /acorn-globals@7.0.1:
@@ -1620,6 +1621,7 @@ packages:
   /domexception@4.0.0:
     resolution: {integrity: sha512-A2is4PLG+eeSfoTMA95/s4pvAoSo2mKtiM5jlHkAVewmiO8ISFTFKZjH7UAM1Atli/OT/7JHOrJRJiMKUZKYBw==}
     engines: {node: '>=12'}
+    deprecated: Use your platform's native DOMException instead
     dependencies:
       webidl-conversions: 7.0.0
     dev: true
@@ -2737,6 +2739,7 @@ packages:
 
   /loupe@2.3.4:
     resolution: {integrity: sha512-OvKfgCC2Ndby6aSTREl5aCCPTNIzlDfQZvZxNUrBrihDhL3xcrYegTblhmEiCrg2kKQz4XsFIaemE5BF4ybSaQ==}
+    deprecated: Please upgrade to 2.3.7 which fixes GHSA-4q6p-r6v2-jvc5
     dependencies:
       get-func-name: 2.0.0
     dev: true
@@ -2895,8 +2898,8 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.3.2(chromedriver@119.0.1):
-    resolution: {integrity: sha512-qi/1glgvJjWrtHBm1vQJfLc4XocqfSqJ3E27Rlg8ofeYC5mLBnKqmJg4u268voIUg+4fQkMm0UYKDtF/0Es4Ag==}
+  /nightwatch@3.3.3(chromedriver@119.0.1):
+    resolution: {integrity: sha512-M95DJ4KKe4+wyeJZYrkoiDcDMj45DAfFBr5h+Mkn/tBAO+4dxZyImtnoLG1b2xab14DF3pYICYcIXahyvfwkcg==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
