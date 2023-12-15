@@ -20,14 +20,14 @@ devDependencies:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.32)
   chromedriver:
-    specifier: ^119.0.1
-    version: 119.0.1
+    specifier: ^120.0.0
+    version: 120.0.0
   eslint:
     specifier: ^8.55.0
     version: 8.55.0
   nightwatch:
     specifier: ^3.3.5
-    version: 3.3.5(chromedriver@119.0.1)
+    version: 3.3.5(chromedriver@120.0.0)
   postcss:
     specifier: ^8.4.32
     version: 8.4.32
@@ -1479,11 +1479,11 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
-  /chromedriver@119.0.1:
-    resolution: {integrity: sha512-lpCFFLaXPpvElTaUOWKdP74pFb/sJhWtWqMjn7Ju1YriWn8dT5JBk84BGXMPvZQs70WfCYWecxdMmwfIu1Mupg==}
+  /chromedriver@120.0.0:
+    resolution: {integrity: sha512-LGy2LhWRBiqDarFIU8gQ43EEyj+07Tc3JuUhthkESAwZ99lrifSnKZwKU0aVwansU84+k6bt71z7K3dkk65gZg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -2156,14 +2156,6 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
-
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -3076,7 +3068,7 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.3.5(chromedriver@119.0.1):
+  /nightwatch@3.3.5(chromedriver@120.0.0):
     resolution: {integrity: sha512-TxhW6DIn/W9hiXGaHPe+REQXi5/EkW/6jI17Js+lcVNCACs1XKqUrLDK1AheXoXZ38MSREzMMg/buaybsxUhOA==}
     engines: {node: '>= 16'}
     hasBin: true
@@ -3103,7 +3095,7 @@ packages:
       boxen: 5.1.2
       chai-nightwatch: 0.5.3
       chalk: 4.1.2
-      chromedriver: 119.0.1
+      chromedriver: 120.0.0
       ci-info: 3.3.0
       cli-table3: 0.6.3
       devtools-protocol: 0.0.1140464
