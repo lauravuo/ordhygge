@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.56.0
     version: 8.56.0
   nightwatch:
-    specifier: ^3.3.6
-    version: 3.3.6(chromedriver@120.0.1)
+    specifier: ^3.3.7
+    version: 3.3.7(chromedriver@120.0.1)
   postcss:
     specifier: ^8.4.32
     version: 8.4.32
@@ -1053,7 +1053,7 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.2
+      semver: 7.5.4
       tsutils: 3.21.0(typescript@5.3.3)
       typescript: 5.3.3
     transitivePeerDependencies:
@@ -3068,8 +3068,8 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.3.6(chromedriver@120.0.1):
-    resolution: {integrity: sha512-fINj+qMVYGPyhJVIOktF6Upw3JIxPW03QAvzacS9vSno1ZVDmLvNSdInwM6qFDGhK7Z+UQjPzRKR0IoRsTsV5w==}
+  /nightwatch@3.3.7(chromedriver@120.0.1):
+    resolution: {integrity: sha512-j6nlwPk7OAAvEDQ7F+znrTIu+a76en0xr7aBiPiy3LJrtepJh6vvtgjrDVdxgPpBuVqb/r/1dGwwQH97aF1Crg==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
