@@ -20,14 +20,14 @@ devDependencies:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.33)
   chromedriver:
-    specifier: ^120.0.1
-    version: 120.0.1
+    specifier: ^120.0.2
+    version: 120.0.2
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
   nightwatch:
     specifier: ^3.3.8
-    version: 3.3.8(chromedriver@120.0.1)
+    version: 3.3.8(chromedriver@120.0.2)
   postcss:
     specifier: ^8.4.33
     version: 8.4.33
@@ -1167,8 +1167,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios@1.6.1:
-    resolution: {integrity: sha512-vfBmhDpKafglh0EldBEbVuoe7DyAavGSLWhuSm5ZSEKQnHhBf0xAAwybbNH1IkrJNGnS/VG4I5yxig1pCEXE4g==}
+  /axios@1.6.5:
+    resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
     dependencies:
       follow-redirects: 1.15.4
       form-data: 4.0.0
@@ -1364,14 +1364,14 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chromedriver@120.0.1:
-    resolution: {integrity: sha512-ETTJlkibcAmvoKsaEoq2TFqEsJw18N0O9gOQZX6Uv/XoEiOV8p+IZdidMeIRYELWJIgCZESvlOx5d1QVnB4v0w==}
+  /chromedriver@120.0.2:
+    resolution: {integrity: sha512-A6/feXNWoKzkoUISJs/JAi0iIa+t6vwUnQCgGGFK7L/1r7CrreaRynVgnIliQJRdwY/8F41r6Mt3WDD9QXdV8A==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@testim/chrome-version': 1.1.4
-      axios: 1.6.1
+      axios: 1.6.5
       compare-versions: 6.1.0
       extract-zip: 2.0.1
       https-proxy-agent: 5.0.1
@@ -2947,7 +2947,7 @@ packages:
       axe-core: 4.7.2
     dev: true
 
-  /nightwatch@3.3.8(chromedriver@120.0.1):
+  /nightwatch@3.3.8(chromedriver@120.0.2):
     resolution: {integrity: sha512-SSHDVhXYicmLfF+W9RplpFSp9xrd5FomHqZUBfdDnQcqm6uPDNnOaKHj1rxh99aJ95JNFiWmRj4G3gLzXSu5Bg==}
     engines: {node: '>= 16'}
     hasBin: true
@@ -2974,7 +2974,7 @@ packages:
       boxen: 5.1.2
       chai-nightwatch: 0.5.3
       chalk: 4.1.2
-      chromedriver: 120.0.1
+      chromedriver: 120.0.2
       ci-info: 3.3.0
       cli-table3: 0.6.3
       devtools-protocol: 0.0.1140464
