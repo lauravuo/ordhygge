@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.56.0
     version: 8.56.0
   nightwatch:
-    specifier: ^3.4.0
-    version: 3.4.0(chromedriver@121.0.1)
+    specifier: ^3.4.1
+    version: 3.4.1(chromedriver@121.0.1)
   postcss:
     specifier: ^8.4.35
     version: 8.4.35
@@ -70,10 +70,6 @@ packages:
       bidi-js: 1.0.3
       css-tree: 2.3.1
       is-potential-custom-element-name: 1.0.1
-    dev: true
-
-  /@assemblyscript/loader@0.10.1:
-    resolution: {integrity: sha512-H71nDOOL8Y7kWRLqf6Sums+01Q5msqBW2KhDUTemh1tvY04eSkSXrK0uj/4mmY0Xr16/3zyZmsrxN7CKuRbNRg==}
     dev: true
 
   /@babel/code-frame@7.23.5:
@@ -1830,10 +1826,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /eventemitter-asyncresource@1.0.0:
-    resolution: {integrity: sha512-39F7TBIV0G7gTelxwbEqnwhp90eqCPON1k0NwNfwhgKn4Co4ybUbj2pECcXT0B3ztRKZ7Pw1JujUUgmQJHcVAQ==}
-    dev: true
-
   /extract-zip@2.0.1:
     resolution: {integrity: sha512-GDhU9ntwuKyGXdZBUgTIe+vXnWj0fppUEtMDL0+idd5Sta8TGpHssn/eusA9mrPr9qNDym6SxAYZjNvCn/9RBg==}
     engines: {node: '>= 10.17.0'}
@@ -2145,18 +2137,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
-    dev: true
-
-  /hdr-histogram-js@2.0.3:
-    resolution: {integrity: sha512-Hkn78wwzWHNCp2uarhzQ2SGFLU3JY8SBDDd3TAABK4fc30wm+MuPOrg5QVFVfkKOQd6Bfz3ukJEI+q9sXEkK1g==}
-    dependencies:
-      '@assemblyscript/loader': 0.10.1
-      base64-js: 1.5.1
-      pako: 1.0.11
-    dev: true
-
-  /hdr-histogram-percentiles-obj@3.0.0:
-    resolution: {integrity: sha512-7kIufnBqdsBGcSZLPJwqHT3yhk1QTsSlFsVD3kx5ixH/AlgBs9yM1q6DPhXZ8f8gtdqgh7N7/5btRLpQsS2gHw==}
     dev: true
 
   /he@1.2.0:
@@ -2797,8 +2777,8 @@ packages:
       axe-core: 4.8.3
     dev: true
 
-  /nightwatch@3.4.0(chromedriver@121.0.1):
-    resolution: {integrity: sha512-/i6zo2HrAs1sXUqXqKpdV1e7OeeafZNfR69N+qZr25imC2+m91OgN4JNRDEmWNVtGGH+RcnpO4MPdvdGivvthA==}
+  /nightwatch@3.4.1(chromedriver@121.0.1):
+    resolution: {integrity: sha512-IbrlmCmid+4qC85c7DHJWdqNDKB2O0qklxrWIDh+32/XXXJSuZ/Da/STFC2x60s5rENGUGk43G/fheULwlT7Hw==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -2841,7 +2821,7 @@ packages:
       nightwatch-axe-verbose: 2.3.0
       open: 8.4.2
       ora: 5.4.1
-      piscina: 3.2.0
+      piscina: 4.3.2
       selenium-webdriver: 4.16.0
       semver: 7.5.4
       stacktrace-parser: 0.1.10
@@ -3050,12 +3030,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /piscina@3.2.0:
-    resolution: {integrity: sha512-yn/jMdHRw+q2ZJhFhyqsmANcbF6V2QwmD84c6xRau+QpQOmtrBCoRGdvTfeuFDYXB5W2m6MfLkjkvQa9lUSmIA==}
-    dependencies:
-      eventemitter-asyncresource: 1.0.0
-      hdr-histogram-js: 2.0.3
-      hdr-histogram-percentiles-obj: 3.0.0
+  /piscina@4.3.2:
+    resolution: {integrity: sha512-aXPak3A1LgbfDFrsmgYhQS4J7ElHRFL7iUkUqaiLNDRE69YQSFGqIZiHaXOH4NyC6EdD+awZVeE7MG0zVm9L4Q==}
     optionalDependencies:
       nice-napi: 1.0.2
     dev: true
