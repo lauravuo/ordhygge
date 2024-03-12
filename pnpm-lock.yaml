@@ -20,14 +20,14 @@ devDependencies:
     specifier: ^10.4.18
     version: 10.4.18(postcss@8.4.35)
   chromedriver:
-    specifier: ^122.0.4
-    version: 122.0.4
+    specifier: ^122.0.5
+    version: 122.0.5
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
   nightwatch:
     specifier: ^3.4.1
-    version: 3.4.1(chromedriver@122.0.4)
+    version: 3.4.1(chromedriver@122.0.5)
   postcss:
     specifier: ^8.4.35
     version: 8.4.35
@@ -1332,8 +1332,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chromedriver@122.0.4:
-    resolution: {integrity: sha512-MxkaWaxCqefHyh9UorGzl1F6ZNBgC7pqgT0piAysLZdw20ojSgJ62ljG8SFbhDJqBTegKbmuioa6MQ1m4Czdsg==}
+  /chromedriver@122.0.5:
+    resolution: {integrity: sha512-5WkCY4ioJZ1Qna6KWqPSrIz1MwGh6tHW7F67XTSbZn/GaMJrpiuy6b5c1BetrddSax+NX8u4tg4l3Wy1THecLQ==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -2234,28 +2234,8 @@ packages:
     resolution: {integrity: sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==}
     dev: true
 
-  /http-proxy-agent@7.0.0:
-    resolution: {integrity: sha512-+ZT+iBxVUQ1asugqnD6oWoRiS25AkjNfG085dKJGtGxkdwLQrMKU5wJr2bOOFAXzKcTuqq+7fZlTMgG3SRfIYQ==}
-    engines: {node: '>= 14'}
-    dependencies:
-      agent-base: 7.1.0
-      debug: 4.3.4(supports-color@8.1.1)
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /http-proxy-agent@7.0.2:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
-    engines: {node: '>= 14'}
-    dependencies:
-      agent-base: 7.1.0
-      debug: 4.3.4(supports-color@8.1.1)
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /https-proxy-agent@7.0.2:
-    resolution: {integrity: sha512-NmLNjm6ucYwtcUmL7JQC1ZQ57LmHP4lT15FQ8D61nak1rO6DH+fz5qNK2Ap5UN4ZapYICE3/0KodcLYSPsPbaA==}
     engines: {node: '>= 14'}
     dependencies:
       agent-base: 7.1.0
@@ -2591,8 +2571,8 @@ packages:
       decimal.js: 10.4.3
       form-data: 4.0.0
       html-encoding-sniffer: 4.0.0
-      http-proxy-agent: 7.0.0
-      https-proxy-agent: 7.0.2
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.4
       is-potential-custom-element-name: 1.0.1
       parse5: 7.1.2
       rrweb-cssom: 0.6.0
@@ -2896,7 +2876,7 @@ packages:
       axe-core: 4.8.3
     dev: true
 
-  /nightwatch@3.4.1(chromedriver@122.0.4):
+  /nightwatch@3.4.1(chromedriver@122.0.5):
     resolution: {integrity: sha512-IbrlmCmid+4qC85c7DHJWdqNDKB2O0qklxrWIDh+32/XXXJSuZ/Da/STFC2x60s5rENGUGk43G/fheULwlT7Hw==}
     engines: {node: '>= 16'}
     hasBin: true
@@ -2923,7 +2903,7 @@ packages:
       boxen: 5.1.2
       chai-nightwatch: 0.5.3
       chalk: 4.1.2
-      chromedriver: 122.0.4
+      chromedriver: 122.0.5
       ci-info: 3.3.0
       cli-table3: 0.6.3
       devtools-protocol: 0.0.1140464
