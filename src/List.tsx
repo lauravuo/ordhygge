@@ -30,22 +30,22 @@ const List: Component<ListProps> = (props) => {
                                   hover:text-white py-2 px-2 border border-indigo-600 hover:border-transparent
                                   rounded
                                   disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none"
+                      onClick={() => {
+                        if (props.model[item][word].audio) {
+                          const audioElem = document.getElementById(
+                            word
+                          ) as HTMLVideoElement;
+                          if (audioElem) {
+                            audioElem.play();
+                          }
+                        }
+                      }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
                         viewBox="0 0 20 20"
                         fill="currentColor"
-                        onClick={() => {
-                          if (props.model[item][word].audio) {
-                            const audioElem = document.getElementById(
-                              word
-                            ) as HTMLVideoElement;
-                            if (audioElem) {
-                              audioElem.play();
-                            }
-                          }
-                        }}
                       >
                         <path
                           fill-rule="evenodd"
