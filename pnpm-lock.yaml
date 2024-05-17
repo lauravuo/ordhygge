@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.57.0
     version: 8.57.0
   nightwatch:
-    specifier: ^3.6.2
-    version: 3.6.2(chromedriver@124.0.3)
+    specifier: ^3.6.3
+    version: 3.6.3(chromedriver@124.0.3)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -2864,8 +2864,8 @@ packages:
       axe-core: 4.8.3
     dev: true
 
-  /nightwatch@3.6.2(chromedriver@124.0.3):
-    resolution: {integrity: sha512-tZmEtHovzdycGtCF1299W3wABcqirXCEgKR1w+2dU+lwsTt0ujNlM6FdPy5FJJRnYNu/Hfal8wDiXP0PuI78xw==}
+  /nightwatch@3.6.3(chromedriver@124.0.3):
+    resolution: {integrity: sha512-Md+Tz9SBNZ8cVzaRyhzzfKf06t/qE5609QMQ2vEciLwDiDkQPsTU6XZGypwldMxx05wu4UcPvDZnP7NZXlZilw==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -2909,7 +2909,7 @@ packages:
       open: 8.4.2
       ora: 5.4.1
       piscina: 4.3.2
-      selenium-webdriver: 4.20.0
+      selenium-webdriver: 4.21.0
       semver: 7.5.4
       stacktrace-parser: 0.1.10
       strip-ansi: 6.0.1
@@ -3425,9 +3425,9 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
-  /selenium-webdriver@4.20.0:
-    resolution: {integrity: sha512-s/G44lGQ1xB3tmtX6NNPomlkpL6CxLdmAvp/AGWWwi4qv5Te1+qji7tPSyr6gyuoPpdYiof1rKnWe3luy0MrYA==}
-    engines: {node: '>= 14.20.0'}
+  /selenium-webdriver@4.21.0:
+    resolution: {integrity: sha512-WaEJHZjOWNth1QG5FEpxpREER0qptZBMonFU6GtAqdCNLJVxbtC3E7oS/I/+Q1sf1W032Wg0Ebk+m46lANOXyQ==}
+    engines: {node: '>= 14.21.0'}
     dependencies:
       jszip: 3.10.1
       tmp: 0.2.3
