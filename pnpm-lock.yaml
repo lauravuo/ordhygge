@@ -20,14 +20,14 @@ devDependencies:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
   chromedriver:
-    specifier: ^125.0.3
-    version: 125.0.3
+    specifier: ^126.0.0
+    version: 126.0.0
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
   nightwatch:
     specifier: ^3.6.3
-    version: 3.6.3(chromedriver@125.0.3)
+    version: 3.6.3(chromedriver@126.0.0)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -1330,8 +1330,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chromedriver@125.0.3:
-    resolution: {integrity: sha512-Qzuk5Wian2o3EVGjtbz6V/jv+pT/AV9246HbG6kUljZXXjsKZLZxqJC+kHR3qEh/wdv4EJD0YwAOWV72v9hogw==}
+  /chromedriver@126.0.0:
+    resolution: {integrity: sha512-rzwKp1okI9RmFtSyIzkk9+GTlTK62ai5P3/AS2qMwl86+gw84d2S/IyLkQMm5cqieFs4dgDAuqqPu0AqQACScg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -2866,7 +2866,7 @@ packages:
       axe-core: 4.8.3
     dev: true
 
-  /nightwatch@3.6.3(chromedriver@125.0.3):
+  /nightwatch@3.6.3(chromedriver@126.0.0):
     resolution: {integrity: sha512-Md+Tz9SBNZ8cVzaRyhzzfKf06t/qE5609QMQ2vEciLwDiDkQPsTU6XZGypwldMxx05wu4UcPvDZnP7NZXlZilw==}
     engines: {node: '>= 16'}
     hasBin: true
@@ -2893,7 +2893,7 @@ packages:
       boxen: 5.1.2
       chai-nightwatch: 0.5.3
       chalk: 4.1.2
-      chromedriver: 125.0.3
+      chromedriver: 126.0.0
       ci-info: 3.3.0
       cli-table3: 0.6.3
       devtools-protocol: 0.0.1140464
