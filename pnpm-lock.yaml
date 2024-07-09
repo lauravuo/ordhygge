@@ -28,8 +28,8 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       nightwatch:
-        specifier: ^3.6.3
-        version: 3.6.3(chromedriver@126.0.4)
+        specifier: ^3.6.4
+        version: 3.6.4(chromedriver@126.0.4)
       postcss:
         specifier: ^8.4.39
         version: 8.4.39
@@ -1600,8 +1600,8 @@ packages:
   nightwatch-axe-verbose@2.3.0:
     resolution: {integrity: sha512-IC29PLvYrbbKRdIU/NJaxk/UvTmQ5EiNN08UnCWyImpzV0Y7tE1CYchrvFTaHXBZkkZTQC3uHTeHF/41mvK8eQ==}
 
-  nightwatch@3.6.3:
-    resolution: {integrity: sha512-Md+Tz9SBNZ8cVzaRyhzzfKf06t/qE5609QMQ2vEciLwDiDkQPsTU6XZGypwldMxx05wu4UcPvDZnP7NZXlZilw==}
+  nightwatch@3.6.4:
+    resolution: {integrity: sha512-J16ZTK41YK9gyuQNkN9KnnvYQnRUC9Refx7L+AKNayzF9I81X1GhxUETDq553TGHWzw19X1oA1lKnQ2uWCorPg==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -1909,11 +1909,6 @@ packages:
 
   semver@7.5.1:
     resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
-    engines: {node: '>=10'}
-    hasBin: true
-
-  semver@7.5.2:
-    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2780,7 +2775,7 @@ snapshots:
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.3)
       eslint: 8.57.0
       eslint-scope: 5.1.1
-      semver: 7.5.2
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3933,7 +3928,7 @@ snapshots:
     dependencies:
       axe-core: 4.8.3
 
-  nightwatch@3.6.3(chromedriver@126.0.4):
+  nightwatch@3.6.4(chromedriver@126.0.4):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -4287,10 +4282,6 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.5.1:
-    dependencies:
-      lru-cache: 6.0.0
-
-  semver@7.5.2:
     dependencies:
       lru-cache: 6.0.0
 
