@@ -649,8 +649,8 @@ packages:
     resolution: {integrity: sha512-d5ZQHPSPkF9Tw+yfyDcRoUOc4g/8UloJJe5J8m4L5+c7AtDdjDLRxew/knnI4CxvtdxEUVgWz4x3OIQUIFiMfw==}
     engines: {node: '>=4'}
 
-  axios@1.6.7:
-    resolution: {integrity: sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==}
+  axios@1.7.4:
+    resolution: {integrity: sha512-DukmaFRnY6AzAALSH4J2M3k6PkaC+MfaAGdEERRWcC9q3/TWQwLpHR8ZRLKTdQ3aBDL64EdluRDjJqKw+BPZEw==}
 
   babel-plugin-jsx-dom-expressions@0.37.9:
     resolution: {integrity: sha512-6w+zs2i14fVanj4e1hXCU5cp+x0U0LJ5jScknpMZZUteHhwFRGJflHMVJ+xAcW7ku41FYjr7DgtK9mnc2SXlJg==}
@@ -2902,7 +2902,7 @@ snapshots:
 
   axe-core@4.8.3: {}
 
-  axios@1.6.7:
+  axios@1.7.4:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -3033,7 +3033,7 @@ snapshots:
   chromedriver@127.0.2:
     dependencies:
       '@testim/chrome-version': 1.1.4
-      axios: 1.6.7
+      axios: 1.7.4
       compare-versions: 6.1.0
       extract-zip: 2.0.1
       proxy-agent: 6.4.0
