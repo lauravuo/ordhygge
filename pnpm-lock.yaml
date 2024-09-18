@@ -28,8 +28,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       nightwatch:
-        specifier: ^3.7.0
-        version: 3.7.0(chromedriver@128.0.3)
+        specifier: ^3.8.0
+        version: 3.8.0(chromedriver@128.0.3)
       postcss:
         specifier: ^8.4.47
         version: 8.4.47
@@ -160,6 +160,9 @@ packages:
   '@babel/types@7.23.6':
     resolution: {integrity: sha512-+uarb83brBzPKN38NX1MkB6vb6+mwvR6amUulqAE7ccQw1pEl+bCia9TbdG1lsnFP7lZySvUn37CHyXQdfTwzg==}
     engines: {node: '>=6.9.0'}
+
+  '@bazel/runfiles@5.8.1':
+    resolution: {integrity: sha512-NDdfpdQ6rZlylgv++iMn5FkObC/QlBQvipinGLSOguTYpRywmieOyJ29XHvUilspwTFSILWpoE9CqMGkHXug1g==}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -989,10 +992,6 @@ packages:
     engines: {node: '>=12'}
     hasBin: true
 
-  escalade@3.1.1:
-    resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
-    engines: {node: '>=6'}
-
   escalade@3.1.2:
     resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
     engines: {node: '>=6'}
@@ -1617,8 +1616,8 @@ packages:
   nightwatch-axe-verbose@2.3.0:
     resolution: {integrity: sha512-IC29PLvYrbbKRdIU/NJaxk/UvTmQ5EiNN08UnCWyImpzV0Y7tE1CYchrvFTaHXBZkkZTQC3uHTeHF/41mvK8eQ==}
 
-  nightwatch@3.7.0:
-    resolution: {integrity: sha512-KtMXBbs3eEdPDZ7fuKmk+upBD0IT8u9XVikigJQFjHKKpWfKQSXDXZ4umIT6OM6yWLnGwvab7PwZp2xfdmZPww==}
+  nightwatch@3.8.0:
+    resolution: {integrity: sha512-aO2u05Tbc+RIfUESa0k+3SKByxoiOKDqTiJWk/B5GU//ZfhJE/EYT+NKB/drkKRUAh8tvD3O47aPWTXTAwaqZA==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -1921,8 +1920,8 @@ packages:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
 
-  selenium-webdriver@4.22.0:
-    resolution: {integrity: sha512-GNbrkCHmy249ai885wgXqTfqL2lZnclUH/P8pwTDIqzyFxU3YhDiN7p/c9tMFA4NhgRdEBO2QCG+CWmG7xr/Mw==}
+  selenium-webdriver@4.24.1:
+    resolution: {integrity: sha512-fcK5BTI/54cSqIhiVtrd9li1YL6LW109yIwuVw6V+FlVE6y4riGiX2qdZxVzHq+sm2TJyps+D2sjzXrpDZe1Og==}
     engines: {node: '>= 14.21.0'}
 
   semver@6.3.1:
@@ -2293,6 +2292,18 @@ packages:
       utf-8-validate:
         optional: true
 
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
   xml-name-validator@5.0.0:
     resolution: {integrity: sha512-EvGK8EJ3DhaHfbRlETOWAS5pO9MZITeauHKJyb8wyajUfQUenkIg2MvLDTZ4T/TgIcm3HU0TFBgWWboAZ30UHg==}
     engines: {node: '>=18'}
@@ -2483,6 +2494,8 @@ snapshots:
       '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+
+  '@bazel/runfiles@5.8.1': {}
 
   '@colors/colors@1.5.0':
     optional: true
@@ -3298,8 +3311,6 @@ snapshots:
       '@esbuild/win32-ia32': 0.21.5
       '@esbuild/win32-x64': 0.21.5
 
-  escalade@3.1.1: {}
-
   escalade@3.1.2: {}
 
   escape-string-regexp@1.0.5: {}
@@ -3964,7 +3975,7 @@ snapshots:
     dependencies:
       axe-core: 4.8.3
 
-  nightwatch@3.7.0(chromedriver@128.0.3):
+  nightwatch@3.8.0(chromedriver@128.0.3):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -3994,7 +4005,7 @@ snapshots:
       open: 8.4.2
       ora: 5.4.1
       piscina: 4.3.2
-      selenium-webdriver: 4.22.0
+      selenium-webdriver: 4.24.1
       semver: 7.5.4
       stacktrace-parser: 0.1.10
       strip-ansi: 6.0.1
@@ -4313,11 +4324,12 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  selenium-webdriver@4.22.0:
+  selenium-webdriver@4.24.1:
     dependencies:
+      '@bazel/runfiles': 5.8.1
       jszip: 3.10.1
       tmp: 0.2.3
-      ws: 8.17.1
+      ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4565,7 +4577,7 @@ snapshots:
   update-browserslist-db@1.0.13(browserslist@4.23.0):
     dependencies:
       browserslist: 4.23.0
-      escalade: 3.1.1
+      escalade: 3.1.2
       picocolors: 1.1.0
 
   update-browserslist-db@1.1.0(browserslist@4.23.3):
@@ -4679,6 +4691,8 @@ snapshots:
 
   ws@8.17.1: {}
 
+  ws@8.18.0: {}
+
   xml-name-validator@5.0.0: {}
 
   xmlchars@2.2.0: {}
@@ -4703,7 +4717,7 @@ snapshots:
   yargs@16.2.0:
     dependencies:
       cliui: 7.0.4
-      escalade: 3.1.1
+      escalade: 3.1.2
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
