@@ -28,8 +28,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       nightwatch:
-        specifier: ^3.8.0
-        version: 3.8.0(chromedriver@129.0.4)
+        specifier: ^3.8.1
+        version: 3.8.1(chromedriver@129.0.4)
       postcss:
         specifier: ^8.4.47
         version: 8.4.47
@@ -1617,8 +1617,8 @@ packages:
   nightwatch-axe-verbose@2.3.0:
     resolution: {integrity: sha512-IC29PLvYrbbKRdIU/NJaxk/UvTmQ5EiNN08UnCWyImpzV0Y7tE1CYchrvFTaHXBZkkZTQC3uHTeHF/41mvK8eQ==}
 
-  nightwatch@3.8.0:
-    resolution: {integrity: sha512-aO2u05Tbc+RIfUESa0k+3SKByxoiOKDqTiJWk/B5GU//ZfhJE/EYT+NKB/drkKRUAh8tvD3O47aPWTXTAwaqZA==}
+  nightwatch@3.8.1:
+    resolution: {integrity: sha512-M+7uXE2JKOXk5IEIT4xru3EZwqh/bzvpEejmVke7UyV2W8z3BZUOWEStr4FLQc9WItn5vbb5FkU3AK1dNRAx9g==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -2280,18 +2280,6 @@ packages:
 
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
-
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
 
   ws@8.18.0:
     resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
@@ -3810,7 +3798,7 @@ snapshots:
       whatwg-encoding: 3.1.1
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.0.0
-      ws: 8.17.1
+      ws: 8.18.0
       xml-name-validator: 5.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -3976,7 +3964,7 @@ snapshots:
     dependencies:
       axe-core: 4.8.3
 
-  nightwatch@3.8.0(chromedriver@129.0.4):
+  nightwatch@3.8.1(chromedriver@129.0.4):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -4689,8 +4677,6 @@ snapshots:
       strip-ansi: 6.0.1
 
   wrappy@1.0.2: {}
-
-  ws@8.17.1: {}
 
   ws@8.18.0: {}
 
