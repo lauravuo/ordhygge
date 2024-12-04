@@ -22,14 +22,14 @@ importers:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       chromedriver:
-        specifier: ^131.0.1
-        version: 131.0.1
+        specifier: ^131.0.2
+        version: 131.0.2
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
       nightwatch:
         specifier: ^3.9.0
-        version: 3.9.0(chromedriver@131.0.1)
+        version: 3.9.0(chromedriver@131.0.2)
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -782,8 +782,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  chromedriver@131.0.1:
-    resolution: {integrity: sha512-LHRh+oaNU1WowJjAkWsviN8pTzQYJDbv/FvJyrQ7XhjKdIzVh/s3GV1iU7IjMTsxIQnBsTjx+9jWjzCWIXC7ug==}
+  chromedriver@131.0.2:
+    resolution: {integrity: sha512-Z3oZmleJP3UEBKCz7XLZoZSbYRnApFmUL4GGmLHxw/NJqcZpEnCNFlwdVKuRlntCPxgdfvYInQCPmZxXyrGE+w==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3123,7 +3123,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chromedriver@131.0.1:
+  chromedriver@131.0.2:
     dependencies:
       '@testim/chrome-version': 1.1.4
       axios: 1.7.4
@@ -4045,7 +4045,7 @@ snapshots:
     dependencies:
       axe-core: 4.8.3
 
-  nightwatch@3.9.0(chromedriver@131.0.1):
+  nightwatch@3.9.0(chromedriver@131.0.2):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -4082,7 +4082,7 @@ snapshots:
       untildify: 4.0.0
       uuid: 8.3.2
     optionalDependencies:
-      chromedriver: 131.0.1
+      chromedriver: 131.0.2
     transitivePeerDependencies:
       - bufferutil
       - canvas
