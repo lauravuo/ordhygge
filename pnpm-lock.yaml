@@ -28,8 +28,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       nightwatch:
-        specifier: ^3.9.0
-        version: 3.9.0(chromedriver@131.0.4)
+        specifier: ^3.10.0
+        version: 3.10.0(chromedriver@131.0.4)
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -1647,8 +1647,8 @@ packages:
   nightwatch-axe-verbose@2.3.0:
     resolution: {integrity: sha512-IC29PLvYrbbKRdIU/NJaxk/UvTmQ5EiNN08UnCWyImpzV0Y7tE1CYchrvFTaHXBZkkZTQC3uHTeHF/41mvK8eQ==}
 
-  nightwatch@3.9.0:
-    resolution: {integrity: sha512-SIkcvRXtGtPy33fodtZC4xDUXKY444dfYvyiODB2sP1M4Ewt7KqE+cxdPuGY0qr+Hsb982KhOnjDUjhSSaX+AA==}
+  nightwatch@3.10.0:
+    resolution: {integrity: sha512-7FIYCZs9/1tLzH30Snaf2d70EJqm7UybDAdqeOfF69VG47L3zxTCH8eHurJgoB2dFw66GGWmYin8Y4Z9oqKzjA==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -1955,8 +1955,8 @@ packages:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
 
-  selenium-webdriver@4.26.0:
-    resolution: {integrity: sha512-nA7jMRIPV17mJmAiTDBWN96Sy0Uxrz5CCLb7bLVV6PpL417SyBMPc2Zo/uoREc2EOHlzHwHwAlFtgmSngSY4WQ==}
+  selenium-webdriver@4.27.0:
+    resolution: {integrity: sha512-LkTJrNz5socxpPnWPODQ2bQ65eYx9JK+DQMYNihpTjMCqHwgWGYQnQTCAAche2W3ZP87alA+1zYPvgS8tHNzMQ==}
     engines: {node: '>= 14.21.0'}
 
   semver@6.3.1:
@@ -4045,7 +4045,7 @@ snapshots:
     dependencies:
       axe-core: 4.8.3
 
-  nightwatch@3.9.0(chromedriver@131.0.4):
+  nightwatch@3.10.0(chromedriver@131.0.4):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -4075,7 +4075,7 @@ snapshots:
       open: 8.4.2
       ora: 5.4.1
       piscina: 4.3.2
-      selenium-webdriver: 4.26.0
+      selenium-webdriver: 4.27.0
       semver: 7.5.4
       stacktrace-parser: 0.1.10
       strip-ansi: 6.0.1
@@ -4399,7 +4399,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  selenium-webdriver@4.26.0:
+  selenium-webdriver@4.27.0:
     dependencies:
       '@bazel/runfiles': 6.3.1
       jszip: 3.10.1
