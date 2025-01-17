@@ -28,8 +28,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       nightwatch:
-        specifier: ^3.10.2
-        version: 3.10.2(chromedriver@131.0.5)
+        specifier: ^3.11.0
+        version: 3.11.0(chromedriver@131.0.5)
       postcss:
         specifier: ^8.5.1
         version: 8.5.1
@@ -1647,8 +1647,8 @@ packages:
   nightwatch-axe-verbose@2.3.0:
     resolution: {integrity: sha512-IC29PLvYrbbKRdIU/NJaxk/UvTmQ5EiNN08UnCWyImpzV0Y7tE1CYchrvFTaHXBZkkZTQC3uHTeHF/41mvK8eQ==}
 
-  nightwatch@3.10.2:
-    resolution: {integrity: sha512-4mtiHau8tpuLYKK6sStUfgGTJnSZkwv0CS/frsSjOMwPqJyMrCsmRq6x6LSXZuZhCuBYR8C+3CA/3i3ocE2U2Q==}
+  nightwatch@3.11.0:
+    resolution: {integrity: sha512-97YQRsWZTr48lw1MysYbynUtJqn5LMoDT5o2jShR3H3iQHfg7OyKuYsetCifBgU3/eya67UmfCi2OkTZf66u/w==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -4045,7 +4045,7 @@ snapshots:
     dependencies:
       axe-core: 4.8.3
 
-  nightwatch@3.10.2(chromedriver@131.0.5):
+  nightwatch@3.11.0(chromedriver@131.0.5):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
