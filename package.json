@@ -18,7 +18,7 @@
     "autoprefixer": "^10.4.20",
     "chromedriver": "^133.0.1",
     "eslint": "^8.57.1",
-    "nightwatch": "^3.11.0",
+    "nightwatch": "^3.11.1",
     "postcss": "^8.5.2",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3",
