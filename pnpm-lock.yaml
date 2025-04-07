@@ -22,14 +22,14 @@ importers:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.3)
       chromedriver:
-        specifier: ^134.0.5
-        version: 134.0.5
+        specifier: ^135.0.0
+        version: 135.0.0
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
       nightwatch:
         specifier: ^3.12.1
-        version: 3.12.1(chromedriver@134.0.5)
+        version: 3.12.1(chromedriver@135.0.0)
       postcss:
         specifier: ^8.5.3
         version: 8.5.3
@@ -41,10 +41,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^5.4.11
-        version: 5.4.11(@types/node@22.13.13)
+        version: 5.4.11(@types/node@22.14.0)
       vite-plugin-solid:
         specifier: ^2.11.6
-        version: 2.11.6(solid-js@1.9.5)(vite@5.4.11(@types/node@22.13.13))
+        version: 2.11.6(solid-js@1.9.5)(vite@5.4.11(@types/node@22.14.0))
 
 packages:
 
@@ -627,8 +627,8 @@ packages:
   '@types/node@22.13.10':
     resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
-  '@types/node@22.13.13':
-    resolution: {integrity: sha512-ClsL5nMwKaBRwPcCvH8E7+nU4GxHVx1axNvMZTFHMEfNI7oahimt26P5zjVCRrjiIWj6YFXfE1v3dEp94wLcGQ==}
+  '@types/node@22.14.0':
+    resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
 
   '@types/selenium-webdriver@4.1.28':
     resolution: {integrity: sha512-Au7CXegiS7oapbB16zxPToY4Cjzi9UQQMf3W2ZZM8PigMLTGR3iUAHjPUTddyE5g1SBjT/qpmvlsAQLBfNAdKg==}
@@ -916,8 +916,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  chromedriver@134.0.5:
-    resolution: {integrity: sha512-edXbiuShAvH6Elx8Hobl4NQkgNRMIozcW7ZlEiE8TBynZHRazrepO9hfftQzZgztPvjMQiSWeWjZaDV3SecYaw==}
+  chromedriver@135.0.0:
+    resolution: {integrity: sha512-ilE3cIrIieiRU/a6MNpt0CL0UZs2tu0lQAes+el5SV03MB1zYIEXy+dDeueid/g8AmT1loy7TB2fjWwcHLY8lg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2347,6 +2347,9 @@ packages:
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
   universalify@0.2.0:
     resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
     engines: {node: '>= 4.0.0'}
@@ -3026,9 +3029,9 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/node@22.13.13':
+  '@types/node@22.14.0':
     dependencies:
-      undici-types: 6.20.0
+      undici-types: 6.21.0
     optional: true
 
   '@types/selenium-webdriver@4.1.28':
@@ -3044,7 +3047,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.13.13
+      '@types/node': 22.14.0
     optional: true
 
   '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)(typescript@5.8.3)':
@@ -3389,7 +3392,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chromedriver@134.0.5:
+  chromedriver@135.0.0:
     dependencies:
       '@testim/chrome-version': 1.1.4
       axios: 1.8.4
@@ -4321,7 +4324,7 @@ snapshots:
     dependencies:
       axe-core: 4.10.3
 
-  nightwatch@3.12.1(chromedriver@134.0.5):
+  nightwatch@3.12.1(chromedriver@135.0.0):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -4358,7 +4361,7 @@ snapshots:
       untildify: 4.0.0
       uuid: 8.3.2
     optionalDependencies:
-      chromedriver: 134.0.5
+      chromedriver: 135.0.0
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -4964,6 +4967,9 @@ snapshots:
 
   undici-types@6.20.0: {}
 
+  undici-types@6.21.0:
+    optional: true
+
   universalify@0.2.0: {}
 
   untildify@4.0.0: {}
@@ -4989,7 +4995,7 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-solid@2.11.6(solid-js@1.9.5)(vite@5.4.11(@types/node@22.13.13)):
+  vite-plugin-solid@2.11.6(solid-js@1.9.5)(vite@5.4.11(@types/node@22.14.0)):
     dependencies:
       '@babel/core': 7.26.9
       '@types/babel__core': 7.20.5
@@ -4997,23 +5003,23 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.5
       solid-refresh: 0.6.3(solid-js@1.9.5)
-      vite: 5.4.11(@types/node@22.13.13)
-      vitefu: 1.0.6(vite@5.4.11(@types/node@22.13.13))
+      vite: 5.4.11(@types/node@22.14.0)
+      vitefu: 1.0.6(vite@5.4.11(@types/node@22.14.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.11(@types/node@22.13.13):
+  vite@5.4.11(@types/node@22.14.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.3
       rollup: 4.22.4
     optionalDependencies:
-      '@types/node': 22.13.13
+      '@types/node': 22.14.0
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@5.4.11(@types/node@22.13.13)):
+  vitefu@1.0.6(vite@5.4.11(@types/node@22.14.0)):
     optionalDependencies:
-      vite: 5.4.11(@types/node@22.13.13)
+      vite: 5.4.11(@types/node@22.14.0)
 
   w3c-xmlserializer@5.0.0:
     dependencies:

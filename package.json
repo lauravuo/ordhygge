@@ -16,7 +16,7 @@
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.21",
-    "chromedriver": "^134.0.5",
+    "chromedriver": "^135.0.0",
     "eslint": "^8.57.1",
     "nightwatch": "^3.12.1",
     "postcss": "^8.5.3",
